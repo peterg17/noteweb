@@ -1,12 +1,67 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+class TopBar extends React.Component {
+  render() {
+    return (
+      <div>
+        <div className="container">
+          <div className="topbar">
+            <p>Some topbar text</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+class Main extends React.Component {
+  render() {
+    return (
+      <div className="container">
+          <LeftBar />
+          <DataScreen />
+      </div>
+    );
+  }
+}
+
+class LeftBar extends React.Component {
+  render() {
+    return (
+      <div className="leftbar">
+        <p>Some leftbar stuff</p>
+      </div>
+    );
+  }
+}
+
+class DataScreen extends React.Component {
+  render() {
+    return (
+      <div className="datascreen">
+        <p>Some main datascreen stuff</p>
+      </div>
+    );
+  }
+}
+
+class NoteWeb extends React.Component {
+  render() {
+    return (
+      <div className="noteweb">
+          <TopBar />
+          <Main />
+      </div>
+    );
+  }
+}
+
+// ========================================
+
+ReactDOM.render(
+  <NoteWeb />,
+  document.getElementById('root')
+);
