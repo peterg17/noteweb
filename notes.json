@@ -1,0 +1,2432 @@
+{
+  "activeNotes": [
+    {
+      "id": "1e177975-62f7-42dd-9b56-578372e0f6b2",
+      "content": "Mastering bash and terminal\r\n- [ ] http://hn.premii.com/#/article/13400350",
+      "creationDate": "2018-08-28T19:05:15.533Z",
+      "lastModified": "2019-12-30T00:49:05.257Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "fa40a71494dd4f1aba83458833c96957",
+      "content": "Side project ideas:\r\n\r\n-------------------------------------------\r\nNoteweb: navigating notes from their content rather than from new too old. Helps you sort your organize your notes and find old ones you might have forgotten about\r\n\r\n\r\n--------------------------------------------\r\n-\r\n\r\nDistribite machine learning mode training workloads across a network of mobile devices\r\n\r\nPeople can get paid small amounts, we can run training at scheduled times like overnight when people are charging their phones but not using them\r\n\r\nCould try proof of concept with adaboost, which is a bunch of weak classifiers\r\n\r\nPotential problem: how to get data sets onto those devices?\r\n\r\n\r\n---------------------------------------------------------\r\n\r\nCode a simple mark-and-sweep garbage collector for C/C++ \r\n\r\n\r\n----------------------------------------------------------\r\n\r\nImplement the sqlite clone from the tutorial and then add an rtree to it\r\n\r\n-----------------------------------------------\r\n-",
+      "creationDate": "2019-12-22T03:59:24.879Z",
+      "lastModified": "2019-12-29T23:16:20.684Z"
+    },
+    {
+      "id": "a106a11ebf5a4f7bb9e68ecaf1b22bd2",
+      "content": "P1 zone 142",
+      "creationDate": "2019-12-22T00:45:19.536Z",
+      "lastModified": "2019-12-22T00:45:25.871Z"
+    },
+    {
+      "id": "6099f2b073a94f5cadd25069cc599bd8",
+      "content": "Research project idea:\r\nCreate ml model for tuning postgres settings",
+      "creationDate": "2019-12-15T02:10:47.530Z",
+      "lastModified": "2019-12-15T02:11:28.991Z"
+    },
+    {
+      "id": "0521d5982d8f4a739fd9836bdac69fe8",
+      "content": "Sunday: \r\n\r\nGet through the rest of the ctci chapters so can start doing problems\r\n- this was way too ambitious because i have to code each of the concepts to really get them ya know\r\n\r\n\r\ngo over 1 paper for 828, write blog post summary about it\r\n\r\nEdit thesis proposal grammar and organization\r\n\r\nRecord screencap of programming leetcode problem and/or ctci interview problems",
+      "creationDate": "2019-12-08T06:34:54.113Z",
+      "lastModified": "2019-12-08T23:23:05.971Z"
+    },
+    {
+      "id": "75a30087dd534e5bb0d7145608b2679f",
+      "content": "Introduction to Data Compression (2013) [pdf]\r\n\r\nhttps://www.cs.cmu.edu/~guyb/realworld/compression.pdf\r\n",
+      "creationDate": "2019-11-30T14:31:17.193Z",
+      "lastModified": "2019-11-30T20:25:53.020Z"
+    },
+    {
+      "id": "69f10af1c9834b14a909f9ee8a1cef26",
+      "content": "CMU 15-721: In-Memory Databases / Advanced Database Systems [video]\r\n\r\n\r\nhttps://www.youtube.com/playlist?list=PLSE8ODhjZXja7K1hjZ01UTVDnGQdx5v5U\r\n",
+      "creationDate": "2019-11-30T14:32:03.340Z",
+      "lastModified": "2019-11-30T20:24:14.813Z"
+    },
+    {
+      "id": "32e81cabd85645c083f415ed883c3487",
+      "content": "Coding tool ideas:\r\nWebsite where you solve a coding problem through pair programming, you talk while the other person types and vice versa\r\n\r\nSwitch over after x minutes\r\n\r\n—————-\r\n\r\nA tool that highlights the important parts of a diff, ignores stuff like whitespace etc",
+      "creationDate": "2019-11-26T20:09:27.633Z",
+      "lastModified": "2019-11-26T20:10:43.691Z"
+    },
+    {
+      "id": "a1657028c6ee4fc6b78336f7854d1a67",
+      "content": "Side project idea: nytimes crossword solver using ml",
+      "creationDate": "2019-11-25T22:22:42.932Z",
+      "lastModified": "2019-11-25T22:23:01.907Z"
+    },
+    {
+      "id": "20dabbfbcd8844bbb5d5ee6e02cc669b",
+      "content": "Idea for a blog or youtube video:\r\nData structure a day: try to understand/implement one different type of data structure a day for a month? Maybe over iap or summer?",
+      "creationDate": "2019-11-23T22:33:33.673Z",
+      "lastModified": "2019-11-23T22:34:10.176Z"
+    },
+    {
+      "id": "ee6541cec08042d998b4d251dd8e9747",
+      "content": "LCA: lowest common ancestor problem\r\n\r\n\r\n           1\r\n       3\r\n    2     \r\n",
+      "creationDate": "2019-11-23T02:01:26.494Z",
+      "lastModified": "2019-11-23T02:02:11.635Z"
+    },
+    {
+      "id": "90ab506ac2ef482baf073b06df5c8541",
+      "content": "Quadtrees with or without replication",
+      "creationDate": "2019-11-20T16:57:58.528Z",
+      "lastModified": "2019-11-20T16:58:09.561Z"
+    },
+    {
+      "id": "076a5429bb16429f8e3b2f922af513d7",
+      "content": "The Next 50 Years of Databases (2015) http://hn.premii.com/http://www.cs.cmu.edu/~pavlo/blog/2015/09/the-next-50-years-of-databases.html",
+      "creationDate": "2019-11-12T07:34:39.898Z",
+      "lastModified": "2019-11-12T07:34:43.909Z"
+    },
+    {
+      "id": "aa3027daa63b4d05ad95a6a1848bfd66",
+      "content": "Bash-lib: Library for bash utility methods and tools \r\n\r\nhttp://hn.premii.com/https://news.ycombinator.com/item?id=21497656\r\n\r\n\r\nRenaissance Technologies http://hn.premii.com/https://news.ycombinator.com/item?id=21505305\r\n",
+      "creationDate": "2019-11-10T20:02:09.843Z",
+      "lastModified": "2019-11-12T07:32:37.770Z"
+    },
+    {
+      "id": "3dc27d96e39944009c591ee92bada09c",
+      "content": "Straightjacket- quin xcii",
+      "creationDate": "2019-11-10T15:40:18.564Z",
+      "lastModified": "2019-11-10T15:40:32.053Z"
+    },
+    {
+      "id": "6367a5eb4b6d4039814c4530e7b5dbfa",
+      "content": "Tyco brahe biography",
+      "creationDate": "2019-11-09T20:11:32.058Z",
+      "lastModified": "2019-11-09T20:11:41.727Z"
+    },
+    {
+      "id": "0ac1cd584e254008b3f5e9b99d4da698",
+      "content": "Ask HN: What are the best resources for learning modern 3D graphics? \r\n\r\nhttp://hn.premii.com/https://news.ycombinator.com/item?id=21489539\r\n",
+      "creationDate": "2019-11-09T14:53:15.166Z",
+      "lastModified": "2019-11-09T14:54:32.982Z"
+    },
+    {
+      "id": "d749dd6ad50149fa951de67ad6f57ad0",
+      "content": "Flour wifi:\r\nflourlovesyou",
+      "creationDate": "2019-11-09T00:38:08.613Z",
+      "lastModified": "2019-11-09T00:38:17.297Z"
+    },
+    {
+      "id": "8202c0ea8bd0477ba516d7295c0b22f0",
+      "content": "Baby’s First Garbage Collector (2013)",
+      "creationDate": "2019-11-08T16:04:12.694Z",
+      "lastModified": "2019-11-08T16:04:12.694Z"
+    },
+    {
+      "id": "4c284bde195a497eba9b969c986ce4ff",
+      "content": "Thought log:\r\nIts annoying when you get lunch to go and theres no where to sit in the lunch place because its really busy then cant find anywhere in stata\r\n\r\nSame thing when you go to starbucks to do work and get a coffee and theres no where to sit\r\n\r\nWhat if other restaurants could let people sit while they prep for the day, for a small price idk",
+      "creationDate": "2019-11-06T17:52:47.675Z",
+      "lastModified": "2019-11-06T17:54:29.356Z"
+    },
+    {
+      "id": "9e8db87303f54fe1aa24cd32dbef3b75",
+      "content": "Building a Large-Scale Distributed Storage System Based on Raft\r\n\r\nhttps://www.cncf.io/blog/2019/11/04/building-a-large-scale-distributed-storage-system-based-on-raft/\r\n",
+      "creationDate": "2019-11-05T03:02:52.057Z",
+      "lastModified": "2019-11-05T03:03:19.627Z"
+    },
+    {
+      "id": "f2793583ddbb401aa2355a52777bcc99",
+      "content": "RISC-V OS Using Rust: Memory Management Unit\r\n\r\nhttp://osblog.stephenmarz.com/ch3.2.html\r\n",
+      "creationDate": "2019-11-05T02:58:01.805Z",
+      "lastModified": "2019-11-05T02:58:38.188Z"
+    },
+    {
+      "id": "01166727785a4338adb7191de381cebb",
+      "content": "Cortlands and idle reds? For pies\r\n\r\nLeft to the windmill then right?",
+      "creationDate": "2019-10-26T18:19:41.293Z",
+      "lastModified": "2019-10-26T18:20:05.517Z"
+    },
+    {
+      "id": "5d4f7755d4cd47888d9c4c11112d5e80",
+      "content": "“Iced coffee is the elixir of life”- virginia",
+      "creationDate": "2019-10-25T16:18:32.409Z",
+      "lastModified": "2019-10-25T16:18:55.258Z"
+    },
+    {
+      "id": "9239efbf82514d6fad02afcfbc1dbc4d",
+      "content": "Hannah\r\n19\r\n2\r\n19x2\r\n1\r\n16\r\n6\r\n13\r\n13\r\n5\r\n7\r\n6\r\n3\r\n13\r\n2\r\n18\r\n9\r\n17\r\n7\r\n13\r\n7\r\n4\r\n5\r\n4x3\r\n17\r\n3\r\n17\r\n18\r\n\r\nPeter\r\n13\r\n20x2\r\n1\r\n12\r\n10\r\n2\r\n1x2\r\n20x2\r\n15\r\n5\r\n1\r\n15x2\r\n2\r\n15x3\r\n17\r\n9\r\n17\r\n7\r\n4\r\n1\r\n4\r\n16\r\n17\r\n4\r\n8",
+      "creationDate": "2019-10-20T04:43:31.604Z",
+      "lastModified": "2019-10-20T05:20:14.726Z"
+    },
+    {
+      "id": "e8677c9481d045cf9ac5ea13fc21a0cc",
+      "content": "ML From Scratch, Part 1: Linear Regression\r\n\r\nhttp://www.oranlooney.com/post/ml-from-scratch-part-1-linear-regression/\r\n",
+      "creationDate": "2019-10-19T16:37:24.573Z",
+      "lastModified": "2019-10-19T16:37:40.510Z"
+    },
+    {
+      "id": "98e5fa0548844f248dddffba06962b3b",
+      "content": "The Earliest Unix Code: An Anniversary Source Code Release\r\n\r\nhttp://hn.premii.com/https://computerhistory.org/blog/the-earliest-unix-code-an-anniversary-source-code-release/\r\n\r\nhttps://computerhistory.org/blog/the-earliest-unix-code-an-anniversary-source-code-release/\r\n",
+      "creationDate": "2019-10-18T01:59:06.188Z",
+      "lastModified": "2019-10-18T01:59:55.683Z"
+    },
+    {
+      "id": "d25f75cad0b44a87a1bba66bee21dd0f",
+      "content": "Email xrays to portersquaredental@gmail.com",
+      "creationDate": "2019-10-10T16:10:53.899Z",
+      "lastModified": "2019-10-10T16:11:15.030Z"
+    },
+    {
+      "id": "8377b76a86a24eebaac564f521d0e892",
+      "content": "Small C Compilershttp://hn.premii.com/https://bootstrapping.miraheze.org/wiki/Main_Page#Small_C_Compilers\r\n\r\n\r\nSmall C Compilershttp://hn.premii.com/https://news.ycombinator.com/item?id=21210087\r\n",
+      "creationDate": "2019-10-10T05:42:58.784Z",
+      "lastModified": "2019-10-10T05:43:21.206Z"
+    },
+    {
+      "id": "dc360c31fb75458fb779406abf62f392",
+      "content": "clett24@mit.edu\r\n\r\nCam\r\n",
+      "creationDate": "2019-10-09T21:02:18.881Z",
+      "lastModified": "2019-10-09T21:02:38.877Z"
+    },
+    {
+      "id": "85be6c9f-cb02-4f8d-aa56-7d1d913627a5",
+      "content": "lab cow questions:\r\n\r\nhow should we store ref counts in kalloc, like an array, but what are the indices?\r\n\r\nok so we do free on cow pages?\r\n- my idea is to implement something in kfree that checks the pte rsw bits, if it is a cow entry, then just decrement the corresponding reference count\r\n\t- then check if the ref count is 0. if it is, then actually free it\r\n",
+      "creationDate": "2019-10-07T01:38:11.725Z",
+      "lastModified": "2019-10-07T01:43:08.000Z"
+    },
+    {
+      "id": "39577c0c566147118551e797de17c45a",
+      "content": "Karatsuba Algorithm\r\n\r\n\r\nKaratsuba Algorithmhttp://hn.premii.com/https://en.wikipedia.org/wiki/Karatsuba_algorithm\r\n",
+      "creationDate": "2019-10-05T01:52:59.904Z",
+      "lastModified": "2019-10-05T01:53:26.955Z"
+    },
+    {
+      "id": "8a15d931c39147b8be3f6345db815a82",
+      "content": "Scale fs -> super optimized xv6-like fs",
+      "creationDate": "2019-10-03T18:36:18.054Z",
+      "lastModified": "2019-10-03T18:37:07.940Z"
+    },
+    {
+      "id": "5ecbc61178c548219870a42d2330c54b",
+      "content": "http://www.cs.umd.edu/~hjs/pubs/geoencycl.pdf",
+      "creationDate": "2019-10-02T16:11:32.792Z",
+      "lastModified": "2019-10-02T16:11:38.219Z"
+    },
+    {
+      "id": "8235fb95-efe0-406a-b1b2-71f0b5832a66",
+      "content": "disk throughput issue on 'cluster by' query for 100  million record cube index?\r\n\r\nrun `iostat -xm 1` to diagnose",
+      "creationDate": "2019-09-30T23:01:23.991Z",
+      "lastModified": "2019-09-30T23:01:59.000Z"
+    },
+    {
+      "id": "8a63c282-a3ed-4a50-b081-3a882d91a1ef",
+      "content": "salsa container that is slanted",
+      "creationDate": "2019-09-28T18:24:35.257Z",
+      "lastModified": "2019-09-28T18:24:48.000Z"
+    },
+    {
+      "id": "4cf2772577a84d749569f05fa44e6a22",
+      "content": "Look into papers on high performance logging\r\n\r\nRelated to databases and kernel, so can be adapted to a kernel problem",
+      "creationDate": "2019-09-25T18:32:21.189Z",
+      "lastModified": "2019-09-25T18:32:46.397Z"
+    },
+    {
+      "id": "ef2e432f-aa0c-47cf-9454-ec1b5cd45ec0",
+      "content": "kyrix meeting notes:\r\n\r\nnested index - index on zoom level first, then x&y ?\r\n\r\nindexing with clustering command affects how data is laid out on disk, so wouldnt this hurt updating times\r\n\r\nquadtree updating?\r\n\r\n\r\n\r\n\r\n\r\n",
+      "creationDate": "2019-09-25T15:14:24.050Z",
+      "lastModified": "2019-09-25T15:17:29.000Z"
+    },
+    {
+      "id": "45ed6f15-ddbb-4c9a-9883-07e3c332aeb4",
+      "content": "kyrix notes:\r\nlook into difficulty of gist extension\r\n\r\nstart by modifying postgres quadtree gist extension\r\n",
+      "creationDate": "2019-09-24T19:45:09.881Z",
+      "lastModified": "2019-09-24T19:45:34.000Z"
+    },
+    {
+      "id": "f374ded116b74764a4e62aa0784c52b3",
+      "content": "What ORMs have taught me: just learn SQL (2014)\r\n\r\nhttps://wozniak.ca/blog/2014/08/03/What-ORMs-have-taught-me-just-learn-SQL/\r\n",
+      "creationDate": "2019-09-23T05:29:07.480Z",
+      "lastModified": "2019-09-23T05:29:31.914Z"
+    },
+    {
+      "id": "b44908fb59b24828a74a3770ad23351c",
+      "content": "Understanding the working of X11 from the ground up (2017)\r\n\r\nhttps://magcius.github.io/xplain/article/index.html\r\n",
+      "creationDate": "2019-09-23T04:41:23.442Z",
+      "lastModified": "2019-09-23T04:41:40.262Z"
+    },
+    {
+      "id": "0f4d4e848364452ea50338f996465a9a",
+      "content": "Necklace w silver pendant ",
+      "creationDate": "2019-09-21T23:52:46.213Z",
+      "lastModified": "2019-09-21T23:54:54.430Z"
+    },
+    {
+      "id": "a3ed5e3311744245867ffafc315b59d5",
+      "content": "Common Systems Programming Optimizations and Tricks\r\n\r\nhttps://paulcavallaro.com/blog/common-systems-programming-optimizations-tricks/\r\n",
+      "creationDate": "2019-09-20T21:17:36.447Z",
+      "lastModified": "2019-09-20T21:18:16.298Z"
+    },
+    {
+      "id": "66091ab8-b78d-4bed-9ec0-a1494dd5bd68",
+      "content": "cluster command, arranges index in z order after data is indexed. leads to speedsups in postgis\r\n\r\nsee if we can arrange in z order before inserting\r\n\r\n\r\n\r\nquick gcloud notes:\r\npeter-dev-4cpu-1: running grid compressor index\r\npeter-dev-2: running native cube index\r\npeter-dev-3: running native box index",
+      "creationDate": "2019-09-19T20:13:14.735Z",
+      "lastModified": "2019-09-20T19:12:46.000Z"
+    },
+    {
+      "id": "dac34b19-4e47-4761-9bba-ae6d7ddb29c4",
+      "content": "db concepts to learn\r\n\r\nz order, hilbert order\r\nbloom filters",
+      "creationDate": "2019-09-19T15:04:56.735Z",
+      "lastModified": "2019-09-19T15:05:12.000Z"
+    },
+    {
+      "id": "567900ad-26c5-4eba-badd-f50bd6b7f944",
+      "content": "have to sort tuples in hilbert order and then insert them in batches \r\n\r\nsort them in z order\r\n\r\ntry running on 1 billion points\r\n\r\n\r\nspatial sharding: sort in z order, take each batch, and assign to shard\r\n\r\n---------------------------------------------------\r\n\r\nlook into loose quadtrees for point data\r\n\r\n\r\nspatial partioning one node\r\n- replicate objects into two partitions\r\n\r\n-------------------------------------------------\r\nidea: create editor for kyrix spec that renders your specification when you hit a 'compile' buttton",
+      "creationDate": "2019-09-18T14:34:33.294Z",
+      "lastModified": "2019-09-18T15:20:42.000Z"
+    },
+    {
+      "id": "aa0a21fc-609c-439c-bdf5-5788be6a4203",
+      "content": "TODOs before wednesday:\r\n\r\nlook into clustering/table partitioning, implement them\r\n\r\ntest 2d/3d example much more sparse\r\n\r\nrun the grid compressor when you get the command that increases java memory",
+      "creationDate": "2019-09-16T22:58:39.506Z",
+      "lastModified": "2019-09-16T22:59:27.000Z"
+    },
+    {
+      "id": "bc1e5884-3192-4df4-972e-4038581e921c",
+      "content": "peter-dev-3rd (running grid-compressor-indexer):\r\n\"java.lang.OutOfMemoryError: GC overhead limit exceeded\"\r\n\r\nissue: didn't build because we don't set autocommit to false in some places and run out of memory while indexing\r\n\r\n----------------------------------------------\r\npeter-dev-4cpu-1 (running native-cube indexer):\r\n\r\nkyrix_1  | isJumping : true\r\nkyrix_1  | in psql cube spatial indexer\r\nkyrix_1  | select id, x, y, cx, cy, minx, miny, maxx, maxy from bbox_dots_uniform where v && cube (array[4500.0, 4500.0, 0.0], a\r\nrray[6500.0, 6500.0, 9.9999999999999987E17]);\r\ndb_1     | 2019-09-16 15:16:52.920 UTC [23422] postgres@kyrox FATAL:  database \"kyrox\" does not exist\r\nkyrix_1  | Fetch data time: 130352.0ms.\r\nkyrix_1  | number of intersecting rows in result: 7867\r\nkyrix_1  | stats sql: insert into stats (querytype, milliseconds, rowsFetched) values ('zoom',130352.0,7867);\r\nkyrix_1  | database name is: kyrix\r\nkyrix_1  | Send response time: 171ms.\r\n\r\n\r\nissue: incredibly slow, even when using a somewhat reasonable density of objects\r\n\r\nafter clearing cache, i try the same command in postgres shell and get 122.425 ms\r\n\r\n---------------------------------------------------\r\npeter-dev-2 (running native-box indexer):\r\n\r\nkyrix_1  | isJumping : true                                                                                                     \r\nkyrix_1  | select id, x, y, cx, cy, minx, miny, maxx, maxy from bbox_dots_uniform_toplayer0 where geom && box('4500.0,4500.0,65$\r\n0.0,6500.0')                                                                                                                    \r\nkyrix_1  | Fetch data time: 78471.0ms.                                                                                          \r\nkyrix_1  | number of intersecting rows in result: 7950                                                                          \r\nkyrix_1  | stats sql: insert into stats (querytype, milliseconds, rowsFetched) values ('zoom',78471.0,7950);                    \r\nkyrix_1  | database name is: kyrix                                                                                              \r\nkyrix_1  | Send response time: 300ms.   \r\n\r\nkyrix_1  | isJumping : false\r\nkyrix_1  | select id, x, y, cx, cy, minx, miny, maxx, maxy from bbox_dots_uniform_toplayer0 where geom && box('5121.0,4461.0,7121.0,6461.0')and not (geom && box('4717.0,4509.0,6717.0,6509.0') )\r\nkyrix_1  | Fetch data time: 30732.0ms.\r\nkyrix_1  | number of intersecting rows in result: 1713\r\nkyrix_1  | stats sql: insert into stats (querytype, milliseconds, rowsFetched) values ('pan',30732.0,1713);\r\nkyrix_1  | database name is: kyrix\r\nkyrix_1  | Send response time: 1ms. \r\n\r\nissue: incredibly slow like native cube indexer\r\n\r\n",
+      "creationDate": "2019-09-16T15:14:13.992Z",
+      "lastModified": "2019-09-16T15:37:21.000Z"
+    },
+    {
+      "id": "ef3768fe-a987-4988-8b2b-0448e4e074fe",
+      "content": "running psql shell on docker container:\r\n\r\nsudo docker exec --user postgres -it kyrix_db_1  /bin/sh\r\npsql -U postgres\r\n\r\nclearing buffer/cache in os:\r\n(sync writes everything it is using to the disk?, echo 3 to the file tells os to clear its page cache, dentries, and inodes cached)\r\n\r\nsync; echo 3 | sudo tee /proc/sys/vm/drop_caches\r\n\r\nrunning \"free\" lets you see how much is cached",
+      "creationDate": "2019-08-27T22:01:08.759Z",
+      "lastModified": "2019-09-16T15:23:01.000Z"
+    },
+    {
+      "id": "df6b34dd86f24f55bc46ee8540e68983",
+      "content": "Set up experiment to automatically feed data from testing machine learning model into kyrix",
+      "creationDate": "2019-09-13T17:31:01.744Z",
+      "lastModified": "2019-09-13T17:31:40.356Z"
+    },
+    {
+      "id": "e95b8808-10d3-4ea0-8fde-e9cf6bfd50c6",
+      "content": "need to adjust density to 2,000 per 1,000 by 1,000 viewport for performance tests\r\n\r\nthen re-run 2d and 3d indexers on 100 million points\r\n\r\nthen re-run spatial indexer on 10 million points, see if we can re-create the bug we keep seeing with that indexer.\r\n\r\nupdate indexing-perf-tests branch to master by making new branch with the stats code",
+      "creationDate": "2019-09-13T13:53:10.625Z",
+      "lastModified": "2019-09-13T13:57:30.000Z"
+    },
+    {
+      "id": "fb8509c3-6f95-4e53-8950-fbbe4f2be29a",
+      "content": "struct sizes in c\r\n\r\na few bytes of padding (i think 3 normally) after struct so a struct that might have 5 bytes, might show up a 8, so just use sizeof(struct) always\r\n\r\nalso weird bitwise power of 2 function\r\n\t i think its jus t that powers of 2 have a single bit set (like 0b1000)",
+      "creationDate": "2019-09-11T17:56:21.493Z",
+      "lastModified": "2019-09-11T18:07:13.000Z"
+    },
+    {
+      "id": "4f718702-9b14-4cc4-93b7-53e4090778d7",
+      "content": "agero aggregation:\r\nhave to precompute aggregates of the spatial data, so that we have reasonable response time",
+      "creationDate": "2019-09-11T15:29:59.621Z",
+      "lastModified": "2019-09-11T15:31:12.000Z"
+    },
+    {
+      "id": "af451fb1-2659-483a-9c54-46456b5e4167",
+      "content": "docker command for addr in use error\r\n\r\nsudo lsof -i -P -n | grep 5432",
+      "creationDate": "2019-09-11T15:03:49.368Z",
+      "lastModified": "2019-09-11T15:04:52.000Z"
+    },
+    {
+      "id": "9b9b9dd3-956b-4cc3-93ec-c5e0d76fbcba",
+      "content": "bug in starting postgres for PsqlSpatialIndexer:\r\nFATAL:  unsupported frontend protocol 0.0: server supports 2.0 to 3.0db_1  \r\nFATAL:  unsupported frontend protocol 255.255: server supports 2.0 to 3.0\r\n\r\nFATAL:  no PostgreSQL user name specified in startup packet",
+      "creationDate": "2019-09-11T14:47:06.321Z",
+      "lastModified": "2019-09-11T14:47:55.000Z"
+    },
+    {
+      "id": "2fab2f92-e01f-4112-a6ad-4f638379050c",
+      "content": "random project idea for 828:\r\nwrite a d3 visualization that hooks up to an allocator to visualize how memory is being allocated/freed\r\n\r\ncan i write a memory allocator in javascript?\r\nlike typescript, or at least simulate one",
+      "creationDate": "2019-09-10T20:23:07.652Z",
+      "lastModified": "2019-09-10T20:25:03.000Z"
+    },
+    {
+      "id": "128693a2-480f-47c3-ad68-9d500123f67a",
+      "content": "10,000,000\r\n",
+      "creationDate": "2019-09-10T05:47:25.001Z",
+      "lastModified": "2019-09-10T05:48:27.000Z"
+    },
+    {
+      "id": "4f72e558e2ce4a0da3d0c94fc4320b1a",
+      "content": "http://www.brendangregg.com/blog/2017-05-16/working-at-netflix-2017.html",
+      "creationDate": "2019-09-10T04:04:05.396Z",
+      "lastModified": "2019-09-10T04:04:07.300Z"
+    },
+    {
+      "id": "8452fb39-ccab-4231-bf80-87b579e0c12f",
+      "content": "run python script and get intermediate values, i was thinking you could use pdb automatically\r\n\r\nvalgrind?\r\npdb",
+      "creationDate": "2019-09-09T14:08:47.337Z",
+      "lastModified": "2019-09-09T14:09:46.000Z"
+    },
+    {
+      "id": "a61585da-a6f6-4924-951e-8f8fcced2638",
+      "content": "write a python script that wgets a directory page, and then find shte links to files, and wgets each of them individually (problem originally is that wget doesn't let you use wildcards to download files (there's no file system structure)",
+      "creationDate": "2019-09-08T15:59:18.975Z",
+      "lastModified": "2019-09-08T16:00:08.000Z"
+    },
+    {
+      "id": "75f36407-aacc-4f0f-a4df-9f18bd2cd9de",
+      "content": "does it matter for 3d search time if data is stored on ssd rather than a traditional disk?",
+      "creationDate": "2019-09-07T21:15:46.501Z",
+      "lastModified": "2019-09-07T21:16:09.000Z"
+    },
+    {
+      "id": "f4705463-91ea-419f-a075-a1579ab64f3b",
+      "content": "note about stat collecting:\r\n\r\nkeep in a data structure in memory, and write to the db on exit or something\r\n\r\nimplement this in BoxRequestHandler and TileRequestHandler",
+      "creationDate": "2019-09-07T18:49:04.036Z",
+      "lastModified": "2019-09-07T20:48:39.000Z"
+    },
+    {
+      "id": "5acfad04-b5a2-492d-b318-ff316c09eabe",
+      "content": "find out about xinli's docker copy trick for getting docker-compose to work every time",
+      "creationDate": "2019-09-07T20:47:58.260Z",
+      "lastModified": "2019-09-07T20:48:20.000Z"
+    },
+    {
+      "id": "6625c253-2d4f-4633-8ff6-70f8555317a4",
+      "content": "dots-uniform example things to change:\r\ntransform domain\r\ndomain in renderer",
+      "creationDate": "2019-09-07T20:09:20.297Z",
+      "lastModified": "2019-09-07T20:10:33.000Z"
+    },
+    {
+      "id": "0d9ceb9f-3f7a-4724-b454-6027d61b04d3",
+      "content": "how to close riscv qemu\r\n'Ctrl-A + X'",
+      "creationDate": "2019-09-06T17:41:49.679Z",
+      "lastModified": "2019-09-06T17:42:13.000Z"
+    },
+    {
+      "id": "766b2922-dc92-40c3-959b-ce87a554b075",
+      "content": "copy stats to '/tmp/stats.csv' with (format csv, header);\r\n\r\nalternative:\r\n\r\ncopy stats to '/tmp/3d-cold-cache-weird-stats.csv' delimiter    ','   csv header;\r\n\r\n\r\n",
+      "creationDate": "2019-07-31T01:30:28.854Z",
+      "lastModified": "2019-09-06T15:14:18.000Z"
+    },
+    {
+      "id": "9d9a0a2d-445d-404f-93d5-43fbd717cfe2",
+      "content": "idea about why the 3d indexer is doing so much worse than the 2d indexer:\r\n\r\nit is fetching too many rows.\r\n\r\n\r\nother idea: I could've been really stupid and increased the density which might be messing it up",
+      "creationDate": "2019-09-06T14:45:32.826Z",
+      "lastModified": "2019-09-06T14:46:20.000Z"
+    },
+    {
+      "id": "e58e1ef9-155f-45e5-8d2e-6dcc3b9c42fe",
+      "content": "i want to see my configuration settings or the contents of a file at an exact time without looking through git commits, how do I do that? I assume there is a way through git",
+      "creationDate": "2019-09-06T14:40:14.126Z",
+      "lastModified": "2019-09-06T14:40:56.000Z"
+    },
+    {
+      "id": "89ce9c1a-b8a8-4d6c-9095-4fc6a8271097",
+      "content": "persistent sessions:\r\n\r\n\r\n\"kinit pgriggs\" -- to get kerb tickets\r\n\"mosh --experimental-remote-ip=remote pgriggs@athena.dialup.mit.edu\"\r\n\r\n\r\n\r\n\"kinit <kerb>\" -- to get kerb tickets\r\n\"mosh --experimental-remote-ip=remote <kerb>@home-on-the-dome.mit.edu\"",
+      "creationDate": "2019-08-29T20:21:42.270Z",
+      "lastModified": "2019-09-05T15:17:16.000Z"
+    },
+    {
+      "id": "d7f50c2a-0699-4bd0-a6a3-3efb135c9f2b",
+      "content": "redirect both stdout and stderr of a command into the same file:\r\n\r\nwhere input.txt is an existing file and inpoot.txt is not:\r\n\"ls input.txt inpoot.txt > tmp1 2>&1\"",
+      "creationDate": "2019-09-04T21:17:01.987Z",
+      "lastModified": "2019-09-04T21:17:46.000Z"
+    },
+    {
+      "id": "1febd907bb944b518047b2fc2aaf58c9",
+      "content": "Beginner's Guide to Linkers (2010)\r\nBeginner's Guide to Linkers (2010)http://www.lurklurk.org/linkers/linkers.html\r\n",
+      "creationDate": "2019-09-02T16:12:20.205Z",
+      "lastModified": "2019-09-02T16:12:42.875Z"
+    },
+    {
+      "id": "0246fdd2496c4aa8877efc82d2b7eb66",
+      "content": "Paper name idwa- Indexing Visualization Data At Scale\r\n\r\nDensity is other metric",
+      "creationDate": "2019-08-31T12:52:26.730Z",
+      "lastModified": "2019-08-31T12:53:45.135Z"
+    },
+    {
+      "id": "41491ebc-2119-45c8-ac52-a511022e88dd",
+      "content": "start/stop postgres database locally:\r\n\r\n\"sudo service postgresql start\"\r\n\"sudo service postgresql stop\"",
+      "creationDate": "2019-08-30T16:58:20.862Z",
+      "lastModified": "2019-08-30T16:58:42.000Z"
+    },
+    {
+      "id": "6e220c9e-7fb5-4505-ba96-71bbc9ae509d",
+      "content": "reminder: py venv\r\n\r\nto create:\r\n\"virtualenv -p /usr/bin/python3 venv\"\r\n to activate:\r\n\"source venv/bin/activate\"\r\nto deactivate:\r\n\"deactivate\"",
+      "creationDate": "2019-08-29T19:19:48.945Z",
+      "lastModified": "2019-08-29T19:21:58.000Z"
+    },
+    {
+      "id": "0f09e96e40114fb09169c2e406df3942",
+      "content": "Priority search tree\r\nInterval tree",
+      "creationDate": "2019-08-27T17:12:46.514Z",
+      "lastModified": "2019-08-27T17:12:56.586Z"
+    },
+    {
+      "id": "635018cc-e06f-4460-9050-8c0287dc8d04",
+      "content": "org.postgresql.util.PSQLException: ERROR: could not write block 929550 of temporary file: No space left on device\r\nkyrix_1  |     at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse (QueryExecutorImpl.java:2433)\r\nkyrix_1  |     at org.postgresql.core.v3.QueryExecutorImpl.processResults (QueryExecutorImpl.java:2178)\r\nkyrix_1  |     at org.postgresql.core.v3.QueryExecutorImpl.execute (QueryExecutorImpl.java:306)\r\nkyrix_1  |     at org.postgresql.jdbc.PgStatement.executeInternal (PgStatement.java:441)\r\nkyrix_1  |     at org.postgresql.jdbc.PgStatement.execute (PgStatement.java:365)\r\nkyrix_1  |     at org.postgresql.jdbc.PgStatement.executeWithFlags (PgStatement.java:307)\r\n\r\n\r\nreclaimed space: 367GB",
+      "creationDate": "2019-08-27T04:41:18.891Z",
+      "lastModified": "2019-08-27T04:41:50.000Z"
+    },
+    {
+      "id": "3bb7f8c6-8f91-4e2a-9877-20b2aa08c96f",
+      "content": "questions for wenbo:\r\nso the predicates are postgres predicates that we insert into the query?\r\nhow can we make >1 layer per canvas work by just adding that \r\n\r\n\r\nright now doing warm cache numbers\r\npostgres look up if there is a cache flush command\r\n\r\ncan also load up memory with random data by querying another table\r\nalso make the data x1000 bigger\r\n\r\n\r\nThe reason we don’t see a difference is because all of the points can be held in cache ",
+      "creationDate": "2019-08-21T18:12:19.176Z",
+      "lastModified": "2019-08-22T03:08:46.000Z"
+    },
+    {
+      "id": "6c4f4f842c274c32b6b08cb212e104e4",
+      "content": "Docker how to run dockerfile from specific step\r\n\r\nInsert newline before line you want to run, assuming that you have caching",
+      "creationDate": "2019-08-21T22:32:48.242Z",
+      "lastModified": "2019-08-21T22:33:12.609Z"
+    },
+    {
+      "id": "80db4d5810e24112b635b808f64d9a6c",
+      "content": "https://www.nytimes.com/puzzles/leaderboards/invite/0261dbeb-5cd5-4be0-97c0-74f83eee0035",
+      "creationDate": "2019-08-20T20:33:41.045Z",
+      "lastModified": "2019-08-20T20:33:41.045Z"
+    },
+    {
+      "id": "c205c5bff91a4e4c849ed08db0144036",
+      "content": "<31.5 inches wide for dresser\r\n<24 inches deep\r\n<44 inches high (depends)",
+      "creationDate": "2019-08-20T20:21:20.222Z",
+      "lastModified": "2019-08-20T20:22:14.018Z"
+    },
+    {
+      "id": "043d3d69-2804-4528-abfc-40d54f67cd53",
+      "content": "performance testing environment\r\n\r\nwarm cache vs. cold cache?\r\nclearing the postgres environment before running performance test\r\n\r\nwhy does the 3d rtree not work as expected?",
+      "creationDate": "2019-08-19T17:37:31.505Z",
+      "lastModified": "2019-08-19T17:38:10.000Z"
+    },
+    {
+      "id": "45a21ea729e844a584e9c268f00c89f7",
+      "content": "43.5 - 44 inches for the window\r\n\r\nAc: 16 inches wide 12 in tall\r\n\r\n44-16= 28 inch wide\r\n\r\nPlexi: 28 inch wide, 12 inch tall\r\nNail needs to be quarter inch in diameter",
+      "creationDate": "2019-08-19T14:18:48.420Z",
+      "lastModified": "2019-08-19T15:22:35.346Z"
+    },
+    {
+      "id": "3a248201-dfe9-4eb1-9bbd-fee4aaa7caaf",
+      "content": "26 in deep\r\n50 inch wide (for whole door frame)\r\n60 in tall",
+      "creationDate": "2019-08-18T22:17:05.898Z",
+      "lastModified": "2019-08-18T22:17:36.000Z"
+    },
+    {
+      "id": "3a3dfcbe10734b10a9de8b3947aed1c2",
+      "content": "Things to get\r\nSleeping bag\r\nCommand hooks\r\nThumbtacks\r\n\r\nLamps\r\nDesk\r\nShelves",
+      "creationDate": "2019-08-16T05:30:14.407Z",
+      "lastModified": "2019-08-16T21:10:04.655Z"
+    },
+    {
+      "id": "5f5b9cf56b73404c804c3403b3b27073",
+      "content": "Grocery list\r\n\r\nUtz pretzels\r\nCocktail sauce\r\nKitchen soap with pump x 2\r\nPaper towels + tp\r\nArugula + lettuce\r\nLike 8-10 lemons\r\n4-5 leeks\r\nHazelnuts\r\nWhite wine\r\n\r\n\r\n1 quart (4 cups) heavy cream\r\n8 eggs\r\n1/2 tbspn vanilla extract\r\n1 vanilla bean\r\n\r\n\r\n",
+      "creationDate": "2019-08-14T18:36:41.465Z",
+      "lastModified": "2019-08-14T19:30:14.419Z"
+    },
+    {
+      "id": "b1ccf202119f4fd98bb62691fff37383",
+      "content": "Pargolf1193\r\n\r\n",
+      "creationDate": "2019-08-13T17:43:45.637Z",
+      "lastModified": "2019-08-13T17:44:10.721Z"
+    },
+    {
+      "id": "7aa41c8d36704a62871500173b7248eb",
+      "content": "9.96 tip for drinks\r\n\r\n\r\nOwe virginia for lox bagel and iced tea\r\n\r\n15.50 for riesling virginia paid\r\n\r\n2 cheesesteaks i paid\r\n\r\n2 darks and stormies virginia paid",
+      "creationDate": "2019-08-10T02:25:46.759Z",
+      "lastModified": "2019-08-13T03:15:00.000Z"
+    },
+    {
+      "id": "4e08fedb2d784299a0d552ae4e4cb051",
+      "content": "Virginia bday, jan 12th",
+      "creationDate": "2019-08-12T02:33:04.108Z",
+      "lastModified": "2019-08-12T02:33:18.331Z"
+    },
+    {
+      "id": "99fbe675e2a94306b05e12bc9d94392a",
+      "content": "Book recs\r\n\r\nUnderland by robert macfarlane",
+      "creationDate": "2019-08-08T18:04:22.903Z",
+      "lastModified": "2019-08-08T18:04:47.877Z"
+    },
+    {
+      "id": "34211f97115d4c5fba3a3d3577020cdc",
+      "content": "Squashghost app",
+      "creationDate": "2019-07-28T17:41:01.019Z",
+      "lastModified": "2019-07-28T17:43:48.641Z"
+    },
+    {
+      "id": "6d07edd060bf462bb21f5b8b6c8a1e1b",
+      "content": "Ritt Momney, Bowling Shoes, Raavi & The Houseplants Tickets, Sun, Sep 22, 2019 at 7:00 PM | Eventbrite\r\n\r\n[https://www.eventbrite.com/e/ritt-momney-bowling-shoes-raavi-the-houseplants-tickets-64991004845]",
+      "creationDate": "2019-07-23T04:42:20.128Z",
+      "lastModified": "2019-07-23T04:42:20.128Z"
+    },
+    {
+      "id": "8c0e6e30d3f7494ea1cb92cb36279185",
+      "content": "Pushups: 25\r\nSitups: 58",
+      "creationDate": "2019-07-18T22:21:01.701Z",
+      "lastModified": "2019-07-19T09:39:48.634Z"
+    },
+    {
+      "id": "790b9db8008d4b339f720adee47a9f0f",
+      "content": "Friends house korean",
+      "creationDate": "2019-07-18T04:44:41.181Z",
+      "lastModified": "2019-07-18T04:44:47.263Z"
+    },
+    {
+      "id": "22f896463e6c4db3967dadcafddfc4de",
+      "content": "Thank yous\r\n\r\n\r\nAunt jess\r\nThe nordans\r\nAunt marty ellen\r\nAunt edie\r\nPlashkes\r\nThe wongs\r\nUncle chris\r\n\r\n\r\n\r\n",
+      "creationDate": "2019-06-08T01:39:13.773Z",
+      "lastModified": "2019-07-15T21:16:17.717Z"
+    },
+    {
+      "id": "161f21e620134f2ebc438e950b720235",
+      "content": "P2 zone 235",
+      "creationDate": "2019-07-12T03:53:24.186Z",
+      "lastModified": "2019-07-12T03:53:30.235Z"
+    },
+    {
+      "id": "a304b0eb48fb4ce28d0a2620f92d9547",
+      "content": "FUSE performance improvements with eBPF [pdf]",
+      "creationDate": "2019-07-12T02:36:45.574Z",
+      "lastModified": "2019-07-12T02:36:45.574Z"
+    },
+    {
+      "id": "ef536c1b69364d8d927fcbe5a594bf6e",
+      "content": "Tinto\r\nRed wine\r\nSprite\r\nCarbonated water\r\n\r\nTortilla\r\n5 or 6 white potatoes\r\n1 yellow onion\r\n1 carton of eggs\r\n1 thing of olive oil ",
+      "creationDate": "2019-07-10T00:46:25.862Z",
+      "lastModified": "2019-07-10T01:09:23.965Z"
+    },
+    {
+      "id": "2619943d46614fdb947d2e3e4e1ef109",
+      "content": "Seven Sketches in Compositionality: An Invitation to Applied Category Theory\r\n\r\nhttps://arxiv.org/abs/1803.05316\r\n",
+      "creationDate": "2019-07-08T04:21:57.753Z",
+      "lastModified": "2019-07-08T04:22:29.826Z"
+    },
+    {
+      "id": "4fa24fce-2122-484a-a28b-316a31e82bda",
+      "content": "bookmarkd idea\r\nhidden bookmarks - olivia\r\n\r\njust add bookmarks to our tool rather than the browser, don't give them data\r\ncan access across browsers or just locallly\r\n\r\nSync bookmarks across browser using dropbox as a data store and extensions to do the syncing logic\r\n\r\nCould do some clustering with text data from the bookmark and maybe web crawling to place the bookmarks into different topics to explore them more intuitively",
+      "creationDate": "2019-05-02T16:24:56.040Z",
+      "lastModified": "2019-07-07T13:51:45.081Z"
+    },
+    {
+      "id": "af7019f1c8fa42ffb8a5c565818d3241",
+      "content": "Hackathon project- use yelp reviews to recommend dishes from a restaurant. For example, if many of the reviews say good things about the tortilla then that should be recommended for that restaurant\r\n\r\nApp that creates shady routes for when you want to avoid the sun, calculates where the sun is at that time and which direction you ahould walk to get shade from buildings c",
+      "creationDate": "2019-06-30T14:13:30.762Z",
+      "lastModified": "2019-07-05T10:55:13.251Z"
+    },
+    {
+      "id": "efff2b2a9f514c1b9ccf49f80e9222d0",
+      "content": "Atlassian has an office in amsterdam\r\nSwapfiets- amsterdam cheap bikes rental",
+      "creationDate": "2019-06-24T10:18:58.140Z",
+      "lastModified": "2019-06-24T20:35:46.994Z"
+    },
+    {
+      "id": "34335ed434c5495e9c74c56ee3c86982",
+      "content": "Paid 22 euro for round of drinks\r\nIfe cider and victor moskow mule\r\n\r\nDinner plus 17 euro tip\r\n\r\nPaid 12.5 euros for beer\r\n\r\nListomania\r\n\r\n\r\nPaid 45 euros of jaegarbomba",
+      "creationDate": "2019-06-18T21:17:38.842Z",
+      "lastModified": "2019-06-22T00:47:32.636Z"
+    },
+    {
+      "id": "d626521e90774e84b0156f50197b74c5",
+      "content": "Coding idea- use midi multi output on phone or laptop so people with airpods/ bluetooth headphones can listen to the same music at the same time",
+      "creationDate": "2019-06-12T09:57:01.905Z",
+      "lastModified": "2019-06-12T09:58:57.664Z"
+    },
+    {
+      "id": "735ba6ab592543cf81af6bfc39e54f43",
+      "content": "I didn't get paid, so I open sourced my clients project\r\n\r\nhttps://news.ycombinator.com/item?id=20133003\r\n",
+      "creationDate": "2019-06-08T16:31:03.518Z",
+      "lastModified": "2019-06-08T16:31:22.513Z"
+    },
+    {
+      "id": "a269e6b7186849c78d5b26ee6141f613",
+      "content": "Bobby flay - cooking",
+      "creationDate": "2019-06-08T00:55:11.412Z",
+      "lastModified": "2019-06-08T00:55:25.818Z"
+    },
+    {
+      "id": "32354ff57359453ea137f2ad152ac7a9",
+      "content": "Show HN: Hack the Box – Pentesting Labs for Free\r\n\r\n\r\nhttps://news.ycombinator.com/item?id=20123120\r\n",
+      "creationDate": "2019-06-07T13:06:54.755Z",
+      "lastModified": "2019-06-07T13:07:14.363Z"
+    },
+    {
+      "id": "97fd38ec-91cb-45da-a288-b7c72f21866e",
+      "content": "urop meeting 5/30:\r\n\r\nhow to skew the data in a specific area so i can test with only 1 million points\r\n\r\nmove getStaticData from CanvasRequestHandler to Indexer\r\n\r\ntodos: merge in 3d rtrees branch, perform perf studies, implement wenbo's funky rtrees (clustering rtrees), write up report &  get feedback from people\r\n",
+      "creationDate": "2019-05-30T13:43:11.990Z",
+      "lastModified": "2019-06-01T06:59:36.000Z"
+    },
+    {
+      "id": "e6ce08cf54ba4ba583e4e0e09d6ff742",
+      "content": "haikus \r\nfrom\r\nitaly\r\n\r\nIn the vatican\r\nPope hittin it from the back\r\nDrink a thirty rack\r\n\r\nNothin’s more pristin\r\nThan comping down on some peen\r\nIn chapel sistine\r\n\r\nWalk through the Vatty\r\nPope Francis is a daddy\r\nGet pic at gift shop\r\n\r\nThank god for gift shops\r\nI passed by the first two fast\r\nGot pope pic at last\r\n\r\n\r\nI like peaches yeah\r\nAnd their peachy fuzzy skin\r\nSo tasty uh huh\r\n\r\nProfessor pyötr\r\nSkyping in from Italy\r\nGonna tomahawk\r\n\r\nKnow whats great, a lime\r\nStealing men, breakin some homes\r\nBut last name aint Wine\r\n\r\nShootin hoops droppin some dimes\r\n\r\n\r\nFruit and juice and wine\r\nPrettiest song ever sang\r\nGria, no lyrics\r\n\r\nA bridge that cannot\r\nBe crossed, it can only be\r\nPierced. This is septum\r\n\r\nI see you out there\r\nIn the puddles and the rain\r\nCome out here and play\r\n\r\nSyllable constraint\r\nWord that cannot be said here\r\nThis, is a safe space\r\n\r\nRain slicking the street\r\nSo glad to meet the concrete\r\nWonder when it pours\r\n\r\nMist atop the valleys\r\n\r\n\r\nTonight we need santa\r\n\r\nNorthern lights tonight\r\nWe take a train to the north\r\nHi santa, sup binch\r\n\r\n\r\nSix kitten army\r\nSeventeen kitten army\r\nToo many kittens\r\n\r\nYou ate your elbows\r\nAnd I simply do not care\r\nYou heard me daddy\r\n\r\nSent from my \r\n\r\n\r\n\r\nFla a a a a\r\nA a a a a a a\r\nA a a a ap\r\n\r\n",
+      "creationDate": "2019-01-02T08:42:22.539Z",
+      "lastModified": "2019-05-30T13:43:06.000Z"
+    },
+    {
+      "id": "caa541ded3294ae382bbc349e01ebe9d",
+      "content": "cruise panda short scout ensure thank canvas skin ivory buffalo marriage repeat bring usual urban stairs wisdom skill guitar six mix sauce exclude speed",
+      "creationDate": "2019-05-30T13:28:26.199Z",
+      "lastModified": "2019-05-30T13:28:26.199Z"
+    },
+    {
+      "id": "7e1e01755450476ab741e47f20887060",
+      "content": "6.835 project improvements\r\nCould make a library that you can import and define your own gestures to use with your visualization",
+      "creationDate": "2019-05-18T12:11:02.305Z",
+      "lastModified": "2019-05-18T12:11:53.131Z"
+    },
+    {
+      "id": "10978b10755e4ef798d91f6221e208b3",
+      "content": "Randall davis gold star ideas\r\n\r\nErrors are wonderfully informative\r\n  Always try to understand how and where something fails\r\n\r\nIf you wish to program the computer, become the computer\r\n\r\nA wrong answer spotter is very valuable\r\n- eliminate what you don’t want, what you want is probably remaining\r\n- layers of expertise can be very effective\r\n\r\nRead technical papers and understand them\r\n\r\nDissect BHFs (big hairy formula or phrase) and make them make sense to you\r\n\r\nCorrolary: there is no idea so intimidating that it cannot be made fun of\r\n\r\nBe an informed skeptic\r\n- know enough to ask the right questions\r\n- have to see why people don’t understand things\r\n\r\nIndulge the groundhog day effect\r\n- its perfectly ok to ask the same questions later because the world has changed (tools and ideas have advanced)\r\n\r\nIts ok to say i dont know\r\n ... but i’d love to learn, please explain\r\n\r\nEmbrace your ignorance\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "creationDate": "2019-05-16T16:05:48.443Z",
+      "lastModified": "2019-05-16T16:19:23.941Z"
+    },
+    {
+      "id": "73c9773cbe1a4998afef91780b5f12b9",
+      "content": "Andy goldsworthy",
+      "creationDate": "2019-05-11T23:42:15.410Z",
+      "lastModified": "2019-05-11T23:42:25.699Z"
+    },
+    {
+      "id": "5116994a2fdc49f78bf31f4230d8d41d",
+      "content": "Photo framing\r\nTop- like 7 in\r\nBottom- 7 in\r\n\r\nRight- 9 in\r\nLeft- 9 in\r\n\r\nHeight of saunders enlarger- 39.5 in\r\n\r\nLast print of me holding bouldering pad- 27 sec needs to be darker\r\n\r\n",
+      "creationDate": "2019-05-11T18:46:31.050Z",
+      "lastModified": "2019-05-11T19:57:54.039Z"
+    },
+    {
+      "id": "68bf3268-f8d4-471b-ac23-8834133902c6",
+      "content": "6.835 final project todos\r\n\r\n1. need to map index finger position to a position on the svg, can do this by getting a relative scale of the finger in the whole interaction box and mulitplying that by the window dimensions?\r\n\r\n2. need to map the position of the index finger to the desired svg object that we want to call a clicked event on. This is what i'm most unclear about how we are going to do it. Maybe look at how we found intersections for the force-directed graph. This time we don't just have circles, we can have ANY object so is a little more complicated, but the same general idea of using bounding boxes on the shapes to find an intersection.\r\n\r\n3. call simulateClick() on the desired object to ",
+      "creationDate": "2019-05-11T00:30:46.090Z",
+      "lastModified": "2019-05-11T00:33:23.000Z"
+    },
+    {
+      "id": "85e2336a78e24e60b584b760aa9fd501",
+      "content": "Crawford notch climbing",
+      "creationDate": "2019-05-03T15:40:36.331Z",
+      "lastModified": "2019-05-03T15:40:56.184Z"
+    },
+    {
+      "id": "6bc6fd957f8a401a9697dee56e30de91",
+      "content": "Primary focus on work room or fitness studio and climbing is in background, blurred",
+      "creationDate": "2019-05-02T22:12:19.373Z",
+      "lastModified": "2019-05-02T22:15:54.929Z"
+    },
+    {
+      "id": "eac01bc5822744e78c605cdba8ca663d",
+      "content": "Proposal talk details\r\n\r\nAdding details about chrome bookmarks vs firefox bookmarks\r\n\r\nMockup of extension ui\r\n\r\nLook at Xmarks\r\nWhy did xmarks tank?",
+      "creationDate": "2019-05-02T17:34:17.317Z",
+      "lastModified": "2019-05-02T17:35:37.233Z"
+    },
+    {
+      "id": "388fbba23f9048e796f812d350fb6421",
+      "content": "Use Mmap with Care\r\nUse Mmap with Carehttp://hn.premii.com/#/comments/19805675\r\n",
+      "creationDate": "2019-05-02T14:28:48.450Z",
+      "lastModified": "2019-05-02T14:29:16.189Z"
+    },
+    {
+      "id": "1e4e8edc-353c-46fe-88bd-6571ea07c3e7",
+      "content": "urop meeting 05/01:\r\n* big question: are multiple 2d rtrees faster than a single 3d rtree?\r\n\t* we think that multiple 2d rtrees will be faster at panning, but slower at zooming\r\n\t* so also need to record zoom times and pan times\r\n* try this: multiply canvasid by 1million, to create cube-like structures, need (x,y,z1) to be super far away from (x,y,z2).\r\n* don't even do the hash of canvasid because takes a long time \r\n\r\nhow do you do sharding?\r\ncoordinator blocking?\r\n\r\ninteresting: how can you make geometric sharding for nba example work? with bounding boxes sharding rather than sharding on the team name or something\r\n\r\ncan't return until the slowest node returns, which slows the overall time down. serialization layer between master and workers, overhead through citus",
+      "creationDate": "2019-05-01T15:39:51.037Z",
+      "lastModified": "2019-05-01T16:02:58.000Z"
+    },
+    {
+      "id": "694bcb9875a9454dbca635df886a2b59",
+      "content": "One mind- dr larry dawson recd by crazy lfty driver\r\n\r\nCollective consciousness\r\n\r\nLyft driver “the fuck you switch”\r\n",
+      "creationDate": "2019-04-30T20:12:08.777Z",
+      "lastModified": "2019-04-30T20:28:12.073Z"
+    },
+    {
+      "id": "471bb7ae-838b-4e67-93fd-7be77dec0913",
+      "content": "do comparison of 3d-polygons in postgis versus current example of 3d-polygons in built in postgres\r\n\r\nrerun adam's postgres example with 100,000,000 points and use select all rows instead of select count(*) to mimic dots example\r\n\r\nidea for cleaning up when to index:\r\ninfer if a canvas is bottom-level based on the user-defined zooms written in the kyrix langugae",
+      "creationDate": "2019-04-25T21:32:46.623Z",
+      "lastModified": "2019-04-25T21:56:43.000Z"
+    },
+    {
+      "id": "0dc1a63a-9931-45bf-b01f-651f80a6ec38",
+      "content": "tasks\r\n* record perf data for 3d rtrees\r\n* think about how to record user interaction data\r\n* start coding wenbo's funky rtrees (the ones with clustering)\r\n* do issue assigned to move static data retreieval out of indexer\r\n* work on automation stuff with adam",
+      "creationDate": "2019-04-18T22:05:34.374Z",
+      "lastModified": "2019-04-18T22:06:31.000Z"
+    },
+    {
+      "id": "ecaaed2e-4395-46f8-8998-ca4d8f8d9665",
+      "content": "with new setup (after adam's fix):\r\n\r\n1. ssh into db container as postgres user\r\n\r\n docker exec --user postgres -it kyrix_db_1 /bin/sh\r\n\r\n(because it uses 'peer' authentication) -- see https://stackoverflow.com/questions/18664074/getting-error-peer-authentication-failed-for-user-postgres-when-trying-to-ge\r\n\r\n2. connect to pg shell, create database 'dots'\r\npsql -U postgres\r\ncreate database dots;\r\n\r\n3. load in csv file with 1 mil points (or more)\r\n(copy into local filesystem)\r\ncopy dots from '/dots.csv' delimiter E'\\t' csv header;\r\n\r\n4. change config.txt file in kyrix container\r\n",
+      "creationDate": "2019-03-19T23:48:14.998Z",
+      "lastModified": "2019-04-10T07:31:28.000Z"
+    },
+    {
+      "id": "492fe208-eec2-43d2-b38d-2a9cfff49134",
+      "content": "urop meeting notes04/03\r\n\r\nhudson river problem - jump from 100k data points in viewport to 0\r\n\r\nfunctions based on fixed data structure:\r\n\tf -> grouping\r\n\tf -> aggregation\r\n\tf -> traversal\r\n\tf -> { constraints }\r\n\tf -> rendering\r\n\r\nreal-time sampling?\r\n\t- slow\r\n\r\n1. precompute a big enough data structure that we can find the data we want\r\n\r\n2. dynamically sample data and density",
+      "creationDate": "2019-04-03T15:30:18.990Z",
+      "lastModified": "2019-04-03T15:34:56.000Z"
+    },
+    {
+      "id": "6e900f92-f3f1-4553-b738-bd8e175427d6",
+      "content": "weird vscode java thing -- \r\nif you accidentally delete .classpath, you have to copy the whole kyrix directory into a new folder and restart vscode\r\n\r\nalso using the 'java extension' pack of extensions for vscode",
+      "creationDate": "2019-04-03T13:11:24.939Z",
+      "lastModified": "2019-04-03T13:12:11.000Z"
+    },
+    {
+      "id": "e4bd78f45592499a96ce8fe20e51e160",
+      "content": "Things to do with virginia\r\n\r\nThursday\r\nMake her breakfast, she’ll probs b tired\r\nGo to class\r\nGrab some lunch\r\nMake dinner together (either pizza or gnocchi or stir fry)\r\nGo to pub night?\r\n\r\n\r\n\r\nFriday\r\nGo to friendly toast\r\nGo rock climbing at brooklyn boulders\r\nGo to aeronaut after\r\n\r\nSaturday\r\nGo to trident for brunch\r\n",
+      "creationDate": "2019-04-03T04:31:55.534Z",
+      "lastModified": "2019-04-03T04:36:36.143Z"
+    },
+    {
+      "id": "2e5dcee7cf5c4ee083c9232221505660",
+      "content": "Tj’s grocery list\r\n\r\nSriracha, soy sauce\r\nYogurt, muesli\r\nPotatoes\r\nSauce\r\nTofu\r\nSalmon\r\nPears, apples, carrots\r\nHummus\r\nAlmond milk\r\n\r\n\r\n\r\ndish soap\r\nspinach\r\neggs\r\nget sauce (bbq?)\r\ntonna frozen fruit (mangoes, blewbs, bananas)\r\nsweet potatoes\r\nZucchini\r\ndumplings\r\npesto! (or stuff to make pesto)",
+      "creationDate": "2019-03-08T06:04:10.485Z",
+      "lastModified": "2019-04-01T23:46:08.811Z"
+    },
+    {
+      "id": "45db43f3-36bb-4b12-9400-c2649024b8ab",
+      "content": "helpful postgres commands\r\n\r\n\\timing on",
+      "creationDate": "2019-04-01T19:37:34.651Z",
+      "lastModified": "2019-04-01T19:37:42.000Z"
+    },
+    {
+      "id": "c959e929850e4b549b529a8cd8aefa57",
+      "content": "Season 5 episode 23",
+      "creationDate": "2019-03-29T03:35:19.786Z",
+      "lastModified": "2019-03-29T03:35:27.614Z"
+    },
+    {
+      "id": "20649bf08ce548a498c44069aff9fa2a",
+      "content": "Nyc photograpgy museum near chinatown",
+      "creationDate": "2019-03-28T07:40:43.491Z",
+      "lastModified": "2019-03-28T07:40:53.929Z"
+    },
+    {
+      "id": "572da1dc-97f6-432b-bf8d-539a8b42bc2b",
+      "content": "urop time logging/notes:\r\nsunday, 2/10, 2:30 pm -6:30 pm, 4 hrs\r\nmonday, 2/11 , 11 am - 2:00 pm, 3 hrs\r\nfinished reading the kyrix paper, learned more about the dynamic boxes stuff, the database optimizations, etc.\r\n\r\n\r\ntuesday, 2/12, 2 - 3:30 pm, 1.5 hrs\r\ntuesday, 2/12, 5:30 - 7:30 pm, 2 hrs\r\nworked on getting warmup/task examples to work\r\nfound some difficulties in doing it, like where are the datasets\r\nhow do i modify the docker files to accomodate these other examples\r\n\r\nwednesday, 2/13, 11 - 12:30 pm, 1.5 hrs\r\nwednesday, 2/13, 1:30 - 2:30 pm, 1.0 hrs\r\n\r\n\r\nfriday, 2/15, 11:30 - 1, 1.5 hrs\r\nfriday, 2/15, 3:30 - 5:30, 2 hrs\r\n\r\nworked on getting toy kyrix app to work, creating\r\n2 canvas' with a scatter plot visualization \r\n\r\nsunday, 2/17, 3:30-5:30, 2.0 hrs\r\nsunday, 2/17, 6:00-7:00, 1.0 hrs\r\nworked on getting toy app scatter plot csv data into postgres,\r\nthen taking course on d3.js to refresh on how to use it, before coding the kyrix d3 app so i know what im doing\r\n\r\ntuesday, 2/19, 12-1:30, 1.5 hrs\r\nworked on coding d3.js scatter plot visualization\r\n\r\nwednesday, 2/20, 11-12:30, 1.5 hrs\r\nmet with the research group\r\n\r\nmonday, 2/25, 3-5 pm, 2 hrs\r\nworking on automation scripts to load database\r\n\r\ntuesday, 2/26, 1-5 pm, 4 hours\r\nworking on debugging visualization\r\n\r\n\r\nwednesday, 7:30-11 am, 3.5 hrs working on d3 toy app visualization\r\nwednesday, 11 am-2 pm, 3 hrs in the all-hands meeting\r\n\r\nthursday, 5-8 pm, 3 hours\r\nworking on debugging visualization\r\n\r\nfriday, 10 am - 12 pm, 2 hours\r\nscatter plot visualization, meeting with wenbo\r\n\r\n-------------------------------\r\ntuesday 3/5, 12:30 pm - 1:30 pm, 1 hr\r\nworking more on view zooming for visualization\r\n\r\nwednesday 3/6, 11-12, 1 hr\r\nmeeting\r\n\r\nthursday 3/7 , 5-7, 2 hrs\r\nextending d3.js visualization\r\n\r\nfriday 3/8, 12-5, 5 hrs\r\nlearning about indexing in postgres\r\n\r\ntuesday 3/12, 2-5 pm, 3 hrs\r\nwednesday 3/13, 8-10 am, 2 hrs\r\nwednesday 3/13, 11 am - 12:30, 1.5 hrs\r\nthursday 3/14, 5:30-6:30 pm, 1 hr\r\nthursday 3/14, 9-12 pm, 3 hrs\r\nfriday 3/15, 5-9 pm, 4 hrs\r\n\r\n---------------------------------\r\nsunday 3/17 10 pm -3 am , 5 hrs\r\nnote: when using tab-delimited csv file use E'\\t' instead of '\\t'\r\n\r\nmonday 3/18 3-7 pm, 4 hrs\r\nworking on learning d3.js and debugging dots example\r\n\r\n\r\nmonday 3/25 2-4 pm, 8-11 pm, 5 hrs\r\nd3.js tutorials\r\n\r\n\r\n",
+      "creationDate": "2019-02-11T16:10:30.107Z",
+      "lastModified": "2019-03-26T02:57:21.000Z"
+    },
+    {
+      "id": "02b13bc422ff4b0e9d4e8648f3baed68",
+      "content": "El indios - mexican place",
+      "creationDate": "2019-03-23T17:08:05.033Z",
+      "lastModified": "2019-03-23T17:08:14.617Z"
+    },
+    {
+      "id": "bee39b93-f438-4228-ae06-3a0dfdfa722d",
+      "content": "stuff to do on saturday/sunday:\r\ncopy the mini project 4, but do the writeup and upload\r\n\r\nupload all photo stuff to the shared dropbox\r\n\r\ndo some urop stuff, implementing indexing for 3d rtrees",
+      "creationDate": "2019-03-23T02:51:18.979Z",
+      "lastModified": "2019-03-23T02:52:44.000Z"
+    },
+    {
+      "id": "b04d2cefd09842e8a1ac06cfddd716dd",
+      "content": "Ec.310 final project ideas:\r\nBird party- photos of birds\r\n",
+      "creationDate": "2019-03-21T20:02:04.279Z",
+      "lastModified": "2019-03-21T20:02:25.587Z"
+    },
+    {
+      "id": "4f8536d8b5654b5bba805a2e8cf6e023",
+      "content": "Thirsday morning gameplan:\r\nWake up 5ish am, make bfast do stretches shower etc\r\n\r\nDevelop film in darkroom (6-7:30)\r\nMake prints (7:30-10:30)\r\nMake powerpoint and writeup for photo project (10:30-12:30)\r\nWork on miniproj 4 (after 5 pm)",
+      "creationDate": "2019-03-21T04:04:32.575Z",
+      "lastModified": "2019-03-21T04:06:47.222Z"
+    },
+    {
+      "id": "cc13611c-8d32-48f7-9605-983cc4af4dff",
+      "content": "tuesday night and wednesday morning gameplan\r\n\r\ntuesday night (7 pm - midnight):\r\n* verify that adam's update fixed the bug and email wenbo (done)\r\n* write up 17.447 paragraph and send it! (emailed about this)\r\n* buy bomber merch! (Done) \r\n* do mgh user study course (started)\r\n* code the java stuff for 3d rtree indexing\r\n* do rehab exercises for foot and elbow (did elbowstuff at night)\r\n* do sketches for photo assignments\r\n\r\nlate tuesday night (around midnight): \r\n* go bouldering, hangboard, abs\r\n* go do a ton of prints\r\n\r\nearly wednesday morning (7 am - 11 am, meeting):\r\n* first off don't forget to take meds lol\r\n* take the rest of the photos from the roll and develop the roll, do more prints\r\n\r\nwednesday after meeting (12 pm):\r\n* read article for decision making workshop\r\n* start 6.835 miniproj 4 in earnest\r\n* do a leetcode interview question",
+      "creationDate": "2019-03-19T00:33:50.333Z",
+      "lastModified": "2019-03-20T10:58:10.786Z"
+    },
+    {
+      "id": "a8416aec-b2b2-4c9a-9509-c38b704523e6",
+      "content": "running dots example\r\n\r\n",
+      "creationDate": "2019-03-18T15:40:21.589Z",
+      "lastModified": "2019-03-18T15:40:27.000Z"
+    },
+    {
+      "id": "a1cab10f-319e-4652-8dc6-e59f9fc6fcc3",
+      "content": "T240202\r\n",
+      "creationDate": "2019-03-17T16:34:30.285Z",
+      "lastModified": "2019-03-17T16:37:51.000Z"
+    },
+    {
+      "id": "b42d0951aef541c78f02f4c711714978",
+      "content": "Saturday morning:\r\nDo rehab exercises/abs\r\n, make bfast shave shower etc\r\nDo proposal\r\n\r\nCall rental car place\r\nGo bouldering with sean\r\nWork on urop heavy bruh\r\n",
+      "creationDate": "2019-03-16T05:53:21.188Z",
+      "lastModified": "2019-03-16T05:54:59.395Z"
+    },
+    {
+      "id": "8cfe6c29ed074822a7c9400fac60cd0d",
+      "content": "Purgatory chasm",
+      "creationDate": "2019-03-15T03:14:08.192Z",
+      "lastModified": "2019-03-15T03:14:16.135Z"
+    },
+    {
+      "id": "bffcbb905f8c446f80e390a38ed4d789",
+      "content": "4.032",
+      "creationDate": "2019-03-15T03:08:30.936Z",
+      "lastModified": "2019-03-15T03:08:34.007Z"
+    },
+    {
+      "id": "984d5684c3cc4140be85670461bb6e11",
+      "content": "Photo- burning photo\r\nWhen u have a part thats not dark enough in your photo cover the rest with a cardboard and shake to avoid lines, expose for a few more seconds\r\n\r\nKarsch- window light plus one light\r\nAnnie Liebowitz - photos \r\nRembrandt\r\n",
+      "creationDate": "2019-03-14T18:39:41.925Z",
+      "lastModified": "2019-03-14T19:21:53.962Z"
+    },
+    {
+      "id": "387be4ecb8c34fa79df5690e27ab2ae1",
+      "content": "Interaction w dollar\r\n\r\n\r\nWhy do we need to go digital? \r\n\r\nWhy dont we all use dollars around the world?\r\n\r\nStart the timer then stand back and take a beat\r\n\r\nGood eye contact/gesturing\r\n\r\nKind of side stepping a lot, stay still for a while\r\n\r\nA lot more energy and vocal variation\r\nWhos used this??\r\n\r\nDragged on a bit in the intro, could be more concise\r\n\r\nMake the intro set up why this is so cool\r\n\r\nWhy is bitcoin different? Explain them at a high level first\r\n\r\nDont even need the word “hash”\r\n\r\nUsed the email address analogy, miner analogy could be confusing\r\n\r\nMaybe could change analogy to messenger or chat group\r\n\r\nWhy do you want a decentralized currency? \r\n\r\nSay that the miner does something to check the computation\r\n\r\nLeave out which version of blockchain do you use?\r\n\r\nAnyone can make a currency, can use it if you just have people \r\n\r\nDont say integer or hash, ledger\r\n\r\nBeginning:\r\nWho wants a dollar?\r\nBut wait theres a problem with this dollar\r\nCentralized currenxy\r\nCant use it in other countries\r\nBank knows i have it keeps track\r\n\r\n\r\n",
+      "creationDate": "2019-03-14T17:17:26.373Z",
+      "lastModified": "2019-03-14T17:33:25.344Z"
+    },
+    {
+      "id": "196f8ab48bf8469384046c3888ccce34",
+      "content": "The mess of love - dh lawrencd",
+      "creationDate": "2019-03-13T23:25:49.128Z",
+      "lastModified": "2019-03-13T23:26:20.500Z"
+    },
+    {
+      "id": "c63f6a02-6d8d-41ab-a140-7b17517031ed",
+      "content": "urop meeting notes 3/13\r\n\r\n- workshop deadline june 1st, maybe try to get in on this?\r\n\r\n\r\nresearch directions\r\n- program synthesis for generating visual layouts\r\n- drilldown with skew?\r\n\t- two issues\r\n\t\t- 1. how to do the drilldown? aggregation, sampling, etc\r\n\t\t- 2. number of levels varies depending on where you are in visualizatoin (jagged levels)",
+      "creationDate": "2019-03-13T15:31:46.041Z",
+      "lastModified": "2019-03-13T15:43:14.000Z"
+    },
+    {
+      "id": "2f9aa54e-d31e-4384-ad72-cd83ef54efa6",
+      "content": "Gameplan for wednesday morning 3/13\r\n\r\n-> workout\r\n-> do urop work",
+      "creationDate": "2019-03-13T03:54:01.896Z",
+      "lastModified": "2019-03-13T04:05:28.000Z"
+    },
+    {
+      "id": "836f2e1f-d5ba-496a-a65c-3af794743075",
+      "content": "Gameplan for tuesday 3/12\r\nNeed to get the following done:\r\n-> get groceries\r\n-> do laundry\r\n-> workout\r\n-> do urop work\r\n-> make slides for intuition presentation\r\n-> finish max subarray sum question",
+      "creationDate": "2019-03-12T21:47:32.541Z",
+      "lastModified": "2019-03-12T21:50:06.000Z"
+    },
+    {
+      "id": "c4a8c12d-8b8a-4c41-a96d-53e1a625d2e3",
+      "content": "Gamplan for sunday:\r\nneed to get following done\r\n-> 6.835 miniproject 3 (by monday at 5 pm)\r\n-> 17.447 paper outline (by class on monday)\r\n-> prepare for kyrix indexing urop meeting\r\n-> start thinking about logistics for bouldering trip\r\n\r\nminiproject 3\r\n- work on smoothing for ship placement after implementing minimum viable solution, maybe by maintaining an array of screen positions because the cursor position can be wack\r\n- play with the rotation angle too\r\n- weird that the speech doesn't differentiate between 'Miss' and 'miss'\r\n\t- maybe can fix that with a non-capitalization option?\r\n\r\nideas for improvements:\r\n- different deploying ships strategies\r\n\t- can deploy ship by pointing to a square and saying 'battleship here'\r\n\t- default to horizontal but can flip orientation to be vertical by saying 'vertical'\r\n\r\n-smarter battleship ai\r\n\t- if there's a hit, locates its next guess near last hit\r\n\r\n\r\n-----------------------------------------------\r\nNotes about miniproject questions:\r\n1) this is the source code\r\n2) \r\n\ta) can't reach the bottom row of tiles, added offset for it\r\n\t\t- need to add further offset for standing vs. sitting\r\n\tb) issues with speech (fire vs tire vs etc.) didn't really fix it\r\n\tc) had some issues with the voice recognition, specifically \r\n\t\t'miss' vs 'Miss'. changed userSaid to accomodate this\r\n3) made extension to place the ships using pointing rather than dragging during the 'setup' process. just point at a tile and say 'place battleship here' or 'place patrol boat here'\r\n\tinteraction/experience added: makes it easier for the user to put the battleship on a square?\r\n\t- how do you use it?\r\n\t\t- can use a couple different commands\r\n\t- had to make cursorPosition global\r\n",
+      "creationDate": "2019-03-10T20:40:05.839Z",
+      "lastModified": "2019-03-12T04:50:07.000Z"
+    },
+    {
+      "id": "27ec50465e4648a6ac01204aa8386ac4",
+      "content": "Microsoft golden coin question",
+      "creationDate": "2019-03-11T21:05:56.501Z",
+      "lastModified": "2019-03-11T21:06:05.437Z"
+    },
+    {
+      "id": "55179fbe98574c3abedb0f89f301f76a",
+      "content": "Gameplan for tomorrow:\r\n\r\n(Friday morn)\r\nTrain climbing in the morning\r\nMake bfast, shower\r\nFinish max subarray sum implementation\r\nTry another coding problem (implement mergesort for practice)\r\n\r\nGo to coffee shop, work heavy on urop\r\nWork heavy on lab\r\n\r\nGet lunch\r\n\r\nWork heavy on lab/urop more\r\n\r\nGet coffee with heather\r\n\r\nGo to darkroom w emile\r\nPlan senior trip\r\n\r\n\r\n\r\n(Thirsday morn)\r\nTrain climbing in the morning\r\nEat bfast, shower\r\n\r\nFinish reading questions\r\nWork on urop\r\nLook up when photo assignments due\r\n\r\nClass until 5\r\nMaybe go to gym with sean\r\nOtherwise nap, work on urop\r\n\r\n(Wednesday morn)\r\n\r\n\r\n(Tuesday afternoon)\r\nBoulder at climbing wall\r\nWork on urop until dinner\r\nMake dinner\r\nWalk bob\r\nDo project proposal\r\nWork on urop more\r\n\r\n\r\n\r\n(Monday)\r\nDo short cardio/abs, \r\n watch coding interview video while biking\r\nMake eggs, oj\r\nDo some foot stretches\r\n\r\nDo rest of lab!\r\n\r\n(Saturday)\r\nWork on lab 2 until dinner \r\ndo leetcode coding question\r\ngo to rite-aid get stuff\r\nEat dinner\r\nWork more on lab 2\r\ngo bouldering\r\n\r\n\r\n\r\n\r\n(Friday)\r\nWake up at ?\r\nGo rock climbing in walker @ 7\r\nGet coffee/bfast \r\n\r\n\r\n(Thursday)\r\nDo short cardio/abs, \r\n  watch coding interview video while biking\r\nMake eggs, oj\r\nDo some foot stretches\r\n\r\nGo to banana lounge, make coffee and do \r\nEmail back wenbo\r\n6.835 reading questions\r\nWork on 6.835 lab\r\nDebug kyrix app\r\n",
+      "creationDate": "2019-02-26T07:05:32.121Z",
+      "lastModified": "2019-03-08T17:13:12.000Z"
+    },
+    {
+      "id": "4aa93a6e-7202-4ab9-9740-03b734a67fa7",
+      "content": "2134042926 - southwest frequent flyer #",
+      "creationDate": "2019-03-06T18:16:46.150Z",
+      "lastModified": "2019-03-07T23:38:13.000Z"
+    },
+    {
+      "id": "83b9a65c-3118-4c18-9028-a3d6aecf7343",
+      "content": "urop meeting notes:\r\nhelp elkindi with cleaning the data from eeg study?\r\n\r\nright now kyrix assumes your drill down structure is a tree, but other person wants it to be a graph where you go down a certain path and go can up a different way\r\n\r\nr trees - one item for every record (they are a dense index)\r\n              - one r tree record for a group of nodes (compressed)\r\n\r\nexploring quadtrees b/c build time is faster\r\nr trees can split anywhere but quadtrees are more limited, so faster to build\r\ncan have multiple canvases share the same data structure (why/how does this work?)\r\n\r\nif 90% of accesses are to 10% of data, then you want to load nyc data instead of montana, for example\r\n* good performance speedup\r\n* can be combined with indexing, or not\r\n* leilani looked at markov model\r\n\r\ncoding custom index types in postgres\r\n\r\nlook into performance project for meng\r\n* use database locking to support multi user\r\n\r\nwhyswyg support for building kyrix\r\n\r\n\r\nopen issue: can i share with you what i'm looking at by sending a url rather than you having to run the kyrix app\r\nopen issue: do we have a way to autogenerate a legend\r\n\r\ngoogle search metaphor -- searching for places in the visualization they've been before\r\n\r\ncurrently don't have support for graphs\r\nassumption is that anything is updateable in realtime\r\n - what if you want to change the kyrix application on the fly\r\n\t - lazy index building\r\n\t - can almost prove that its impossible to rebuild on the fly, \r\n\r\ncan we just do sampling using the preview of the visualization\r\n\t- see the global view\r\n\r\n\r\nPeter - looking at custom indexing for performance, benchmarking good opportunity to write low-level extensions to database system. Looking at R-trees, 3D r-trees, quad tree extensions. Working with Mike/Wenbo on indexing stuff\r\n\r\n\r\nCommercializing kyrix: open-source model\r\n100 users, venture capital would come for sure\r\n\r\nAndy \r\n\r\nMaking a system accessible to the average person / broader adoption is important, more contributions on github\r\n\r\nsci?db is great system but brutally inaccessible\r\nben fry?\r\nwhat about scanning pdfs with image recognition for things\r\n\r\napplications for kyrix: data registry&catalogging, \r\n\r\n--------------------------------------\r\nNotes, Friday 2/29:\r\n-Send commands/script for loading data into postgres to wenbo\r\n-Look into index/ code in the backend, especially the spatialindexer\r\n-Learn about rtrees, etc.\r\n\r\n\r\n",
+      "creationDate": "2019-02-27T16:20:48.116Z",
+      "lastModified": "2019-03-01T19:44:01.000Z"
+    },
+    {
+      "id": "59d1ae73-0911-490d-b20a-4b146369a97a",
+      "content": "helpful sql commands:\r\n",
+      "creationDate": "2019-02-27T03:47:50.391Z",
+      "lastModified": "2019-02-27T03:48:02.000Z"
+    },
+    {
+      "id": "0fc90cdce11e4fd4a53a702b4c4f7c53",
+      "content": "Dont let yourself get distracted\r\n\r\nCould add more pictures\r\n\r\nGo over more background about python and assembly\r\n\r\nMore time bridgin conection between google translate and compilers\r\n\r\nA little bit of a disconnect betwee compilers and gcc\r\n\r\nWhat things do compilers allow us to make?",
+      "creationDate": "2019-02-26T18:23:09.546Z",
+      "lastModified": "2019-02-26T18:27:39.821Z"
+    },
+    {
+      "id": "b52d5f2a-4c42-4ece-aa57-1cb4aa667d0d",
+      "content": "6.uat previous project things to change\r\n\r\n* first (intro) slide was stopped for so little time, might wanna do something there\r\n* emphasize importance of compilers more\r\n* more specific details about what i did in the compilers project (my role)\r\n* explain better the difference between low and high level languagues\r\n* might be worth explaining assembly more early on\r\n* more technical details (but zhumei said this so take w/ grain of salt)\r\n* don't play with ring, or stutter if you can help it\r\n\r\nonce done with that, change the order of the story \r\n",
+      "creationDate": "2019-02-26T13:47:38.917Z",
+      "lastModified": "2019-02-26T13:57:13.000Z"
+    },
+    {
+      "id": "3ceec455916b4e40ac92846d269c9d19",
+      "content": "Sushi by bou in nyc",
+      "creationDate": "2019-02-25T15:49:37.863Z",
+      "lastModified": "2019-02-25T15:49:54.389Z"
+    },
+    {
+      "id": "da20658c101241959f994aa6539f6944",
+      "content": "Bad blood - book about elizabeth holmes",
+      "creationDate": "2019-02-24T19:16:31.816Z",
+      "lastModified": "2019-02-24T19:16:42.020Z"
+    },
+    {
+      "id": "3251d3e1142f4f8980bf2831df5e6ac6",
+      "content": "Hugo Castalan hugoc@mit.edu\r\nAlex Mathe Cathala cathala@mit.edu ",
+      "creationDate": "2019-02-20T20:56:05.035Z",
+      "lastModified": "2019-02-20T20:56:42.611Z"
+    },
+    {
+      "id": "babb1c9ec208400bb2ab65cff06a9af0",
+      "content": "Driving snacks up to montreal - 25 bucks?\r\nRequested\r\n\r\nUbereats chinese food - check the receipt\r\nPeter\r\nSean\r\nHeather\r\nArber\r\n63.78 cad *0.76 = 48.47 usd / 5 = ?\r\nRequested\r\n\r\nUber from the club, check uber\r\n26.87 cad * 0.76 = 20.42 usd / 4\r\nHeather\r\nArber\r\nSasha\r\n\r\nUber to the alc place\r\nUber from the alc place\r\nEveryone\r\n",
+      "creationDate": "2019-02-17T04:14:07.093Z",
+      "lastModified": "2019-02-18T23:50:57.129Z"
+    },
+    {
+      "id": "2f220cd166264e2f80002ded44b05130",
+      "content": "Gattaca\r\n",
+      "creationDate": "2019-02-18T17:34:39.752Z",
+      "lastModified": "2019-02-18T17:34:57.916Z"
+    },
+    {
+      "id": "181a1c1ae601431489aa0f40f960e5f4",
+      "content": "The cliffs erode from the water, turn from adodescent rocks to ancient sand\r\n\r\nBROCK THE ROCK was a young boulder was he became sand when he was older\r\n\r\nGeneral of army goes out in a blaze of glory, murked by 20 fiats\r\n\r\nCAVERNOUS\r\n\r\nFuck me im a walrus\r\n\r\nI digress = cd..\r\n\r\nHey big mama whats up with you? Love bubbles\r\n\r\nSkkkrt into the bird party\r\n\r\nGood fucking yard professor\r\n\r\nMontreal\r\n- “why are there beans in my beer” rhian chavez\r\n- “why are there legumes in my lager”\r\n- arber is the bean king\r\n\r\nButton your shirt, bean king, you fucking dick cunt\r\n\r\n“Button your shirt, dick” rhian to arber\r\n\r\n“Sorry that your poor and im not”- arber\r\n\r\n\r\n",
+      "creationDate": "2019-01-26T23:37:35.446Z",
+      "lastModified": "2019-02-17T09:03:22.563Z"
+    },
+    {
+      "id": "f2a4b6407cdf4986b0c92c7dc0acc5e3",
+      "content": "Use cigarette ashes as a medium for art\r\n\r\nArber- maybe mix it with some sort of paste\r\n\r\n",
+      "creationDate": "2019-02-17T01:20:40.579Z",
+      "lastModified": "2019-02-17T01:21:05.210Z"
+    },
+    {
+      "id": "8874cac1d52548f490e61b6e118858dd",
+      "content": "Montreal mfa is a great museum",
+      "creationDate": "2019-02-16T22:03:13.134Z",
+      "lastModified": "2019-02-16T22:03:29.071Z"
+    },
+    {
+      "id": "01ed6df9147748a6a1eaeca101d0f910",
+      "content": "Gugg\r\n\r\nMoma\r\n\r\n\r\nThe whitney- walk the highline, goes along west side",
+      "creationDate": "2019-02-16T03:32:03.381Z",
+      "lastModified": "2019-02-16T03:32:55.929Z"
+    },
+    {
+      "id": "477f21beb8214c9ba81b5294dbe7e267",
+      "content": "Hammond pond- on the green line\r\n\r\nLincoln woods\r\n\r\nLynnwoods\r\n\r\n",
+      "creationDate": "2019-02-09T21:58:40.042Z",
+      "lastModified": "2019-02-09T22:02:19.585Z"
+    },
+    {
+      "id": "463f8abb2c804dd8859cab9131b4c010",
+      "content": "Bon apetit youtube channel",
+      "creationDate": "2019-02-09T04:13:29.542Z",
+      "lastModified": "2019-02-09T04:13:37.949Z"
+    },
+    {
+      "id": "167346f0cf934dedbe401fa0a4ad2b4e",
+      "content": "14+27 = 41 for agua de valencia",
+      "creationDate": "2019-02-08T22:49:49.440Z",
+      "lastModified": "2019-02-08T22:53:51.775Z"
+    },
+    {
+      "id": "73ff9a694c9f40908188ea08a107eb52",
+      "content": "825",
+      "creationDate": "2019-02-07T15:37:43.133Z",
+      "lastModified": "2019-02-07T15:37:46.723Z"
+    },
+    {
+      "id": "0d9ab17d4aeb4774a34beb29f912fe98",
+      "content": "Gastrograph.ai",
+      "creationDate": "2019-02-05T17:43:05.937Z",
+      "lastModified": "2019-02-05T17:43:16.119Z"
+    },
+    {
+      "id": "d3201117a4b842b2a7e4079239ab6972",
+      "content": "Dnkhoma@jri-america.com",
+      "creationDate": "2019-02-04T17:34:09.176Z",
+      "lastModified": "2019-02-04T17:34:24.145Z"
+    },
+    {
+      "id": "5cf7d2c06c5943109fc71ed1d1afbb2c",
+      "content": "2.5 grams",
+      "creationDate": "2019-02-02T20:07:22.644Z",
+      "lastModified": "2019-02-02T20:07:26.713Z"
+    },
+    {
+      "id": "1ad9bc8111444f809259e9a97f4a8a78",
+      "content": "Spring 2019 schedule:\r\n\r\n6.UAT - required ci-m\r\n15.431 - entrepreneurial finance\r\n\r\nMultimodal ui or geometric folding \r\nalgorithms or human intelligence enterprise or cybersecurity law\r\n\r\nCreative imaging or voice&speech\r\n\r\n\r\nIdea: could i petition geometric folding algorithms for the meng math elective",
+      "creationDate": "2019-02-02T17:13:55.751Z",
+      "lastModified": "2019-02-02T17:17:44.798Z"
+    },
+    {
+      "id": "21e9cf6791b1443cb9267cd296336542",
+      "content": "Blabla car - cheap travel",
+      "creationDate": "2019-02-02T16:09:23.339Z",
+      "lastModified": "2019-02-02T16:09:33.202Z"
+    },
+    {
+      "id": "4e17dfe303bc4bb6bb69d348a0c46bd6",
+      "content": "Buckfast - scottish drink, emma recommended it",
+      "creationDate": "2019-02-01T00:20:59.897Z",
+      "lastModified": "2019-02-01T22:14:43.994Z"
+    },
+    {
+      "id": "8f96e5760e0a43d6b487d8870e9a49e5",
+      "content": "Travel Todo list:\r\nGo camping in iceland",
+      "creationDate": "2019-02-01T21:57:26.065Z",
+      "lastModified": "2019-02-01T21:59:10.212Z"
+    },
+    {
+      "id": "10b6db2bc16a464ebfdb75d5d15d090c",
+      "content": "6ish euros for crackers\r\nVenmo heather for strega",
+      "creationDate": "2019-02-01T11:14:04.434Z",
+      "lastModified": "2019-02-01T11:14:23.820Z"
+    },
+    {
+      "id": "f48f342dcd824f04a1d35a90bd44972c",
+      "content": "22.00 e / 4 = 4.50 e per person\r\n\r\n31 / 4 = 7.75 e person \r\n\r\n12.25 per person\r\n",
+      "creationDate": "2019-01-31T20:08:13.736Z",
+      "lastModified": "2019-01-31T20:14:29.655Z"
+    },
+    {
+      "id": "ff81c31474b1495b85a7ad9f365f5b60",
+      "content": "signorie@unisannio.it\r\n\r\nBank info\r\n- bank name: Bank of America\r\n- bank routing #: 121000358\r\n- bank address: Bank of America, NA \r\n              222 Broadway \r\n              New York, New York 10038\r\n\r\n\r\nPersonal\r\n- address: 410 Memorial Drive, Cambridge, MA 02139\r\n\r\nSend ticket from benevento to rome\r\nPhotocopy passport and send",
+      "creationDate": "2019-01-31T12:27:17.942Z",
+      "lastModified": "2019-01-31T12:36:26.804Z"
+    },
+    {
+      "id": "58abb759401e4488aaa17b4a251b4a1b",
+      "content": "Thursday, 01/31 task list\r\n\r\nGet book from silvia at 11 am\r\nUpload documentation for externship\r\nGo and say bye to pasquale, get gift\r\nDo laundry\r\nApply to urops\r\n - email csail dig\r\n - email superurop ta\r\n - email meta programming dude\r\n - email tomaso poggio dude\r\n\r\nApply to mit mfin program\r\n\r\n\r\n\r\n\r\nGet shit for party\r\nParty",
+      "creationDate": "2019-01-31T01:02:35.137Z",
+      "lastModified": "2019-01-31T01:05:16.401Z"
+    },
+    {
+      "id": "cd3fa47332564fd1a60aad1ad9e98d46",
+      "content": "Next time tripping acid, oh no i ate the rest of my pears and there are none left. Hey dude no worries, grab my spare (spear)\r\n\r\n*slo mo grabs pear out of back pocket and tosses it to max, camera zooms in on pear spinning in the air, max catches it like a drumstick and takes a large monch*\r\n\r\nCod modern warfare - pear package inbound",
+      "creationDate": "2019-01-27T16:52:12.706Z",
+      "lastModified": "2019-01-27T16:54:22.928Z"
+    },
+    {
+      "id": "26be6e94db17487381e5abd4403251f8",
+      "content": "Owe alfonso 60 euro for airbnb n gas\r\n\r\nVenmo ppl for\r\n22 euros of groceries\r\n\r\nOwe max for gelato",
+      "creationDate": "2019-01-27T13:39:21.694Z",
+      "lastModified": "2019-01-27T13:40:07.395Z"
+    },
+    {
+      "id": "e74e3e13a1524b20b7befd0452496f3a",
+      "content": "Bought 22 euros of groceries for dinner",
+      "creationDate": "2019-01-27T08:42:59.951Z",
+      "lastModified": "2019-01-27T08:43:22.008Z"
+    },
+    {
+      "id": "1355364f2c404ede9e4de02dd372479e",
+      "content": "I want to have spanish friday with arber, heather, max, and alfonso! With tortilla and agua de valencia! Ciao ragazzi!",
+      "creationDate": "2019-01-27T02:26:08.940Z",
+      "lastModified": "2019-01-27T02:27:04.234Z"
+    },
+    {
+      "id": "573cecefd274427a84b43976f03ed1ea",
+      "content": "Good songs=\r\nOxford comma\r\nThe man who has everything\r\nStuck on the puzzle\r\nDrew barrymore\r\n",
+      "creationDate": "2019-01-27T02:22:09.199Z",
+      "lastModified": "2019-01-27T02:25:23.392Z"
+    },
+    {
+      "id": "e4efb1ad4cf042b9ba48ee1cdea6fe7e",
+      "content": "Gradual lighting of the amalfi church, cult shit\r\n\r\nAmalfi bros\r\n\r\nWe tripped balls in a church in amalfi near the sea but we\r\n\r\n\r\n",
+      "creationDate": "2019-01-26T23:29:17.412Z",
+      "lastModified": "2019-01-27T02:22:03.473Z"
+    },
+    {
+      "id": "c8ea298da190402aa824b96627512b03",
+      "content": "Welcome to the lemon tree, may i take your order please? One tangerine slice, thanks",
+      "creationDate": "2019-01-26T23:58:04.717Z",
+      "lastModified": "2019-01-26T23:58:31.202Z"
+    },
+    {
+      "id": "575cc48df6eb4c56ad9e522f71eb8cc1",
+      "content": "I wanna buy watercolors, they are beautiful",
+      "creationDate": "2019-01-26T23:51:22.975Z",
+      "lastModified": "2019-01-26T23:51:40.468Z"
+    },
+    {
+      "id": "5f909aec006d4e4a82ae87369dffc2c2",
+      "content": "WHERE DOES CORNBEEF HASH COME FROM DOE?",
+      "creationDate": "2019-01-26T21:04:04.052Z",
+      "lastModified": "2019-01-26T21:04:14.916Z"
+    },
+    {
+      "id": "ff948a9b42354772a2c01453b3fbbb9d",
+      "content": "Idea for cooking blog\r\n\r\nscallionlovers.com\r\n\r\n",
+      "creationDate": "2019-01-25T11:00:19.942Z",
+      "lastModified": "2019-01-25T11:00:37.011Z"
+    },
+    {
+      "id": "9d1640be19e0435182c061be101f9318",
+      "content": "Amaro santa cruzia",
+      "creationDate": "2019-01-23T22:29:05.146Z",
+      "lastModified": "2019-01-23T22:29:31.736Z"
+    },
+    {
+      "id": "6e3b30a125ce42c59c0e7e132944789a",
+      "content": "Pagnotta\r\n\r\n\r\n\r\nTraditional bread with pork",
+      "creationDate": "2019-01-23T12:33:01.514Z",
+      "lastModified": "2019-01-23T12:33:57.330Z"
+    },
+    {
+      "id": "487d9d81-677c-47d6-99ae-c4ce0d43299b",
+      "content": "possible meng plan\r\n\r\nspring 2019\r\n6.UAT\r\n6.S978 or 6.803 or 6.857\r\n15.4311 (can put on p/d/f) -- non 6 aags\r\n21L.004\r\n\r\n\r\nfall 2019\r\n6.172 grad version or 6.828\r\n\r\nspring 2020\r\n6.803 or 6.857\r\n6.824\r\n\r\n\r\n\r\n\r\n",
+      "creationDate": "2019-01-21T11:55:33.477Z",
+      "lastModified": "2019-01-21T14:08:27.000Z"
+    },
+    {
+      "id": "2bf09feb45384eb3a124dd219ce849c2",
+      "content": "Pay max for dinner in benevento\r\n\r\nRequest ppl for euros for groceries\r\n\r\nPay heather for pablo stuff\r\n\r\nRequest max for beer 2.30 euros\r\n\r\n\r\nRequest max for 5 euros at irish pub\r\n\r\n2 euro for wster\r\n\r\n",
+      "creationDate": "2019-01-18T20:10:41.568Z",
+      "lastModified": "2019-01-20T11:31:33.743Z"
+    },
+    {
+      "id": "e8bf0b65fc7b410abd19e4aa2d53346c",
+      "content": "339 1929 984\r\nAnzo?",
+      "creationDate": "2019-01-19T14:27:52.506Z",
+      "lastModified": "2019-01-19T14:28:19.963Z"
+    },
+    {
+      "id": "02ae15047e7c460b88bd7f63aabbec46",
+      "content": "Suco mediterriano\r\n\r\nMediterranean juice (for agua de valencia)",
+      "creationDate": "2019-01-17T21:04:43.261Z",
+      "lastModified": "2019-01-17T21:04:58.904Z"
+    },
+    {
+      "id": "c8392ac6-9698-4036-9d8f-7e96fe1e7160",
+      "content": "1/14/18: tasks for work\r\n\r\nlook at teamsannio_med_control and how it currently works/how to debug. using terminal commands first\r\n\r\nthen do a simple hovering example using C++",
+      "creationDate": "2019-01-14T11:41:32.411Z",
+      "lastModified": "2019-01-14T11:43:23.000Z"
+    },
+    {
+      "id": "c864c5ca492540259b424e9981749829",
+      "content": "Cacio cavallo",
+      "creationDate": "2019-01-14T10:11:58.547Z",
+      "lastModified": "2019-01-14T10:12:15.856Z"
+    },
+    {
+      "id": "f14079313dde4cf69ba9ef9720cf5aeb",
+      "content": "9 for gelato, 3 each of arber/heather/me\r\n\r\nHeather got 8 euro of rolling cig stuff",
+      "creationDate": "2019-01-12T15:14:30.067Z",
+      "lastModified": "2019-01-12T15:14:58.677Z"
+    },
+    {
+      "id": "1664c462-0b87-4802-822c-3bfdd8bc0f71",
+      "content": "01/11/18: tasks for work\r\n\r\ngo over lesson 2 in eth zurich course, get exercise code to work & understand it\r\n\r\nlook at teamsannio_med_control and how it currently works/how to debug.\r\n\r\n\r\n\r\ncurrent idea:\r\nwe run the gazebo simulator through sphinx, is it a ros node(s)?\r\n\r\nthen we run the bebop_simulation ros service, which is comprised of ros nodes\r\n\r\nwe talk to the bebop_simulation package nodes via the teamsannio_med_control ros package\r\n\r\n\r\n\r\n",
+      "creationDate": "2019-01-11T08:22:24.083Z",
+      "lastModified": "2019-01-11T08:32:47.000Z"
+    },
+    {
+      "id": "d8af96f72a424fd7932192f541ccda0b",
+      "content": "Stuff to get\r\n\r\n\r\n\r\nSoft toothbrush\r\nFrozen peas for foot\r\nAdvil!\r\n\r\nLots of veggies\r\nLots of chicken/meat\r\nDry sherry wine\r\nEggplant\r\nHand soap\r\nFrozen peas for foot icing\r\nMore pain meds\r\nMore cheap wine\r\nBottle opener!\r\n\r\nSpatula\r\nCutting board\r\nCups\r\n\r\n\r\nLimoncello",
+      "creationDate": "2019-01-07T18:01:00.465Z",
+      "lastModified": "2019-01-09T17:16:34.218Z"
+    },
+    {
+      "id": "f8a3c520-ca62-43fb-9b88-14db34780ca1",
+      "content": "Readings for 15.402\r\n\r\nLEC # \tTOPICS \tREADINGS\r\n\r\nPART 1: FINANCING\r\n1\tLecture: Introduction \t\r\nBackground Reading:\r\n    Higgins. Interpreting Financial Statements. Chapter 1.\r\n    Higgins. Evaluating Financial Performance. Chapter 2.\r\n    Brealey and Myers. An Overview of Corporate Financing. Chapter 14.\r\n\r\n2 \tCase: Wilson Lumber 1 \t\r\nPiper, Thomas R. Wilson Lumber Co. Boston, MA: Harvard Business School Publishing, 1991. Case No. 9-286-122.\r\nBrealey and Myers. Financial Analysis and Planning. Chapter 29.\r\n\r\nHiggins. Evaluating Financial Performance. Chapter 2.\r\n\r\nBackground Reading:\r\n\r\n    Higgins. Financial Forecasting. Chapter 3.\r\n\r\n3 \tCase: Wilson Lumber 2 \t\r\n\r\nPiper, Thomas R. Wilson Lumber Co. Boston, MA: Harvard Business School Publishing, 1991. Case No. 9-286-122.\r\n\r\nHiggins. Financial Forecasting. Chapter 3.\r\n\r\nHiggins. Managing Growth. Chapter 4.\r\n4 \tLecture: Capital Structure 1 \t\r\n\r\nBrealey and Myers. Does Debt Policy Matter? Chapter 17.\r\n\r\nMyers, S. C. Still Searching for Optimal Capital Structure. Continental Bank, Journal of Applied Corporate Finance, pp. 4-14.\r\n\r\nBackground Reading:\r\n\r\n    Higgins. Financial Instruments and Markets. Chapter 5.\r\n\r\n5 \tLecture: Capital Structure 2 \t\r\n\r\nBrealey and Myers. How Much Should a Firm Borrow? Chapter 18.\r\n\r\nHiggins. The Financing Decision. Chapter 6.\r\n\r\nBackground Reading:\r\n\r\n    Brealey and Myers. How Corporations Issue Securities. Chapter 15.\r\n\r\n6 \tCase: Debt Policy at UST Inc. \t\r\n\r\nMitchell, Mark. Debt Policy at UST, Inc. Boston, MA: Harvard Business School Publishing, 2001. Case No. 9-200-069.\r\n7 \tCase: Massey Ferguson, 1980 \t\r\n\r\nBaldwin, Carliss Y., Scott P. Mason, and Jennifer H. Hughes. Massey-Ferguson Ltd. -- 1980. Boston, MA: Harvard Business School Publishing, 1990. Case No. 9-282-043.\r\n8 \tLecture: Capital Structure: Informational and Dynamic Considerations \t\r\n\r\nBarclay, Smith, and Watts. The Determinants of Corporate Leverage and Dividend Policies. Journal of Applied Corporate Finance 7, 4, 1995, pp. 4-14.\r\n9 \tCase: MCI Communications Corp., 1983 \t\r\n\r\nGreenwald, Bruce C., and Wilda L. White. MCI Communications Corp. -- 1983. Boston, MA: Harvard Business School Publishing, 1998. Case No. 9-284-057.\r\n\r\nBrealey and Myers. Warrants and Convertibles. Chapter 23.\r\n\r\nBackground Reading:\r\n\r\n    Jen, Choi, and Lee. Some New Evidence On Why Companies Use Convertible Bonds.\r\n\r\n10 \tReview of Financing and Capital Structure \t\r\n11 \tCase: Intel Corporation, 1992 \t\r\n\r\nFroot, Kenneth A. Intel Corp. -- 1992. Boston, MA: Harvard Business School Publishing, 1993. Case No. 9-292-106.\r\n\r\nBrealey and Myers. The Dividend Controversy. Chapter 16.\r\n\r\nBrealey and Myers. Leasing. Chapter 26.\r\n\r\nBackground Reading:\r\n\r\n    Opler, Pinkowitz, Stulz, and Williamson. Corporate Cash Holdings.\r\n\r\n\tMidterm Exam \t\r\n\r\n\r\n\r\n-----------------------------------\r\nPART 2: VALUATION\r\n\r\nLEC # \tTOPICS \tREADINGS\r\n12 \tLecture: Valuation of Free Cash Flows \t\r\n\r\nBrealey and Myers. Why NPV Leads to Better Investment Decisions… Chapter 5.\r\n\r\nBrealey and Myers. Making Investment Decisions with the Net Present Value Rule. Chapter 6.\r\n13 \tCase: Cost of Capital at Ameritrade \t\r\n\r\nMitchell, Mark, and Erik Stafford. Cost of Capital at Ameritrade. Boston, MA: Harvard Business School Publishing, 2001. Case No. 9-201-046.\r\n14 \tLecture: WACC and APV 1 \t\r\n\r\nBrealey and Myers. Capital Budgeting and Risk. Chapter 9.\r\n\r\nBrealey and Myers. Financing and Valuation. Chapter 19.\r\n\r\nBackground Reading:\r\n\r\n    Brealey and Myers. Where Positive Net Present Values Come From. Chapter 11.\r\n    Higgins. Discounted Cash Flow Techniques. Chapter 7.\r\n\r\n15 \tLecture: WACC and APV 2 \tSame as above.\r\n16 \tCase: Dixon Corporation 1 \t\r\n\r\nKester, W. Carl. Dixon Corp.: The Collinsville Plant. Boston, MA: Harvard Business School Publishing, 1999. Case No. 9-298-165.\r\n17 \tCase: Dixon Corporation 2 \t\r\n\r\nKester, W. Carl. Dixon Corp.: The Collinsville Plant. Boston, MA: Harvard Business School Publishing, 1999. Case No. 9-298-165.\r\n18 \tCase: Diamond Chemicals (A) \t\r\n\r\nBruner, Robert F. Diamond Chemicals (A). Charlottesville, VA: Darden Business School Publishing, 2001. Case No. UVA-F-1351.\r\n19 \tLecture: Real Options \t\r\n\r\nLuehrman. Investment Opportunities as Real Options. Boston, MA: Harvard Business Review, 1998.\r\n\r\nBrealey and Myers. Real Options. Chapter 22.\r\n20 \tCase: MW Petroleum Corporation (A) \t\r\n\r\nLuehrman, Timothy A., Peter Tufano, and Barbara D. Wall. MW Petroleum Corp. (A). Boston, MA: Harvard Business School Publishing, 1994. Case No. 9-295-029.\r\n21 \tLecture: Valuing a Company \t\r\n\r\nHiggins. Business Valuation and Corporate Restructuring. Chapter 9.\r\n\r\nBrealey and Myers. Mergers. Chapter 33.\r\n22 \tCase: Cooper Industries, Inc. \t\r\n\r\nPiper, Thomas R. Cooper Industries, Inc. Boston, MA: Harvard Business School Publishing, 1993. Case No. 9-274-116.\r\n23 \tCase: The Southland Corporation (A) \t\r\n\r\nRuback, Richard S., and Elizabeth H. McNair. Southland Corp. (A). Boston, MA: Harvard Business School Publishing, 1997. Case No. 9-291-038.\r\n\r\nBrealey and Myers. Leverage Buyouts, Spinoffs, and Restructurings. Chapter 34.1.\r\n\r\nJensen, Michael C. Eclipse of the Public Corporation. Boston, MA: Harvard Business Review, September 1989.\r\n24 \tWrap-Up of Valuation \t\r\n\tFinal Exam\r\n",
+      "creationDate": "2019-01-06T15:10:18.762Z",
+      "lastModified": "2019-01-06T15:12:06.000Z"
+    },
+    {
+      "id": "57fda968f2954a5ea9a6886fbe1346bd",
+      "content": "1 eur for espresso to mux\r\n\r\nI bought 6.30 of euro cigs\r\n\r\n36.12 of groceries\r\n\r\n5 from max for panini\r\n\r\n\r\n4.25+12+8.50 = 24.75 pay to max\r\n\r\n3 nastro 7.50",
+      "creationDate": "2019-01-01T16:31:24.216Z",
+      "lastModified": "2019-01-04T23:44:20.511Z"
+    },
+    {
+      "id": "5d043b3aaeae49c38280cd09510543fe",
+      "content": "Black dress with the tigts\r\nUnderneathn shes a hellen\r\nKeller slut with dick ",
+      "creationDate": "2019-01-02T20:37:00.104Z",
+      "lastModified": "2019-01-02T20:37:51.879Z"
+    },
+    {
+      "id": "5abb7ec499b64b838c932f6e56c3005a",
+      "content": "Grocery list\r\n\r\nLil trash bags\r\n",
+      "creationDate": "2019-01-02T07:08:05.779Z",
+      "lastModified": "2019-01-02T07:12:25.526Z"
+    },
+    {
+      "id": "a6ff1efa-e3f4-4ef7-a8dd-13f6882d9f42",
+      "content": "korean bar food\r\n\r\nnikhil - 10 + 10 + 4.72 = \r\n\r\nconor - 10 + 4.72 = \r\n\r\nbk - 7 + 11 + 4.5 + 4.72 = \r\n\r\nvirginia - 11 + 4.5 + 4.72 =\r\n\r\npeter - 10 + 11 + 2.5 + 4.72 = \r\n\r\ntip = (7.09+16.47) / 5 = 4.72",
+      "creationDate": "2018-12-28T19:12:02.243Z",
+      "lastModified": "2018-12-28T19:17:51.000Z"
+    },
+    {
+      "id": "7b9b122a30544140b4f48793dc38e6ad",
+      "content": "20791 bay club use lifestyle points",
+      "creationDate": "2018-12-20T19:36:12.576Z",
+      "lastModified": "2018-12-20T19:36:26.480Z"
+    },
+    {
+      "id": "284b2b18-ffbd-4fec-b3d0-a5eead1a706e",
+      "content": "ubereats mcds\r\n\r\n29.98/2 = 14.99\r\n\r\ntax+tip: (2.52+6.49)/2 = 4.51\r\ntotal -> 19.50",
+      "creationDate": "2018-12-17T16:49:39.068Z",
+      "lastModified": "2018-12-17T16:51:00.000Z"
+    },
+    {
+      "id": "c4502fac-c8c1-444d-af6e-4384b8360221",
+      "content": "trident brounch\r\n\r\npeople:\r\npeter, rhian, pyotr, max, alex, keith, liam, miles\r\n\r\npyotr -> southerwestern breakfsat burrito, 1/2 sweet potato fries, apple cider\r\n\r\npeter -> turvacado, 1/2 buffalo wings, chai latte\r\n5.32 + 3.95 + 0.5*8 + (13.95+2.75)\r\n\r\nmiles -> chicken+waffles,  turkey burger\r\n5.32 + 14 + 12.50\r\n\r\nalex -> lemon french toast, chicken basket, chai latte\r\n5.32 + 3.95 + 11.95 + 11.95\r\n\r\nkeith -> truck stop, 1/2 boneless wings\r\n5.32 + 0.5*8 + 13.95\r\n\r\nliam -> yerba matte latte, corned beef hash, 1/2 sweet potato fries\r\n5.32 + 4.75 + 7.50 + 2.88\r\n\r\nmax -> chicken+waffles, black coffee, 1/2 mega tots\r\n5.32 + 2.50 + 2.97 + 14\r\n\r\nrhian -> breakfast burrito, 1/2 mega tots\r\n5.32 +9.95 + 2.97\r\n\r\n\r\ntip+tax:\r\n11.20+31.31= 42.51 / 8 = 5.32 each\r\n",
+      "creationDate": "2018-12-17T16:26:04.489Z",
+      "lastModified": "2018-12-17T16:47:51.000Z"
+    },
+    {
+      "id": "5c9e3ad8b50b40a8af9f0401d379c9fb",
+      "content": "Madrid- capital",
+      "creationDate": "2018-12-16T18:09:09.106Z",
+      "lastModified": "2018-12-16T18:09:13.403Z"
+    },
+    {
+      "id": "76d8d01a573d48229f95653bf60f1f06",
+      "content": "Loew post bball podcasts",
+      "creationDate": "2018-12-13T20:42:23.234Z",
+      "lastModified": "2018-12-13T20:58:17.335Z"
+    },
+    {
+      "id": "d9a2fcb5aff84ba484cdb801f0bdaeaa",
+      "content": "Do you even like me?\r\nGirl i thought we vibin\r\nBut i cant tell if you really bout it\r\n\r\n",
+      "creationDate": "2018-12-13T08:52:18.578Z",
+      "lastModified": "2018-12-13T08:53:32.415Z"
+    },
+    {
+      "id": "da166877c5d54ad39ea00417e2ac5aa4",
+      "content": "6.035 derby afterparty\r\n\r\n1 handle malibu black\r\n1 bottle some nice whiskey\r\n2 six packs ipas",
+      "creationDate": "2018-12-11T13:21:05.014Z",
+      "lastModified": "2018-12-11T13:21:53.439Z"
+    },
+    {
+      "id": "e323767fdcbe44409f12f4fafc80fd10",
+      "content": "Easy salad\r\n\r\nDressing\r\nOne quarter of big lemon juiced\r\nSalt/pepper to taste\r\nOlive oil to taste\r\nSriracha to taste\r\n\r\nSalad\r\nPremixed cruciferous veggies (brussels, kale,  brocolli, cabbages)\r\nFirm tofu\r\nCrushed macadamia nuts\r\nMore sriracha\r\n\r\n",
+      "creationDate": "2018-12-07T00:43:08.331Z",
+      "lastModified": "2018-12-07T00:44:46.747Z"
+    },
+    {
+      "id": "cd19561b973747f59559b725b9a4f578",
+      "content": "Nasi rawon\r\n",
+      "creationDate": "2018-12-04T05:35:19.124Z",
+      "lastModified": "2018-12-04T05:35:29.631Z"
+    },
+    {
+      "id": "9b4fd375344e4191ada6ee18cbf0814b",
+      "content": "Throw caution\r\nTo the wind\r\n\r\n",
+      "creationDate": "2018-11-24T22:19:13.501Z",
+      "lastModified": "2018-11-24T22:19:39.686Z"
+    },
+    {
+      "id": "c14122cb5a1d4721b4b649ee6cb59fbd",
+      "content": "Take 2 day long hunter safety to go hunting with uncle chris",
+      "creationDate": "2018-11-22T00:56:55.521Z",
+      "lastModified": "2018-11-22T00:57:07.253Z"
+    },
+    {
+      "id": "471f6ffa44404c309b083bc10e768879",
+      "content": "\r\nGo to s^3\r\n\r\nThere was no precedent for the damages assessed. Last year, there was a dtyd poster that leaked paint into the wall by the 54. We got it approved after the fact and we never got charged. People liked this mural and we were never asked if we wanted it painted over.\r\n\r\nAlso, they painted over already existing murals that i should not be charged for. The portion of the wall that was actually my doing was ~15%. They painted so much\r\n\r\nThe fact that the 33rd showers were not fixed for 4 weeks was kind of interesting\r\n\r\nLastly, i dont have enough money lmao.",
+      "creationDate": "2018-11-14T05:01:44.702Z",
+      "lastModified": "2018-11-14T06:05:04.000Z"
+    },
+    {
+      "id": "4bfca8fc-9a2d-4576-a7db-62daee7eb5af",
+      "content": "todos for compiler\r\n\r\nfigure out local array addressing\r\n\r\n254 dynamic errors\r\n\r\nafter register allocation fills up registers, spillover onto the stack",
+      "creationDate": "2018-11-13T23:51:45.438Z",
+      "lastModified": "2018-11-14T00:11:30.000Z"
+    },
+    {
+      "id": "846536d3-27ef-48e9-8f9a-98f855f8f539",
+      "content": "questions about compiler grading\r\n\r\n",
+      "creationDate": "2018-11-13T21:47:56.871Z",
+      "lastModified": "2018-11-13T21:48:16.000Z"
+    },
+    {
+      "id": "4751657385fc40d0afc67551c5dfe745",
+      "content": "Climbing shoes\r\n\r\nEmile-mens 10.5\r\nAnna- womens 10, mens 8\r\nPeter- mens 12\r\n",
+      "creationDate": "2018-11-09T00:27:50.511Z",
+      "lastModified": "2018-11-09T00:28:35.845Z"
+    },
+    {
+      "id": "56e4d4d1-a2c0-4f9e-bfa9-4a643f1a5656",
+      "content": "todos for compiler 11/07\r\n\r\n-look at shortcircuit test\r\n\t- compiles, but doesn't pass\r\n\r\n\r\n-segfaults in accessing memory addresses not supposed to\r\n-more than 6 args, have to push onto stack\r\n\t-treating values as addresses or addresses as values?\r\n\t- only happens if method call uses method call w/ 6 args\r\n\t- 05-calls.dcf failing\r\n",
+      "creationDate": "2018-11-08T00:16:46.994Z",
+      "lastModified": "2018-11-08T00:25:12.000Z"
+    },
+    {
+      "id": "6d77cf71-080c-4617-9d41-f27247c98e07",
+      "content": "bottom-up liveness analysis\r\n\r\ntop-down optimizations like copy propagations\r\n\r\nshould be able to iterate up and down\r\n\r\nmaybe change from dict that maps from \r\n\r\n\r\nsplit every instruction into its own basic block\r\n\r\nadd parents field to cfgBlock case class\r\n\r\nflattening the AST:\r\ntraverse tree from left to right, each internal node will be a temp variable, and the leaf nodes will be their own variable\r\n-> depends on if the ast fulfills order of operations, which it should\r\n\r\n\r\n",
+      "creationDate": "2018-11-06T22:11:54.708Z",
+      "lastModified": "2018-11-07T23:51:07.000Z"
+    },
+    {
+      "id": "8d0b1236747243b19de990e3a846c6ef",
+      "content": "15.431 - entrepreneurial finance\r\n\r\n",
+      "creationDate": "2018-11-06T20:20:47.949Z",
+      "lastModified": "2018-11-06T20:21:00.723Z"
+    },
+    {
+      "id": "6f88b463-8bf6-4a9c-bed1-ab408f9d993b",
+      "content": "flow of low-level IR conversion\r\n\r\nAST & symbol tables\r\n|\r\n|\r\none giant symbol table (sorta like ssa, \r\n\tquestion - so we have to update all uses of that var as well? need a function to tell what ",
+      "creationDate": "2018-10-31T22:41:48.992Z",
+      "lastModified": "2018-10-31T22:50:27.000Z"
+    },
+    {
+      "id": "879e349e-40e5-438d-b5a8-c167777c967e",
+      "content": "call graph of what function calls the other function\r\n1. option is to have call insruction in basic block and make sure you push all registers, not a barnch basically\r\n\r\n\r\nadd unique names to variables in cfg, then can get rid of symbol table\r\n\r\none class with the start node of each cfg connected component\r\n\r\neach function is a different cfg\r\n\r\ndo bfs on the cfg start nodes to build up representation of entire program flow\r\n\r\nshort circuit conditionals -- check slides on how to do this?\r\nclassic test is to have a conditional:\r\n--------------------------------------------\r\nint counter = 0;\r\nbool checkIfTrue(int b) {\r\n  counter += 1;\r\n  return true;\r\n}\r\nint b = 1;\r\nbool a = false;\r\nif (a && checkIfTrue(b)) {\r\n// something\r\n}\r\n// assert(counter == 0)",
+      "creationDate": "2018-10-30T04:36:04.155Z",
+      "lastModified": "2018-10-31T03:32:09.000Z"
+    },
+    {
+      "id": "2eb1a346-25a7-4b2c-a184-9ccdd02bb6a3",
+      "content": "important goals:\r\n\r\nbreaking authentication\r\n\r\ninjecting false data\r\n\r\ninjecting false commands\r\n\r\n\r\n\r\n",
+      "creationDate": "2018-10-30T18:51:33.897Z",
+      "lastModified": "2018-10-30T18:59:30.000Z"
+    },
+    {
+      "id": "9b927576-fc91-4394-8291-f98b89ff848c",
+      "content": "1) function to convert AST to AST with temps\r\n\r\n2) convert simple things into assembly\r\n\tassignments\r\n\t",
+      "creationDate": "2018-10-28T21:31:29.975Z",
+      "lastModified": "2018-10-28T21:32:14.000Z"
+    },
+    {
+      "id": "0f057238-b5da-4931-a83c-5994beba9acb",
+      "content": "think about why making the modeling modular is good?\r\n\r\nscalability?\r\n\r\nusing a library could improve completeness of people's specifications\r\n\r\n\r\nusability?\r\n\r\nnah\r\n\r\nresearch into modbus protocol, see ways to find attack trees\r\n\r\ncompare vulnerable and safe protocols against class of attacks\r\n\r\nlook into people who've made languages for protocols\r\nsmt solver - z3\r\n\r\nprotocols like modbus and dnp3 (for smart energy grids), with known more secure protocols (like ssh?)",
+      "creationDate": "2018-10-26T17:43:41.562Z",
+      "lastModified": "2018-10-26T19:54:24.000Z"
+    },
+    {
+      "id": "e95d71ec-3d5a-428e-931c-de1f6176f02c",
+      "content": "focus on OpenPLC, and how to set up on linux and possibilities for next week\r\n\r\n\r\n\r\n",
+      "creationDate": "2018-10-26T19:52:41.494Z",
+      "lastModified": "2018-10-26T19:53:01.000Z"
+    },
+    {
+      "id": "ffdd3903-8d49-4bcf-87e5-82d367823a4a",
+      "content": "research idea: have someone make a new attack tree then use that to \"train\" planning system on how to change its planning representation",
+      "creationDate": "2018-10-26T16:20:53.558Z",
+      "lastModified": "2018-10-26T16:21:27.000Z"
+    },
+    {
+      "id": "2f4db295-22ae-4ae5-a4b4-d41652ddbd5b",
+      "content": "proj 4 intro notes:\r\n\r\nevery time array overflows, you're supposed to terminate program, on each array access you could throw, but if iterator is not near the ends of the image, then you don't have to check if out of bounds?\r\n\r\nfocus on optimization for doing bitshift instead of multiplication by 2\r\n\r\ncompiler derby will be largely processing large image arrays, so array handling will be important",
+      "creationDate": "2018-10-26T15:26:31.478Z",
+      "lastModified": "2018-10-26T15:31:56.000Z"
+    },
+    {
+      "id": "7be8494ad4e64c7b80509868d37158f3",
+      "content": "A Plan 9 C compiler for RISC-V [pdf]http://hn.premii.com/https://www.geeklan.co.uk/files/oshug69-Miller-criscv.pdf",
+      "creationDate": "2018-10-26T13:16:10.605Z",
+      "lastModified": "2018-10-26T13:16:14.320Z"
+    },
+    {
+      "id": "19d23d45-014c-4b40-939f-c8e5a043ddb4",
+      "content": "ideas for working with npm strips api:\r\nbe able to modify internal  representations domain/ object, when new fields are added, create functions for this. as opposed to having to modify the actual text pddl inputs and re-run the planning algorithm\r\n\r\nautomatically update the tree",
+      "creationDate": "2018-10-25T20:41:01.384Z",
+      "lastModified": "2018-10-25T20:43:39.000Z"
+    },
+    {
+      "id": "810acb1c-b11a-4462-9877-ffae6d550353",
+      "content": "superurop poster notes\r\n\r\n1-2 main takeaways\r\n\r\nwhy is this interesting? \r\n\r\nhow do you communicate the problem/phenomenon?\r\n\r\nvisual abstract? just like pictures of what your work is\r\n\r\ndon't list results in chronological way, focus on message\r\n\r\n",
+      "creationDate": "2018-10-25T20:16:14.633Z",
+      "lastModified": "2018-10-25T20:22:25.000Z"
+    },
+    {
+      "id": "e9a5fa12-1578-4a07-a2e7-ad9c9f515a56",
+      "content": "write helper function in decafAST that determines the type of an expr",
+      "creationDate": "2018-10-24T04:33:07.710Z",
+      "lastModified": "2018-10-24T04:33:28.000Z"
+    },
+    {
+      "id": "df55f515-d68b-4cb6-bb61-22aef4c0921d",
+      "content": "research check-in notes\r\n10/23\r\n\r\nlook into details of stuxnet attack -> how image file used dll\r\n\r\nblack boxes of scada systems\r\n\r\nplc as black box\r\nstuxnet attacked scada machine\r\n\r\ntalk to baltazar ortiz, \r\ntalk to arber/rhian about openplc",
+      "creationDate": "2018-10-23T18:24:43.986Z",
+      "lastModified": "2018-10-23T18:53:02.000Z"
+    },
+    {
+      "id": "381d982d-30fa-4f5f-ab19-87e484c7f7e1",
+      "content": "dutch brought indonesian food back to holland\r\n\r\nrijsstafel\r\nask olivia to help make it\r\n\r\nwhy did that specific type of food stick around? its a type of food like bbq",
+      "creationDate": "2018-10-23T03:42:38.098Z",
+      "lastModified": "2018-10-23T03:47:57.000Z"
+    },
+    {
+      "id": "eee5b13d-f04b-4c28-99f9-eb2057aaf99e",
+      "content": "stasis concepts\r\n\r\nfact -> definition -> causation -> evaluation -> policy\r\n\r\nwhich stases are open and which are closed for new viewers?\r\nidk what this means, but here's a chain of logic\r\n\r\nwhat is difference between a fact and a definition?\r\n\r\ne.g.:\r\nfact/definition: scada systems are types of systems that control physical equipment in water purification plants, electric power plants, oil refineries, etc.\r\nfact/definition: there have been a litany of attacks against these systems through both physical and networked attack vectors.\r\ncausation: idk\r\nevaluation: idk\r\npolicy: idk\r\n",
+      "creationDate": "2018-10-17T18:37:36.838Z",
+      "lastModified": "2018-10-17T18:40:48.000Z"
+    },
+    {
+      "id": "f7648afd-ad80-4e04-8be9-1e61fc8e762d",
+      "content": "notes about changes to ast\r\n\r\nwhy do we have Seq[FieldDecl] in our WhileBlock for example, when we need to reduce each statement down the tree to make a real ast?",
+      "creationDate": "2018-10-17T15:45:39.044Z",
+      "lastModified": "2018-10-17T15:46:50.000Z"
+    },
+    {
+      "id": "85c92bfa3f53418b90fe5fca4bdba61d",
+      "content": "Vectorized Emulation: fuzzing at 2 trillion instructions per secondhttp://hn.premii.com/https://gamozolabs.github.io/fuzzing/2018/10/14/vectorized_emulation.html",
+      "creationDate": "2018-10-17T15:02:36.968Z",
+      "lastModified": "2018-10-17T15:02:39.854Z"
+    },
+    {
+      "id": "cd26d7a7-3be2-40be-a145-7d973e54dc69",
+      "content": "(a+b)+c => (a+(b+c)) doesnt work bc it depends on 2's complement overflowing?",
+      "creationDate": "2018-10-16T15:43:35.032Z",
+      "lastModified": "2018-10-16T15:44:30.000Z"
+    },
+    {
+      "id": "9b8f360aa1154545b5c53d9e914a6bb7",
+      "content": "Primitive technologies youtube channel",
+      "creationDate": "2018-10-16T05:14:17.658Z",
+      "lastModified": "2018-10-16T05:14:32.221Z"
+    },
+    {
+      "id": "fcf58e79-1a7a-4ff6-b2b2-05234ebb2c76",
+      "content": "grocery list\r\n\r\nBrown rice\r\nFrozen dumps\r\nMuesli\r\nCliff bars\r\n\r\ndinners:\r\nhard tofu (x2?) y\r\nstir fry sauce y\r\nfrozen brown rice\r\nbrocolli florets (x2) y\r\na few onions y\r\npeppers y\r\nfrozen dumplings\r\npre-made salads y\r\n\r\nbreakfasts:\r\nwhole lotta muesli\r\nalmond milk y\r\nsome yogurt y\r\nwhole wheat bread y\r\neggs y\r\nKale/spinach for eggs y\r\n\r\nsnacks:\r\ntortillas y\r\ncheese y\r\npita chips y\r\nhummus y\r\ncliff barz\r\nalmond butter y\r\njelly y",
+      "creationDate": "2018-10-15T13:07:32.292Z",
+      "lastModified": "2018-10-15T13:50:59.691Z"
+    },
+    {
+      "id": "1f0fc0b85020415f89c8a7c8c28f9252",
+      "content": "Show HN: Lisp with copying GC in 537 lines of C (plus Lisp 1.5 on top)http://hn.premii.com/https://github.com/krig/LISP",
+      "creationDate": "2018-10-15T00:56:22.014Z",
+      "lastModified": "2018-10-15T00:56:25.345Z"
+    },
+    {
+      "id": "df1dcf85-ceda-4c52-97a3-a9e45b1c00a1",
+      "content": "array of integers, how do you find if two sum to zero\r\nreturn true or false answer",
+      "creationDate": "2018-10-12T17:33:30.970Z",
+      "lastModified": "2018-10-12T17:34:00.000Z"
+    },
+    {
+      "id": "075f6b57-8ed0-4a73-9aa5-4a43a3f7a19b",
+      "content": "grocery list\r\n\r\n",
+      "creationDate": "2018-10-11T18:57:28.294Z",
+      "lastModified": "2018-10-11T19:00:57.000Z"
+    },
+    {
+      "id": "cfb2e7e6-043a-4e6b-928b-dbaa2d3ae156",
+      "content": "ab initio portmortem:\r\n\r\n1st interview - went pretty well, implemented pseudocode in graph language. would be good to know implementations of data structures (set) in different programming languages - like typescript or python or java\r\n\r\n2nd interview - know mergesort/recursion better, how python duplicates arrays when made into slices, how c++ puts local scope variables onto stack then destroys them when out of scope\r\n\r\n3rd interview - went badly, review quicksort, review how to make a hash map (in some language like python), review how to interact with binary trees, review difference between process and thread, a thread needs registers and a stack",
+      "creationDate": "2018-10-10T21:11:30.124Z",
+      "lastModified": "2018-10-10T21:16:54.000Z"
+    },
+    {
+      "id": "350ab993a8ce4e36a2c0474fb6b85ad7",
+      "content": "6.S974 Decentralized Applications, Fall 2018http://hn.premii.com/http://nil.lcs.mit.edu/6.S974/",
+      "creationDate": "2018-10-10T19:13:29.121Z",
+      "lastModified": "2018-10-10T19:13:32.696Z"
+    },
+    {
+      "id": "64d6de0b0552401fae68c24754618eb2",
+      "content": "How to Get Things Done When You Don't Feel Like Ithttp://hn.premii.com/https://queue.acm.org/detail.cfm?id=3280677",
+      "creationDate": "2018-10-10T04:57:05.633Z",
+      "lastModified": "2018-10-10T04:57:08.452Z"
+    },
+    {
+      "id": "4a6269952ee2463198d82abe8ae20e21",
+      "content": "Laurens oath order\r\nVegan cheese\r\nSpinach\r\nGarlic\r\nChili oil\r\nMushrooms\r\nRoasted cherry tomato sauce",
+      "creationDate": "2018-10-07T15:56:18.506Z",
+      "lastModified": "2018-10-07T15:58:39.895Z"
+    },
+    {
+      "id": "43b769b1-b5a5-4717-86ed-673b6dfcd49a",
+      "content": "hackathon idea:\r\nvisual tool for interacting with blockchains -- educational",
+      "creationDate": "2018-10-05T17:35:13.048Z",
+      "lastModified": "2018-10-05T17:35:31.000Z"
+    },
+    {
+      "id": "4c19c1406ae74f809e081cc8ad74fce0",
+      "content": "Grocery list\r\n\r\nEggs\r\nWhole wheat toast\r\n\r\nVeggies\r\nBroc\r\nOnion\r\n\r\nPeppers\r\nTofu\r\nEasy rice\r\nSauce\r\nMinced ginger\r\n\r\n\r\nMuesli\r\nAlmond milk\r\n\r\n",
+      "creationDate": "2018-09-30T21:28:53.611Z",
+      "lastModified": "2018-09-30T21:30:49.919Z"
+    },
+    {
+      "id": "d4ad90d835404b31866df9c089a4b979",
+      "content": "The Art of Approximation in Science and Engineering [pdf]http://hn.premii.com/http://web.mit.edu/6.055/book/book-draft.pdf",
+      "creationDate": "2018-09-30T01:25:55.562Z",
+      "lastModified": "2018-09-30T01:25:59.221Z"
+    },
+    {
+      "id": "44c47e237ea04c2abe9d902c3b5629e0",
+      "content": "Idea for app:\r\nMerges people’s gcals to automically find the best times to meet",
+      "creationDate": "2018-09-29T20:42:43.704Z",
+      "lastModified": "2018-09-29T20:42:58.742Z"
+    },
+    {
+      "id": "02177d12-e6e7-4e7a-858c-51e4edbbb1f6",
+      "content": "superurop notes:\r\nfocus on specifics\r\n\r\nidea: focus on remote code execution through buffer overflows\r\nmodel stack and then try to get to goal state using some heuristics\r\nproblem: normally attackers in these attackers could know about the code, but this would assume no prior knowledge of the specific code\r\n\r\nidea: model privilege escalation using ",
+      "creationDate": "2018-09-26T20:00:02.637Z",
+      "lastModified": "2018-09-27T04:16:31.000Z"
+    },
+    {
+      "id": "5e8470a8-fbce-446b-a497-162cac04d776",
+      "content": "ab initio interview notes:\r\ndavid is interviewer\r\n\r\n500-1000 people in ab initio\r\n200ish - 500 people in lexington\r\nbuilding expensive complex systems that move data for big companies that do something else, fedex/home depot\r\n\r\nc++/linux backend, java\r\n\r\nreact on frontend\r\n\r\ndevelopment org\r\ninternal consulting\r\nfield \r\n\r\nwhy ab initio?\r\nclose to 1 billion in revenue\r\n\r\n80%th percentile hard tech problems, collaborative environment",
+      "creationDate": "2018-09-26T19:42:57.171Z",
+      "lastModified": "2018-09-27T04:04:37.000Z"
+    },
+    {
+      "id": "9178bc87d300412d8b17d690f4ff2ce0",
+      "content": "Holding a Program in One's Head (2007)http://hn.premii.com/http://paulgraham.com/head.html",
+      "creationDate": "2018-09-21T19:56:06.606Z",
+      "lastModified": "2018-09-21T19:56:10.098Z"
+    },
+    {
+      "id": "e054ead9cb064146961a7ad12359286d",
+      "content": "You and Your Research (1986)http://hn.premii.com/http://www.cs.virginia.edu/~robins/YouAndYourResearch.html",
+      "creationDate": "2018-09-19T07:56:08.295Z",
+      "lastModified": "2018-09-19T07:56:11.904Z"
+    },
+    {
+      "id": "59c829ea-0e0b-45ef-8eac-e81693212b3a",
+      "content": "ideal company\r\n\r\n- work on relevant systems or security (distributed systems, security, etc.)\r\n\r\napple 7/10\r\n",
+      "creationDate": "2018-09-18T20:58:07.129Z",
+      "lastModified": "2018-09-18T21:00:17.000Z"
+    },
+    {
+      "id": "b7ff5244-83bc-406e-9ed0-799947555696",
+      "content": "superurop project\r\n\r\nfocus on the attack generator rather than the application of JPL\r\nlook through att\r\n\r\nbreak it up by looking at major categories\r\n\r\n\r\npersistence\r\ndot files\r\nLoginLoad on macs\r\n\r\ncodifying attacker knowledge\r\nplanning for threat modeling\r\n\r\n\r\npersistence\r\nprivilege escalation\r\n\r\npapers\r\nbruce schneider -- attack tree generation\r\nhowie - co\r\nattack planning, attack graph generation\r\n\r\ndo initial literature search\r\nfamiliarize self with metasploit, kali, nmap\r\nthen go across different names\r\n\r\ngive a month for each category to define rules\r\n\r\ncwe = common weak enumeration\r\ncve = common vuln exumeration\r\n\r\ntry to find examples of cves when looking at a specific tactic\r\n\r\npersistence\r\n\r\nprotostar exercises\r\n\r\nmudge ul for cyber\r\n\r\nmethod:\r\nwrite planning rules/codified knowledge of security according to some known ontology (ie MITRE ATT&CK), then create models based on \r\n\r\n",
+      "creationDate": "2018-09-18T18:21:01.037Z",
+      "lastModified": "2018-09-18T19:10:04.000Z"
+    },
+    {
+      "id": "19fca488-ba12-44d0-b6d8-c845d53cc61f",
+      "content": "good ideas\r\n\r\nwrite a compiler in sed",
+      "creationDate": "2018-09-18T04:06:24.101Z",
+      "lastModified": "2018-09-18T04:06:31.000Z"
+    },
+    {
+      "id": "a8a54f10-26da-476a-af6d-26b619a856e1",
+      "content": "magit - frontend for git in emacs keybindings",
+      "creationDate": "2018-09-18T02:50:09.738Z",
+      "lastModified": "2018-09-18T02:50:20.000Z"
+    },
+    {
+      "id": "adddf040-776a-4b45-bcf6-1350652e782c",
+      "content": "antlr notes\r\n\r\nsingle quot for chars and double for strings",
+      "creationDate": "2018-09-18T00:41:47.553Z",
+      "lastModified": "2018-09-18T00:42:01.000Z"
+    },
+    {
+      "id": "c48fe0bb-7c00-48e7-9f3a-a46bdc2a7b77",
+      "content": "resume critique feedback\r\n\r\n",
+      "creationDate": "2018-09-17T19:46:08.436Z",
+      "lastModified": "2018-09-17T20:06:33.000Z"
+    },
+    {
+      "id": "e372e95c303b48f6a6beff679779b80f",
+      "content": "2 racks 16 x 2 = 32\r\n\r\n20\r\n\r\n29\r\n\r\n42\r\n\r\n\r\n",
+      "creationDate": "2018-09-15T02:38:26.797Z",
+      "lastModified": "2018-09-15T02:40:34.735Z"
+    },
+    {
+      "id": "8f20e66ed0684b5cb58aa38ff56c9b31",
+      "content": "Conf room near howie wed 6-8",
+      "creationDate": "2018-09-14T20:25:12.195Z",
+      "lastModified": "2018-09-14T20:25:21.536Z"
+    },
+    {
+      "id": "8513b1a06b4040cca38082cf15a19980",
+      "content": "Security question-\r\nAre there methods for deciding how “important” or “sensitive” data is?\r\n\r\nObviously ssns are important, but what about other data like location etc?",
+      "creationDate": "2018-09-13T20:31:54.259Z",
+      "lastModified": "2018-09-13T20:32:59.227Z"
+    },
+    {
+      "id": "b6972bdd-bb49-4e7e-80ea-8e3a01481fd4",
+      "content": "can't connect many wifi dependent devices to certain types of networks\r\n\r\nfor example: apple tv doesn't connect to hotel wifi network because of guest browser login\r\n\r\nsame thing with router on mitnet ethernet",
+      "creationDate": "2018-09-12T18:59:53.222Z",
+      "lastModified": "2018-09-12T19:00:44.000Z"
+    },
+    {
+      "id": "a8d3dd31-59ee-4fc8-bccf-f667abf39e82",
+      "content": "urop hours spent\r\n\r\n09/06:\r\n9:45 am - 11:00 am (1.25 hrs)\r\n\r\n09/07:\r\n12:00 pm - 2:00 pm (2 hrs)\r\n3:30 pm - 5:00 pm (1.5 hrs)\r\n\r\nFirst wk = 4.75 hrs\r\n\r\n------------------------------ \r\n\r\n 09/10:\r\n11:30 pm - 1:00 am (1.5 hrs)\r\n09/11:\r\n8:30-10:00 am (1 hrs)\r\n2:00-4:00 pm (2 hrs)",
+      "creationDate": "2018-09-06T14:09:55.752Z",
+      "lastModified": "2018-09-11T22:56:38.000Z"
+    },
+    {
+      "id": "2c97acb8-000e-489c-a9a6-e0ebbb301901",
+      "content": "meeting minutes:\r\n\r\n* we're gonna drink beer\r\n* digital grocery management\r\n* why does my fridge smell bad?\r\n* reminders \"your avocados have been in the fridge for 5 days\"",
+      "creationDate": "2018-09-11T21:34:19.557Z",
+      "lastModified": "2018-09-11T21:37:21.000Z"
+    },
+    {
+      "id": "6471c3e9-2a69-4bcb-b98d-80184a5f4bd9",
+      "content": "vr app that shows you to solve rubiks cube",
+      "creationDate": "2018-09-11T20:06:08.718Z",
+      "lastModified": "2018-09-11T20:06:51.000Z"
+    },
+    {
+      "id": "e4e3b9c3-7566-4803-91e9-5e9c31739b30",
+      "content": "research notes:\r\n\r\n-coming up with evaluation metrics using jpl data and cvss scores\r\n\r\n-figure out scope (networks&infosec?)",
+      "creationDate": "2018-09-11T19:10:23.302Z",
+      "lastModified": "2018-09-11T19:46:28.000Z"
+    },
+    {
+      "id": "c51d55bf-8003-4c28-a84b-b898ba9e524a",
+      "content": "Questions for Yui\r\n\r\n1. problems installing fast-downward, how do you install?\r\n2. how does derived predicate work?\r\n\t3. how do we use this to encode the planner predicates?\r\n4. what is ADL? is it different from the Fast Downward planner?\r\n",
+      "creationDate": "2018-09-11T12:45:44.243Z",
+      "lastModified": "2018-09-11T18:25:13.000Z"
+    },
+    {
+      "id": "b50897c6974c412288b582874f211fae",
+      "content": "What did i do on monday 9/10:\r\nSpent 1 hour 3-4 organizing shelf, fixing headphones\r\n\r\nSpent 2 hours working out\r\nSpent 30-1 hr organizing binder\r\n\r\nSpent x hrs on hass reading\r\nSpent x hrs on superurop research\r\nSpent x hrs on 6.035",
+      "creationDate": "2018-09-10T23:13:07.080Z",
+      "lastModified": "2018-09-10T23:16:42.876Z"
+    },
+    {
+      "id": "17715c915cff4327848e7af23a7665d5",
+      "content": "How Discord Handles Two and Half Million Concurrent Voice Users Using WebRTChttp://hn.premii.com/https://blog.discordapp.com/how-discord-handles-two-and-half-million-concurrent-voice-users-using-webrtc-ce01c3187429\r\n",
+      "creationDate": "2018-09-10T18:12:26.501Z",
+      "lastModified": "2018-09-10T18:13:01.612Z"
+    },
+    {
+      "id": "8ee4f2cd-cd14-4c2b-a00f-46658b81cb02",
+      "content": "Official 7.012 rec:\r\nR05-Doug: MW12 in 24-307\r\n\r\none i want:\r\nR08-Brian: TR10 in 26-204",
+      "creationDate": "2018-09-10T03:03:08.782Z",
+      "lastModified": "2018-09-10T03:05:16.000Z"
+    },
+    {
+      "id": "48e5e6d9-dbf6-45cb-a64d-aa12b5b5556e",
+      "content": "mimosas\r\n\r\nmitch - 33.69 / 6\r\nalexis\r\nhannah\r\nasli\r\nvictor\r\npeter",
+      "creationDate": "2018-09-08T16:41:02.060Z",
+      "lastModified": "2018-09-08T16:41:48.000Z"
+    },
+    {
+      "id": "410288c17f6b48ed9d12fed6c7a2b662",
+      "content": "Rocky, hockey, and bukake\r\n\r\nHave you ever wanted to punch Kyle in the face? Have you ever wanted to punch Victor in the face? Well now’s your chance. Fight Night will be man on man, in the ring. \r\n\r\nEat your pride, drink some fucking whiskey, man up. First of all there are some ground rules\r\n\r\n1. No touching of the hair or face\r\n2. If you are fighting Sean you must punch him in the face or the nads\r\n3rd. There are no other rules. Fight!\r\n\r\nA btb “\r\nkyle vs spencer: ‘please sir may i have anna-other?’\r\n”comm.prod",
+      "creationDate": "2018-09-08T04:22:25.350Z",
+      "lastModified": "2018-09-08T04:26:28.272Z"
+    },
+    {
+      "id": "05b872ee-f889-411f-b518-74830bee850c",
+      "content": "16.413 - planning course",
+      "creationDate": "2018-09-07T20:17:51.436Z",
+      "lastModified": "2018-09-07T20:18:02.000Z"
+    },
+    {
+      "id": "09eb15c6-c9af-41d6-992c-5562f707ed3e",
+      "content": "6.035 9/06\r\n\r\ngenerative approach vs recognition approach\r\n\r\ngenerative approach involves nondeterminism if >1 string\r\n\r\nregular expression and context-free grammars are how we structure computer languaues\r\n\r\n a language is a set of strings\r\n\r\nREGULAR EXPRESSIONS\r\n\r\nare regular expressions a language\r\nyes - they are tecnically strings that define another language\r\nno - they are a meta-language that defines another langauge\r\n\r\nMML\r\n------\r\nRegExp\r\n------\r\nStrings\r\n\r\nFINITE-STATE AUTOMATA\r\n\r\ntakes in strings, runs letter through state transitions, continue until end of string or string fails\r\n\r\nDFA vs. NFA\r\nDFA - deterministic finite automata\r\nNFA - nondeterministic finite automata\r\n\r\nthe nfa accepts the string if there is some way to get to the accepted state\r\n\r\nat the end of the day want a DFA so we can program it\r\nconverting NFA to DFA: start states have all possible states from original start going by epsilon to get there\r\n\r\nQuestions:\r\nwhat is a meta-meta-language? like i know what it is but are there examples?\r\n\r\n",
+      "creationDate": "2018-09-06T15:09:34.518Z",
+      "lastModified": "2018-09-06T15:57:26.000Z"
+    },
+    {
+      "id": "7a18bc46-c7bf-414c-9013-7b74569cb1ab",
+      "content": "6.828 first lecture 9/05\r\n\r\nOS purpose\r\n- hide HW details\r\n- make life of application programmer easier\r\n- run >1 app\r\n- Isolation\r\n- Sharing\r\n- Performance\r\n\r\nOS views\r\n- library (abstract some HW resources, etc)\r\n\t- minimal view of an OS\r\n- abstract machine\r\n\t- instead of hard disk, you get files\r\n\t- bigger view of what an OS is\r\n\t- ",
+      "creationDate": "2018-09-05T17:06:41.045Z",
+      "lastModified": "2018-09-05T17:16:05.000Z"
+    },
+    {
+      "id": "a2346b23-ebdf-425e-829f-cdabb9755725",
+      "content": "6.035 first lecture\r\n\r\nOH/relecture tomorrow 9/6 from 4-6 pm in 2-135\r\n\r\n\r\n\r\n",
+      "creationDate": "2018-09-05T15:12:38.900Z",
+      "lastModified": "2018-09-05T15:19:23.000Z"
+    },
+    {
+      "id": "3257f735cb024c72b1bf22547ad5cc2f",
+      "content": "Bio lecture 9/05\r\n\r\n",
+      "creationDate": "2018-09-05T14:06:52.777Z",
+      "lastModified": "2018-09-05T14:07:12.045Z"
+    },
+    {
+      "id": "50a50c42-5849-48b8-9493-328d91ddc658",
+      "content": "amazon fresh order 09/03rd\r\n\r\nred solo cups\r\nfrozen burritos\r\neggs\r\nziploc bags\r\npaper towels\r\ntissues",
+      "creationDate": "2018-09-03T21:48:43.241Z",
+      "lastModified": "2018-09-04T03:05:58.000Z"
+    },
+    {
+      "id": "e4488f36-eca8-403f-8049-93e49b4a5e10",
+      "content": "33.69 for mimosas\r\n\r\nmitch\r\npeter\r\nvictor\r\n",
+      "creationDate": "2018-09-03T22:21:03.997Z",
+      "lastModified": "2018-09-03T22:21:19.000Z"
+    },
+    {
+      "id": "c62877e5a915495eb20aaae1429d3e0c",
+      "content": "A deep dive into the Go memory allocator and garbage collector\r\nhttps://about.sourcegraph.com/go/gophercon-2018-allocator-wrestling/\r\n",
+      "creationDate": "2018-08-31T10:56:09.440Z",
+      "lastModified": "2018-08-31T10:56:36.519Z"
+    },
+    {
+      "id": "8cb01a22-2d0c-4c1e-b4b7-82bd2759a32c",
+      "content": "1st Sausagefest:\r\n\r\n$ to spend: $295\r\n\r\nBeer: \r\n2 racks of high life\r\n $20/rack * 2 racks = $40\r\n$ left: 255\r\n\r\nBourbon whiskey:\r\n1. For sure get a 1.75 L handle of Old Forester 86, it is an expert rated 96/100 whiskey and is very reasonably priced for how good it is\r\nPrice: $32.99 for 1.75 L \r\nhttps://www.totalwine.com/spirits/bourbon//old-forester-86/p/1817175?s=1103&igrules=true\r\n\r\n$ left: 222\r\n\r\n2. In addition, you should also get Woodford Reserve Double Oaked Bourbon, this is rated one of the best whiskies in the world in 2016.\r\nPrice: $47.99  for 750 ml\r\nhttps://www.totalwine.com/spirits/bourbon/small-batch-bourbon/woodford-reserve-double-oaked-bourbon/p/120640750?s=1103&igrules=true\r\n\r\n$ left: 174\r\n\r\n3rd. For future sausagefests we need another handle, get the Two Stars Bourbon, same price as handle of better known stuff like bulleit/jack/makers mark but waay better in reality.\r\nPrice: $33.99 for 1.75 L\r\nhttps://www.totalwine.com/spirits/bourbon/small-batch-bourbon/two-stars-bourbon/p/124772175?s=1103&igrules=true\r\n\r\n$ left: 140.01\r\n\r\nScotch whiskey:\r\nFor absolute fucking sure get Ardbeg 10year, it is my personal favorite whiskey of all time. It is also a steal at the total wine price, please get this please mitch\r\nPrice: $47.99 for 750 ml\r\nhttps://www.totalwine.com/spirits/scotch/single-malt/ardbeg-10yr/p/95385750?s=1103&igrules=true\r\n\r\n$ left: 92.02\r\n\r\nJapanese whiskey:\r\nSuntory Whisky Toki is a highly rated japanese whiskey and is really reasonably priced here:\r\nPrice: $35.99 for 750 ml\r\nhttps://www.totalwine.com/spirits/scotch/single-malt/suntory-whisky-toki/p/171668750?s=1103&igrules=true\r\n\r\n$ left: 56.03\r\n\r\nLet's leave the rest for food...\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "creationDate": "2018-08-31T09:40:45.348Z",
+      "lastModified": "2018-08-31T10:12:48.000Z"
+    },
+    {
+      "id": "e7e59dfa659a4ebcb19d5cf05f5e7fa4",
+      "content": "Master lock combo:\r\n12-14-24",
+      "creationDate": "2018-08-31T08:50:23.736Z",
+      "lastModified": "2018-08-31T08:50:52.036Z"
+    },
+    {
+      "id": "50453e7921cc4746ab885834b1de5d89",
+      "content": "Make a home automation app with amazon echo, google home, or apple home that retrieves ur energy data and you can then ask “how much am i spending on my energy bill this month?”",
+      "creationDate": "2018-08-29T01:22:41.260Z",
+      "lastModified": "2018-08-29T01:23:32.716Z"
+    },
+    {
+      "id": "081c8592-a753-4e85-8e35-c23a54a88bce",
+      "content": "From OS X to Ubuntu\r\n​\r\nhttp://hn.premii.com/#/article/13361019",
+      "creationDate": "2018-08-28T19:04:43.098Z",
+      "lastModified": "2018-08-28T19:05:06.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "96ca9cdd-0abf-4066-895b-39c905db1e1b",
+      "content": "The Reality of Developer Burnout\r\n\r\nhttp://hn.premii.com/#/article/13330233",
+      "creationDate": "2018-08-28T19:04:36.343Z",
+      "lastModified": "2018-08-28T19:04:43.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "71a49ed6-c63b-4669-b355-62699fcefe94",
+      "content": "A dynamic programming solution to the n-queens problem (1992) [pdf]\r\n\r\nhttp://hn.premii.com/#/article/13276975",
+      "creationDate": "2018-08-28T19:04:02.601Z",
+      "lastModified": "2018-08-28T19:04:21.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "d31a1720-aed3-4232-ac69-8a5edb9cd40e",
+      "content": "Computer Science from the Bottom Up (2013)\r\n\r\nhttp://hn.premii.com/#/article/13249675",
+      "creationDate": "2018-08-28T19:03:42.156Z",
+      "lastModified": "2018-08-28T19:04:02.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "3e86b426-ae4d-4c6b-ac99-2ba30c5b09fc",
+      "content": "System loads web pages 34 percent faster by fetching files more effectively\r\n\r\nhttp://hn.premii.com/#/article/13208325",
+      "creationDate": "2018-08-28T19:03:21.594Z",
+      "lastModified": "2018-08-28T19:03:42.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "92690381-92f6-4914-980e-e14b0a378205",
+      "content": "Show HN: A visual guide to the most popular CSS properties\r\n\r\nhttp://cssreference.io/#hn\r\n",
+      "creationDate": "2018-08-28T19:03:09.746Z",
+      "lastModified": "2018-08-28T19:03:21.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "fb727344-cd5a-47b4-8f99-2b9b85da4337",
+      "content": "Does It Make Sense for Programmers to Move to the Bay Area?\r\n\r\nhttp://blog.triplebyte.com/does-it-make-sense-for-programmers-to-move-to-the-bay-area",
+      "creationDate": "2018-08-28T19:01:39.565Z",
+      "lastModified": "2018-08-28T19:01:48.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "11f053cf-e764-483f-a529-59b30799c694",
+      "content": "Elementary proof that e is irrational\r\n\r\nhttp://fermatslibrary.com/s/elementary-proof-that-e-is-irational",
+      "creationDate": "2018-08-28T19:00:01.285Z",
+      "lastModified": "2018-08-28T19:01:00.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "23bd4f82-529a-4523-abf0-3cfc18744801",
+      "content": "Athena cluster: 35109#",
+      "creationDate": "2018-08-28T18:59:51.754Z",
+      "lastModified": "2018-08-28T19:00:00.000Z"
+    },
+    {
+      "id": "79533224-6b62-44ac-9377-e735b0a44747",
+      "content": "Dynamic Programming in Python: Bayesian Blocks (2012)\r\n\r\nhttp://hn.premii.com/#/article/13663541",
+      "creationDate": "2018-08-28T18:44:59.560Z",
+      "lastModified": "2018-08-28T18:45:07.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "9bc3eb48-68db-4966-b39b-8a66a1b88894",
+      "content": "Building a Hackintosh Pro\r\n\r\nhttp://hn.premii.com/#/article/13901752",
+      "creationDate": "2018-08-28T18:44:16.054Z",
+      "lastModified": "2018-08-28T18:44:46.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "4ac18331-ade1-4c85-aed6-f05743657bbd",
+      "content": "Gollvm from Google\r\nhttp://hn.premii.com/#/article/14429825\r\n",
+      "creationDate": "2018-08-28T18:43:46.623Z",
+      "lastModified": "2018-08-28T18:44:16.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "851ab84b-3ea7-403b-bc81-b28085606d1b",
+      "content": "Reverse engineering guide for beginners: Methodology and tools\r\n\r\nhttp://hn.premii.com/#/article/14537506",
+      "creationDate": "2018-08-28T18:43:12.812Z",
+      "lastModified": "2018-08-28T18:43:41.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "d9e96cf8-40d5-4e34-9028-b1dc42d28662",
+      "content": "Classic Papers: Articles That Have Stood the Test of Time\r\n\r\nhttp://hn.premii.com/#/article/14575501",
+      "creationDate": "2018-08-28T18:42:52.560Z",
+      "lastModified": "2018-08-28T18:43:12.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "1a94e8a5-c134-4263-8229-5704660a688a",
+      "content": "Back/shoulder workout\r\nWarmup with side/front raises\r\nSitting dumbell lift (10-8-6)\r\nShoulder Pull downs (10-8-6)\r\nBench side raises (12) cycle with abs\r\nSide, front raises cycle with abs\r\nRun for 10 min up to 9\r\n​",
+      "creationDate": "2018-08-28T18:42:41.627Z",
+      "lastModified": "2018-08-28T18:42:52.000Z"
+    },
+    {
+      "id": "5721a365-a64d-49b4-80e5-35e06ee0a5cc",
+      "content": "Chest/arms workout\r\nBench (only if have spotter)\r\nDumbbell bench\r\n​",
+      "creationDate": "2018-08-28T18:36:35.423Z",
+      "lastModified": "2018-08-28T18:42:40.000Z"
+    },
+    {
+      "id": "3057589c-36c2-4c1d-804c-1ed6d4a341d4",
+      "content": "BuckleScript: An OCaml to JavaScript compiler\r\n\r\nhttp://hn.premii.com/#/article/15111265",
+      "creationDate": "2018-08-28T18:36:16.207Z",
+      "lastModified": "2018-08-28T18:36:34.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "c62990df-c333-4d34-950c-fa790891d774",
+      "content": "Draggable JS – a lightweight, responsive, modern drag-and-drop library\r\n\r\nhttp://hn.premii.com/#/comments/15368104",
+      "creationDate": "2018-08-28T18:35:53.492Z",
+      "lastModified": "2018-08-28T18:36:16.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "f0ea268a-647b-4c45-8d1e-e94ea2e8e823",
+      "content": "Cheatsheet for modern javascript\r\n\r\nhttp://hn.premii.com/#/article/15376331",
+      "creationDate": "2018-08-28T18:35:42.377Z",
+      "lastModified": "2018-08-28T18:35:52.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "2d50b9b6-b35f-46ca-99da-b0bfd5363a86",
+      "content": "Modern B-Tree Techniques (2011)\r\n\r\nhttp://hn.premii.com/#/comments/15409757",
+      "creationDate": "2018-08-28T18:34:24.593Z",
+      "lastModified": "2018-08-28T18:34:54.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "0218c928-d900-48af-9a4d-99f8161efe93",
+      "content": "A Simple Approach to Building a Real-Time Collaborative Text Editor\r\n\r\nhttp://hn.premii.com/#/article/15424437",
+      "creationDate": "2018-08-28T18:34:13.615Z",
+      "lastModified": "2018-08-28T18:34:22.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "ef095bfc-38d7-4492-9786-8cc729823c6b",
+      "content": "Idea: tool for finding the approximate runtime of a program (can round off for asymptotic notation). Would use statistics and stuff to get decent numbers for time and maybe space\r\n​",
+      "creationDate": "2018-08-28T18:34:02.791Z",
+      "lastModified": "2018-08-28T18:34:05.000Z"
+    },
+    {
+      "id": "f64aa557-6b65-44f5-9a8f-da1079ade401",
+      "content": "Security analysis of telegram: 6.857 final project\r\n\r\nhttp://hn.premii.com/#/comments/15606169",
+      "creationDate": "2018-08-28T18:33:12.299Z",
+      "lastModified": "2018-08-28T18:33:34.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "233715f2-406c-4b5e-b1f1-249837d91c1b",
+      "content": "The Tensor Algebra Compiler\r\n\r\nhttp://hn.premii.com/#/comments/15599914",
+      "creationDate": "2018-08-28T18:33:04.699Z",
+      "lastModified": "2018-08-28T18:33:12.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "1bb69f84-fa7a-4944-af4a-b1c8bfe78bdd",
+      "content": "Firefox’s new streaming and tiering compiler\r\n\r\nhttp://hn.premii.com/#/comments/16169236",
+      "creationDate": "2018-08-28T18:32:42.936Z",
+      "lastModified": "2018-08-28T18:32:50.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "df4197db-c2fe-4326-ab57-b24d7620f2c0",
+      "content": "Ideas for security side project:\r\nIntel sgx application\r\nKernel hacks on ps3\r\nIot devices\r\n-\r\nDocker security\r\n-\r\n​",
+      "creationDate": "2018-08-28T18:32:21.279Z",
+      "lastModified": "2018-08-28T18:32:24.000Z"
+    },
+    {
+      "id": "d96892d5-f530-4b62-9111-dd8ca81e5f53",
+      "content": "bars in boston\r\n\r\njm curleys\r\nsushi bar near jm curleys",
+      "creationDate": "2018-08-28T18:31:54.659Z",
+      "lastModified": "2018-08-28T18:32:14.000Z"
+    },
+    {
+      "id": "42dbca3c-496c-4260-8d9d-589d14d3789d",
+      "content": "Website that teaches people how to hack things in specific educational ways (buffer overflows, the stack, more modern stuff bc alll of that is outdated) then connects companies to these security people. Need for people who know security (specialized)\r\n​",
+      "creationDate": "2018-08-28T18:31:52.077Z",
+      "lastModified": "2018-08-28T18:31:54.000Z"
+    },
+    {
+      "id": "0c80d9ec-42ae-4868-a22c-d58272184fef",
+      "content": "6.858 review notes:\r\nConcolic Execution:\r\nDifference between practice exams, exe paper and lab 3.\r\n- calling smt solver at leaf of path\r\nSpectre:\r\nTrain branch predictor\r\nAffects intel, amd, etc.\r\nRead memory from other processes\r\nMeltdown:\r\nOnly intel procs\r\nRead memory from kernel (but also all physical addresses)\r\nOut of order (affects cpu pipeline)\r\nMitigation: kernel page table isolation\r\nLAVA:\r\nInjecting backdoors into code\r\nDUA (dead unused code, basically)\r\nTcn- taint compute number, 0 is easier to\r\nUse memory, high number is harder\r\nIS&T:\r\nMit network-\r\nDDOS , mitigation is akamai\r\nRansomware- frequen automated backups\r\nUser account compromise - 2FA\r\nMalware - cross strike/sophos (anti-malware)\r\nSocial engineering - user training\r\nNetwork breaches - network segmentation\r\n- split into pieces that are loosely connected\r\n- ids: intrusion detection systems\r\nUsed to be class A, not anymore because signed address space to Aws\r\nMac, every time message encrypted, protexts against modifying payload\r\nTimestamp/ seq num in mac\r\nTls provides forward secrecy\r\n- how do they do this?\r\nGoogle impersonation:\r\nWith tls cert and private key, could pretend to be them, mitm with a malicious wifi access point, redirect traffic\r\nCa problems:\r\n-Key pinning, what ceritifcate to expect for certain services\r\n-Cross check cert with dns using dnssec\r\n-Certificate transparency\r\nSecure messaging:\r\n- forward secrecy: someone steals your private key now, they cant read past messages\r\n- backward secrecy: someone steals your private key now, they cant read your messages in the future\r\n- ratchet ? In lecture notes\r\nTor\r\nCurcuit paths:\r\n- client chooses the sequence of servers at random\r\n- directory server gives client a record of all other nodes in the system\r\n- important that node talks to non compromised directory servers only\r\nRelay vs exit nodes in tor network\r\nMade up secure channels question:\r\n6. From client perspective, no\r\n7. Doesnt protect against replay attacks, no sequence number\r\n8. To acheive forward secrecy, delte sktmp after line 3\r\nKey k is key used for session\r\nNonce used in tls handshake used for aes or symmetric encryption function to prevent xor chaining or something\r\nCan think of R_n as initialization value\r\nCan ensure forward secrecy of each step by encrypting hashes of each key at each step, recursively\r\nBitcoin\r\nHow could isp cause double spending attack?\r\n- alice could get isp controlled nodes from isp\r\n- this would require isp to mine blocks to fake this\r\n- mitigate this by connecting to bitcoin clients over tor\r\nMining pool vs mining on his own?\r\nBeneifts: more frequent payouts, variance much lower\r\nDetriments: owe percentage to mining pool\r\nMining pool uses shares, chris tries to sell shares to other mining pools, how do other pools prevent this?\r\n- they could require that some data in block starts with bit string corresponding to mining pool\r\nClick trajectories:\r\nBanks in best position to fight spam bc a lot harder to get new bank than web host, etc\r\nBrowser attacks:\r\nSame origin policy- have to inject script code in that users website but not from other source because would violate sop\r\nCookie policy- allows us to call document.cookie on that user's page\r\nSYN flooding:\r\nServer has to store client sequence number, loading a lot of state about clients when getting a ton of clients\r\nTrying to overflow table\r\n- why cant server ignore a bunch of requests from Bob?\r\nDont really know where packet coming from, can write some other ip in packet\r\nOne way to prevent this, delay storing the sequence number until receive client ack\r\n- do this by somehow being able to retrieve sequence number from client ack\r\n​",
+      "creationDate": "2018-08-28T18:31:09.080Z",
+      "lastModified": "2018-08-28T18:31:12.000Z"
+    },
+    {
+      "id": "dd186644-da28-462d-9f39-1b326bbdc72b",
+      "content": "Cook complete\r\nYou connect with your friends and upload what ingredients you have, it will tell you what recipes you and your friends can make together sharing the ingredients. You can also list the desired amt you are willing to use of each ingredient\r\nValue added:\r\nDrawbacks:\r\nPotential Solutions to drawbacks:\r\nOther features:\r\n​",
+      "creationDate": "2018-08-28T18:30:05.553Z",
+      "lastModified": "2018-08-28T18:30:12.000Z"
+    },
+    {
+      "id": "6a2b3b31-b2d3-438a-9cb7-0d252385a150",
+      "content": "Reverse engineering wipeout\r\n\r\nhttp://hn.premii.com/#/comments/17534632",
+      "creationDate": "2018-08-28T18:29:34.159Z",
+      "lastModified": "2018-08-28T18:29:48.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "c0ca386c-0986-4bdc-94d1-76c32a6d3bf7",
+      "content": "Modern C++ for C programmers: part 5\r\n\r\nhttp://hn.premii.com/#/comments/17608811",
+      "creationDate": "2018-08-28T18:29:09.499Z",
+      "lastModified": "2018-08-28T18:29:33.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "f3c11616-d2c9-4968-a6a4-8f58bdafed11",
+      "content": "Freezing Python’s Dependency Hell\r\n\r\nhttps://tech.instacart.com/freezing-pythons-dependency-hell-in-2018-f1076d625241",
+      "creationDate": "2018-08-28T18:02:23.743Z",
+      "lastModified": "2018-08-28T18:29:09.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "1dcfb3fb-758d-4e43-9fbd-dbb3e452b1e3",
+      "content": "Computational Complexity of Air Travel Planning (2003) [pdf]\r\n\r\nhttp://www.demarcken.org/carl/papers/ITA-software-travel-complexity/ITA-software-travel-complexity.pdf",
+      "creationDate": "2018-08-28T18:01:59.487Z",
+      "lastModified": "2018-08-28T18:02:23.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "defb80fa-5114-4d46-bcda-c21403f1e4bd",
+      "content": "Paul Graham on SICP (2000)\r\n\r\nhttps://www.amazon.com/review/R3G05B1TQ5XGZP/",
+      "creationDate": "2018-08-28T18:01:32.903Z",
+      "lastModified": "2018-08-28T18:01:51.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "30319293-7b01-4f70-9fda-6bfd239f6375",
+      "content": "The Best Textbooks on Every Subject\r\n\r\nhttps://www.lesswrong.com/posts/xg3hXCYQPJkwHyik2/the-best-textbooks-on-every-subject",
+      "creationDate": "2018-08-28T18:01:09.969Z",
+      "lastModified": "2018-08-28T18:01:32.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "4d0a4ba2-5783-45f8-b91c-4d41861af429",
+      "content": "CLI tool that finds secrets accidentally committed to a Git repo (2017)\r\n\r\nhttps://github.com/UKHomeOffice/repo-security-scanner",
+      "creationDate": "2018-08-28T17:59:25.361Z",
+      "lastModified": "2018-08-28T18:01:10.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "0c723d68-21df-4266-b500-d680303457c7",
+      "content": "what does a train say when it eats food?\r\nchew chew\r\n​",
+      "creationDate": "2018-08-28T17:59:18.552Z",
+      "lastModified": "2018-08-28T17:59:25.000Z"
+    },
+    {
+      "id": "304b9bff-dd14-4e35-bb09-48fd42dec28a",
+      "content": "How to read an RFC\r\n\r\nhttps://www.mnot.net/blog/2018/07/31/read_rfc",
+      "creationDate": "2018-08-28T17:57:20.804Z",
+      "lastModified": "2018-08-28T17:57:45.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "3d9881b9-9559-4db9-9253-6a76d6831091",
+      "content": "Tim cook talk\r\nFav book- shoe something about phil knight\r\nFocusing on inputs rather than results\r\nSeparating yourself from discussions and not taking it personally\r\nSeeing your life routine and accomplishments objectively, striving to be better\r\nWorking with people is like making a band, puzzle pieces\r\nTaking time each day to focus yourself, you can think like you're running on a treadmill but you have to take time to break away from that\r\nIts cool to work for companies where people care a lot about the product, its irreplaceable\r\n​",
+      "creationDate": "2018-08-28T17:57:00.820Z",
+      "lastModified": "2018-08-28T17:57:20.000Z"
+    },
+    {
+      "id": "ee2daf5a-6636-401b-af16-7490fed31af8",
+      "content": "Good climbing blog\r\nJohnroberts.me\r\n​",
+      "creationDate": "2018-08-28T17:56:43.273Z",
+      "lastModified": "2018-08-28T17:57:00.000Z"
+    },
+    {
+      "id": "a2cbe534-e713-41ea-bc37-4c17cd91c2e1",
+      "content": "Unix Syscalls\r\n\r\nhttps://john-millikin.com/unix-syscalls",
+      "creationDate": "2018-08-28T17:56:23.549Z",
+      "lastModified": "2018-08-28T17:56:42.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "47defaa3-0ad3-4abf-8c58-a85b5024d2ed",
+      "content": "GLB: GitHub's open source load balancer\r\n\r\nhttps://githubengineering.com/glb-director-open-source-load-balancer/",
+      "creationDate": "2018-08-28T17:55:52.085Z",
+      "lastModified": "2018-08-28T17:56:23.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "4a6fe9c1-c877-4c46-9d9b-99bb01b2aca1",
+      "content": "Kyra presentation tip: 2-3 thing per slide to talk about\r\nUse graphics on screen to remind you, oven reminded to talk about taking out out of the oven\r\n​",
+      "creationDate": "2018-08-28T17:51:22.059Z",
+      "lastModified": "2018-08-28T17:55:50.000Z"
+    },
+    {
+      "id": "d0216ddf-eb91-45d0-80f1-add74f29c194",
+      "content": "History of editors for Lisp\r\n\r\nhttps://github.com/shaunlebron/history-of-lisp-parens/blob/master/editors.md",
+      "creationDate": "2018-08-28T17:51:02.034Z",
+      "lastModified": "2018-08-28T17:51:22.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "2e8d88cf-4062-4de2-989e-9b034f6d9bd7",
+      "content": "TinyWM – A tiny window manager in around 50 lines of C\r\n\r\nhttp://incise.org/tinywm.html",
+      "creationDate": "2018-08-28T17:50:38.136Z",
+      "lastModified": "2018-08-28T17:51:01.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "7b505074-5ef3-4235-8d34-688a2c7cf41a",
+      "content": "MIT 6.886 – Graph Analytics – Spring 2018\r\n\r\n​￼https://people.csail.mit.edu/jshun/6886-s18/",
+      "creationDate": "2018-08-28T17:49:45.634Z",
+      "lastModified": "2018-08-28T17:50:37.000Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "9482b839c55d4fb5bad7eb123d67ba08",
+      "content": "Dijkstras in disguise\r\n\r\n",
+      "creationDate": "2018-08-28T08:38:21.244Z",
+      "lastModified": "2018-08-28T08:38:35.840Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "1797e9ec531b4adab7d351832d9d6d80",
+      "content": "Places in sf to check out\r\n\r\nTradition\r\nCider place near hotel carlton\r\nHigh tide cocktails\r\n\r\n",
+      "creationDate": "2018-08-28T08:38:02.352Z",
+      "lastModified": "2018-08-28T08:38:05.062Z"
+    },
+    {
+      "id": "f912b21020c94109af300435d708de22",
+      "content": "Quit genius is hiring backend london, uk\r\nhttps://news.ycombinator.com/item?id=17765933\r\n",
+      "creationDate": "2018-08-28T08:37:23.464Z",
+      "lastModified": "2018-08-28T08:37:40.566Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "a6a0c99793564155a6945f9ee7f4906b",
+      "content": "A dull resilient stream processor in Go\r\nhttps://github.com/Jeffail/benthos",
+      "creationDate": "2018-08-28T08:36:38.663Z",
+      "lastModified": "2018-08-28T08:36:58.632Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "0c67a76b8b9c4d979757cf34867725fc",
+      "content": "Graph for bugs in your transitive dependencies",
+      "creationDate": "2018-08-28T08:36:12.963Z",
+      "lastModified": "2018-08-28T08:36:15.058Z"
+    },
+    {
+      "id": "753cee117dfe433f9e5ca9bcc88c5fc4",
+      "content": "Medoc half marathon",
+      "creationDate": "2018-08-28T08:35:45.166Z",
+      "lastModified": "2018-08-28T08:35:54.117Z"
+    },
+    {
+      "id": "fe5feca932e1428c98963e6ec232e56d",
+      "content": "Advice for haskell beginners\r\n\r\nhttp://www.haskellforall.com/2017/10/advice-for-haskell-beginners.html",
+      "creationDate": "2018-08-28T08:35:20.174Z",
+      "lastModified": "2018-08-28T08:35:35.569Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "2b677c78fe35487397e7dabe31514ec4",
+      "content": "Learn react, then redux, then redux-saga",
+      "creationDate": "2018-08-28T08:34:52.003Z",
+      "lastModified": "2018-08-28T08:34:55.196Z"
+    },
+    {
+      "id": "a4eca194056a4996b8fe5621b06e4947",
+      "content": "Haskellbook.com\r\n\r\nHaskell programming from first principles\r\n\r\n",
+      "creationDate": "2018-08-28T08:34:06.687Z",
+      "lastModified": "2018-08-28T08:34:09.788Z"
+    },
+    {
+      "id": "4523958ea4f1492297c342442bff59bf",
+      "content": "Foam factory open cell foam 2 in thick, biggest one\r\n\r\nCarpet at ikea\r\n\r\n",
+      "creationDate": "2018-08-28T08:33:28.675Z",
+      "lastModified": "2018-08-28T08:33:30.987Z"
+    },
+    {
+      "id": "270179a9ef384d8aa0b1e71b250edcd8",
+      "content": "Icloud server - cloud application engineering\r\n\r\nSafari + webkit compiler team\r\n\r\nGpu compiler internals\r\n",
+      "creationDate": "2018-08-28T08:33:07.016Z",
+      "lastModified": "2018-08-28T08:33:11.064Z"
+    },
+    {
+      "id": "e69e242656d64d5a8ff8eb51acf4e3e3",
+      "content": "Why you should consider applying to grad school\r\n\r\nhttps://80000hours.org/2017/11/consider-applying-for-a-phd-program-now/\r\n\r\n",
+      "creationDate": "2018-08-28T08:10:07.088Z",
+      "lastModified": "2018-08-28T08:10:27.046Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "32b4697d07e54830aa9d2fcc7f470195",
+      "content": "History of Lisp 1979\r\n\r\nhttp://jmc.stanford.edu/articles/lisp/lisp.pdf\r\n",
+      "creationDate": "2018-08-28T08:08:20.900Z",
+      "lastModified": "2018-08-28T08:09:33.699Z",
+      "tags": [
+        "hn"
+      ]
+    },
+    {
+      "id": "2aa86890a96342b3b8a241a0f8614765",
+      "content": "In case you forget\r\n\r\nbatch-larceny-small-elfin",
+      "creationDate": "2018-08-27T07:53:01.707Z",
+      "lastModified": "2018-08-27T07:53:37.046Z"
+    },
+    {
+      "id": "a4c270e496ad41debd37cf33b0453965",
+      "content": "Google’s Jeff Dean undergrad senior thesis project (1990) [pdf]\r\n\r\nhttps://drive.google.com/file/d/1I1fs4sczbCaACzA9XwxR3DiuXVtqmejL/view\r\n",
+      "creationDate": "2018-08-27T07:49:42.504Z",
+      "lastModified": "2018-08-27T07:50:32.859Z",
+      "tags": [
+        "hn"
+      ]
+    }
+  ],
+  "trashedNotes": [
+    {
+      "id": "06bd3a0b89f849c5b07ab8974c8408b1",
+      "content": "Food\r\nEggs\r\nYogurt\r\nGranola/muesli\r\nMilk\r\nCereal\r\nSquirt soda\r\nLimes\r\n\r\nPotatoes\r\nSpinach\r\n\r\nPollock \r\nDill\r\nBreadcrumbs\r\n\r\nSoups!\r\nFrozen dumps\r\n\r\nAlc\r\nBeer\r\nTequila\r\n",
+      "creationDate": "2019-09-04T23:54:17.407Z",
+      "lastModified": "2019-09-04T23:58:27.382Z"
+    },
+    {
+      "id": "1a76d46992fa44339f54b810fc089d5b",
+      "content": "6.828 book is 103 pgs total, so 52 front+back",
+      "creationDate": "2019-09-04T13:58:10.692Z",
+      "lastModified": "2019-09-04T13:58:29.551Z"
+    },
+    {
+      "id": "6a0f8f880c864906865603c84a11fa65",
+      "content": "Costs:\r\nMimosas\r\nOj: i paid $9, split it 4 ways\r\nChampagne: i paid $26, split it with 1 other person\r\n\r\n",
+      "creationDate": "2019-08-31T03:59:00.272Z",
+      "lastModified": "2019-08-31T03:59:44.780Z"
+    },
+    {
+      "id": "57ea742fbfa74adaaf674e6ef4f29d8d",
+      "content": "$22 for pitcher",
+      "creationDate": "2019-08-28T00:28:56.494Z",
+      "lastModified": "2019-08-28T00:29:02.843Z"
+    },
+    {
+      "id": "89e2f775ff0f453bbe254dfc77613b91",
+      "content": "Victor",
+      "creationDate": "2019-08-16T02:04:38.721Z",
+      "lastModified": "2019-08-16T02:04:41.479Z",
+      "pinned": true
+    },
+    {
+      "id": "7a6ea805ecb14fe0aca66be4dd1052a8",
+      "content": "Costs\r\n\r\nSunscreen- 7059 huf\r\n-400 for coffee\r\nI paid 9200 huf for lunch\r\n\r\nVic gave me 50 euros",
+      "creationDate": "2019-06-11T10:31:01.513Z",
+      "lastModified": "2019-07-07T19:41:26.781Z"
+    },
+    {
+      "id": "e7286cf7d0e444ccb89b56b79ef624b5",
+      "content": "Griggs",
+      "creationDate": "2019-06-12T01:34:21.009Z",
+      "lastModified": "2019-07-07T19:41:24.522Z"
+    },
+    {
+      "id": "689e8cb85bbf461196bc1545a1228173",
+      "content": "Concert\r\n10 pm, museumsquartier",
+      "creationDate": "2019-06-12T18:13:16.339Z",
+      "lastModified": "2019-07-07T19:41:21.401Z"
+    },
+    {
+      "id": "f063352bc12d4ecca27e24852503a5fd",
+      "content": "Charged 53.08 for 1000 czk",
+      "creationDate": "2019-06-14T21:59:45.951Z",
+      "lastModified": "2019-07-07T19:41:19.605Z"
+    },
+    {
+      "id": "0113ef21aa544df4822fa203b993335a",
+      "content": "I like my german boys like i like my waffles, thick and crusty",
+      "creationDate": "2019-06-20T18:20:00.240Z",
+      "lastModified": "2019-07-07T19:41:16.558Z"
+    },
+    {
+      "id": "1769d8648ad2411b958dbba7f86ab0ca",
+      "content": "Drinks 33.15 usd for jager bombs",
+      "creationDate": "2019-06-26T22:00:09.142Z",
+      "lastModified": "2019-07-04T11:29:14.304Z"
+    },
+    {
+      "id": "0371c7e48ed84d98ab0e6a7d01a38253",
+      "content": "3 euros to vic for tickets\r\n\r\n50 euros for sangria baby and tapas, alexis didnt pay for tapas sangria was 33rd\r\n",
+      "creationDate": "2019-06-29T22:23:17.687Z",
+      "lastModified": "2019-07-04T11:29:06.765Z"
+    },
+    {
+      "id": "8c5794fb100d495d99e75146309e25ce",
+      "content": "01289 then press A",
+      "creationDate": "2019-06-27T20:46:32.442Z",
+      "lastModified": "2019-07-04T11:11:25.174Z"
+    },
+    {
+      "id": "82922c8a972b47daa28783b0a170aab6",
+      "content": "38 euros for agua de valencia",
+      "creationDate": "2019-06-28T22:47:29.943Z",
+      "lastModified": "2019-07-04T11:11:23.324Z"
+    },
+    {
+      "id": "2d77258f60e64a3fb59f3268da6b0373",
+      "content": "5 jager bombs splitwise",
+      "creationDate": "2019-05-26T04:50:03.826Z",
+      "lastModified": "2019-05-26T04:50:13.863Z"
+    },
+    {
+      "id": "bb78dd2c7d274f34b60d8db576a0df32",
+      "content": "Untappd list\r\nFút thé lapsang",
+      "creationDate": "2019-05-25T19:32:20.843Z",
+      "lastModified": "2019-05-25T19:32:56.505Z"
+    },
+    {
+      "id": "a6a3f322-182b-44af-979f-74e973f47440",
+      "content": "new food blog: meats&mushrooms",
+      "creationDate": "2019-05-21T06:21:38.599Z",
+      "lastModified": "2019-05-21T06:21:49.000Z"
+    },
+    {
+      "id": "ee784fd0adb7470ab382b740a6b177a9",
+      "content": "Highland park 18 year special edition",
+      "creationDate": "2019-05-19T02:58:52.498Z",
+      "lastModified": "2019-05-19T02:59:05.762Z"
+    },
+    {
+      "id": "7211d299847a499caf9db170db59f51e",
+      "content": "Gameplan for tomorrow\r\n\r\nDo rehab exercises\r\nGo to dunkin\r\nMake tasks for week\r\n\r\nWork on 835 project\r\n\r\nGo bouldering w james\r\n\r\nWatch got with abbey",
+      "creationDate": "2019-04-28T05:39:06.638Z",
+      "lastModified": "2019-04-28T05:40:29.259Z"
+    },
+    {
+      "id": "73072d8bb1a748458ecfedd9dcb7baf7",
+      "content": "They used to bang\r\n\r\nShe’s kind of crazy ** according to mitch\r\nWhich is probably right, he attracts crazy\r\nSee ** savannah\r\nLike i lovr that bitch but she crazy\r\nYes\r\nHow do\r\nI dont get it?\r\nTheyre still friends tho although she is crazy?\r\nI guess? I just want to get drunk with Mitch",
+      "creationDate": "2019-04-21T03:27:49.372Z",
+      "lastModified": "2019-04-21T03:30:15.614Z"
+    },
+    {
+      "id": "f2165c5191004003be28f291eff9f77d",
+      "content": "Gameplan for friday, 4/19\r\n\r\nWake up, eat yogurt, pack etc\r\n\r\nWalk to bkb\r\nGet groceries from whole foods\r\nGet large thing of dry rice\r\nLyft back\r\n\r\nGet urop timesheets signed\r\nGo to university stationary\r\n\r\nDo laundry and clean up room\r\nCode for urop, start looking into project\r\nReread gyro paper\r\n\r\n\r\nAt night:\r\nGo to darkroom, develop film, make prints\r\n\r\n\r\n",
+      "creationDate": "2019-04-19T05:24:51.923Z",
+      "lastModified": "2019-04-19T05:34:21.449Z"
+    },
+    {
+      "id": "4eeb3dd2-6eb0-4aa7-b983-a689d80c043d",
+      "content": "groceries\r\nbeer\r\n\r\ntjs:\r\n3 pizza doughs\r\npesto\r\n",
+      "creationDate": "2019-03-15T20:36:28.770Z",
+      "lastModified": "2019-04-01T23:31:46.078Z"
+    },
+    {
+      "id": "e6a27c17df9d48f5808fde1e58aa888c",
+      "content": "Dirtying my soul with affliction\r\nCause im coming together\r\nDoing addition with my heart yeah\r\n",
+      "creationDate": "2019-03-10T04:56:57.211Z",
+      "lastModified": "2019-03-10T05:01:53.715Z"
+    },
+    {
+      "id": "cd66daba-6903-4ae4-bb89-7b564239f8e2",
+      "content": "2/28 todos:\r\n1. do 6.uat videoassessment (b/c its due tomorrow)\r\n2. put in urop hours (b/c its due tomorrow)\r\n3. do a coding question",
+      "creationDate": "2019-02-28T15:55:42.549Z",
+      "lastModified": "2019-03-01T01:01:05.000Z"
+    },
+    {
+      "id": "703eb4434f0e4585bdd12894e77bb963",
+      "content": "Come back to letter B for coat check",
+      "creationDate": "2019-02-23T17:35:18.723Z",
+      "lastModified": "2019-02-25T00:30:10.876Z"
+    },
+    {
+      "id": "48f3b3c07b8f418ebfc779abd1b5f459",
+      "content": "Khalid- american teen",
+      "creationDate": "2018-11-12T18:20:36.561Z",
+      "lastModified": "2018-11-12T18:20:46.427Z",
+      "pinned": true
+    },
+    {
+      "id": "070a8334-7a56-4612-8e8a-4e45d39c2056",
+      "content": "frosh spring: \r\n4.0 in 6.01 12\r\n4.0 in 6.042 12 \r\n\r\nsoph fall:\r\n5.0 in 6.0001 6\r\n5.0 in 6.009 12 \r\n4.0 in 6.006 12\r\n\r\nsoph spring:\r\n5.0 in 6.004 12 \r\n4.0 in 6.031 15\r\n\r\njunior fall:\r\n4.0 in 6.046 12 \r\n4.0 in 6.036 12\r\n\r\njunior spring:\r\n5.0 in 6.033 12\r\n5.0 in 6.858 12\r\n\r\n570\r\n96 + 6 + 15 = 117 * 5 = 585",
+      "creationDate": "2018-09-18T23:05:31.621Z",
+      "lastModified": "2018-09-18T23:10:01.000Z"
+    },
+    {
+      "id": "095e1be60beb4e62b94207bcade8e2f1",
+      "content": "Sausagefest donations\r\n\r\nMax kanter: 33\r\nTayherr: 33.33\r\n\r\n2.1\r\n4.88\r\n11.51\r\n\r\nalexis - panang regular rice : 11.95\r\npeter - panang + drunken : 12.95+10.95\r\nmitch - pad thai no egg : 10.95\r\nmarty - pad thai no egg no bean sprouts : 10.95\r\nvictor - spicy pad thai : 11.95",
+      "creationDate": "2018-08-31T00:45:25.211Z",
+      "lastModified": "2018-09-03T22:05:03.000Z"
+    },
+    {
+      "id": "6e95c68904c64f9cbfe40a4e59c065f2",
+      "content": "Tongue poo panda",
+      "creationDate": "2018-09-03T14:55:40.200Z",
+      "lastModified": "2018-09-03T14:55:47.477Z"
+    },
+    {
+      "id": "agtzaW1wbGUtbm90ZXIRCxIETm90ZRiAgIDqzPmgCQw",
+      "content": "Getting the most out of Simplenote\r\n\r\nThanks for signing up!\r\n\r\nAfter you look around a little, click the Downloads link at the bottom of this page. That's where you can download Simplenote for your device and your computer. Or you can just use this web app if you want. It's up to you.\r\n\r\nHere are some ideas for how to use Simplenote:\r\n\r\n- to do lists and reminders\r\n- a grocery list that you share with your family\r\n- notes from a meeting or a class\r\n- a draft for a blog post\r\n- brainstorming\r\n- keeping a journal\r\n- lists of movies, restaurants, or books\r\n- any kind of text\r\n\r\nEnjoy!",
+      "creationDate": "2014-06-20T00:09:44.612Z",
+      "lastModified": "2018-08-28T08:32:05.813Z"
+    },
+    {
+      "id": "welcomeNote-Mac",
+      "content": "Welcome to Simplenote Mac!\r\n\r\nTo add a note, click the plus button.\r\n\r\nTo remove a note, click the options button at the top right and choose Move to Trash.\r\n\r\nYou can search all your notes by typing in the search field at the bottom of the note list.\r\n\r\nClick the arrow button at the bottom left to open the sidebar. You can add tags to a note at the bottom of the note editor, and then use the sidebar to help you stay organized.\r\n\r\nThere are more note options if you need them. You can add email addresses as tags to collaborate with people, or publish a note as a web page.\r\n\r\nUse Simplenote on your iPhone, iPad, Android device, or in your web browser at http://simplenote.com. Your notes will stay updated everywhere automatically.",
+      "creationDate": "2014-06-20T00:09:24.905Z",
+      "lastModified": "2018-08-28T08:32:04.358Z"
+    },
+    {
+      "id": "welcomeNote-iOS",
+      "content": "Welcome to Simplenote for iOS!\r\n\r\nTo add a note, tap the plus button.\r\n\r\nFlick the list to browse your notes. Tap a title to view a note, then tap its contents to change it.\r\n\r\nYou can search all your notes by typing in the search field at the top of the note list.\r\n\r\nTap the arrow button at the top left or swipe across your note list to view your tags. You can add tags to a note at the bottom of the note editor, and then use the sidebar to help you stay organized.\r\n\r\nThere are more note options if you need them. You can add others as collaborators to a note, or publish a note as a web page.\r\n\r\nUse Simplenote on your Mac, Android device, or in your web browser at http://simplenote.com. Your notes will stay updated everywhere automatically.",
+      "creationDate": "2018-08-27T07:48:30.214Z",
+      "lastModified": "2018-08-28T08:32:02.626Z"
+    }
+  ]
+}

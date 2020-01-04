@@ -3,6 +3,11 @@ body {
   margin: 20px;
 }
 
+p {
+  margin: 5px;
+  font: 18px "Century Gothic", Futura, sans-serif;
+}
+
 .container {
   display: flex;
   justify-content: flex-start;
@@ -25,7 +30,20 @@ body {
 
 .topbar {
   display: flex;
+  flex: 3;
+  border: 1px solid blue;
+  margin: 20px;
+}
+
+.account {
+  display: flex;
   flex: 1;
   border: 1px solid blue;
   margin: 20px;
+}
+
+
+path {
+  fill: none;
+  stroke: #aaa;
 }
