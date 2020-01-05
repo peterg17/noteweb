@@ -14,8 +14,16 @@ p {
   align-items: stretch;
 }
 
+.main-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 80%;
+}
+
 .leftbar {
   display: flex;
+  width: 20%;
   flex: 1;
   border: 1px solid purple;
   margin: 20px;
@@ -23,7 +31,17 @@ p {
 
 .datascreen {
   display: flex;
+  width: 100%;
+  min-width: 500px;
+  min-height: 500px;
   flex: 6;
+  border: 1px solid green;
+  margin: 20px;
+}
+
+.notescreen {
+  display: flex;
+  flex: 7;
   border: 1px solid green;
   margin: 20px;
 }
