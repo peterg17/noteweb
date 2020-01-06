@@ -14,6 +14,13 @@ p {
   align-items: stretch;
 }
 
+.note-web {
+  width: 100%;
+  height: 100%;
+  color:#FFFFFF;
+  background-color: #000000;
+}
+
 .main-content {
   display: flex;
   justify-content: flex-start;

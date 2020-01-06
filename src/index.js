@@ -67,12 +67,12 @@ class NoteWeb extends Component {
   
   render() {
     return (
-      <div className="noteweb">
+      <div className="note-web">
         <TopBar key="top"/>
         <div className="container">
           <LeftBar key="left"/>
           <div className="main-content">
-            <DataScreen key="data" nodes={this.nodes} edges={this.edges} />;
+            <DataScreen key="data" nodes={this.nodes} edges={this.edges} />
             <NoteScreen key="note" title={this.state.title} note={this.state.note} />
           </div>
         </div>
