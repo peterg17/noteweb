@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import '../node_modules/react-vis/dist/style.css';
-import {XYPlot, LineSeries} from 'react-vis';
 import { Network, Node, Edge } from 'react-vis-network';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-class NoteWeb extends React.Component {
+class NoteWeb extends Component {
   // This is the main container for all content
   constructor(props) {
     super(props);
     this.state = {title: "Title", note: "This is where your note is displayed"};
+    console.log(this.note)
     const Decorator = props => {
       return (
         <button
@@ -40,12 +40,14 @@ class NoteWeb extends React.Component {
     this.top = <TopBar />;
     this.left = <LeftBar />;
     this.data = <DataScreen nodes={this.nodes} edges={this.edges} />;
-    this.note = <NoteScreen title={this.state.title} note={this.state.note}/>;
+    this.setNote = this.setNote.bind(this);
   }
   
-  setNote(title,note){
-    console.log("set state")
-    this.setState({title: title, note: note})
+  setNote(newTitle, newNote){
+    this.setState(state => ({
+        title: newTitle,
+        note: newNote
+      }));
   }
   
   render() {
@@ -56,7 +58,7 @@ class NoteWeb extends React.Component {
           {this.left}
           <div className="main-content">
             {this.data}
-            {this.note}
+            <NoteScreen title={this.state.title} note={this.state.note} />
           </div>
         </div>
       </div>
@@ -64,8 +66,9 @@ class NoteWeb extends React.Component {
   }
 }
 
-class TopBar extends React.Component {
+class TopBar extends Component {
   // This is the header of the application
+  
   render() {
     return (
       <div>
@@ -81,8 +84,9 @@ class TopBar extends React.Component {
   }
 }
 
-class LeftBar extends React.Component {
+class LeftBar extends Component {
   // Content on left side of screen
+  
   render() {
     return (
       <div className="leftbar">
@@ -92,7 +96,7 @@ class LeftBar extends React.Component {
   }
 }
 
-class DataScreen extends React.Component {
+class DataScreen extends Component {
   //The notes graph display
   constructor(props) {
     super(props);
@@ -113,7 +117,7 @@ class DataScreen extends React.Component {
   }
 }
 
-class NoteScreen extends React.Component {
+class NoteScreen extends Component {
   // the note content display
   render() {
     return(
