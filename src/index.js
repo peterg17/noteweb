@@ -9,12 +9,12 @@ class NoteWeb extends Component {
   // This is the main container for all content
   constructor(props) {
     super(props);
-    this.state = {title: "Title", note: "This is where your note is displayed"};
+    this.state = {id: "None",  title: "Title", note: "This is where your note is displayed"};
     console.log(this.note)
     const Decorator = props => {
       return (
         <button
-          onClick={() => this.setNote(props.label,props.content)}
+          onClick={() => this.setNote(props.id, props.label,props.content)}
         >
           Click Me
         </button>
@@ -58,11 +58,17 @@ class NoteWeb extends Component {
     this.setNote = this.setNote.bind(this);
   }
   
-  setNote(newTitle, newNote){
+  setNote(newId,newTitle, newNote){
+    console.log(this.state);
     this.setState(state => ({
+        id:newId,
         title: newTitle,
         note: newNote
       }));
+  }
+  
+  addNote(node,edges){
+    
   }
   
   render() {
@@ -71,8 +77,8 @@ class NoteWeb extends Component {
         <TopBar key="top"/>
         <div className="main-content">
           <LeftBar key="left"/>
-          <DataScreen key="data" nodes={this.nodes} edges={this.edges} />
-          <NoteScreen key="note" title={this.state.title} note={this.state.note} />
+          <DataScreen key="data" nodes={this.nodes} edges={this.edges}/>
+          <NoteScreen key="note" state={this.state}/>
         </div>
       </div>
     );
@@ -140,13 +146,34 @@ class DataScreen extends Component {
 
 class NoteScreen extends Component {
   // the note content display
+  constructor(props){
+    super(props);
+    this.state = {input:""};
+    this.handleChange = this.handleChange.bind(this);
+    this.handleClick = this.handleClick.bind(this);
+  }
+  handleChange(e) {
+    console.log(this.state);
+    const thisState = e.target.value;
+    this.setState(state => ({
+        input:thisState
+      }));
+  }
+  
+  handleClick(e){
+    console.log("The input is " + this.state.input);
+  }
   render() {
     return(
       <div className="notescreen">
         {/* <p>Some main datascreen stuff</p> */}
-        <div width="100%" height="100%">
-          <h3> {this.props.title} </h3>
-          <p> {this.props.note} </p>
+        <div className="notescreen-content">
+          <h3> {this.props.state.title} </h3>
+          <p> {this.props.state.note} </p>
+          <div className="input">
+            <input name="noteInput" onChange={this.handleChange} className="bottom-sticky"/>
+            <button name="newNode" onClick={() => this.handleClick()} className="input-button"/>
+          </div>
         </div>
       </div>
     );
@@ -157,6 +184,6 @@ class NoteScreen extends Component {
 // ========================================
 
 ReactDOM.render(
-  <NoteWeb />,
+  <NoteWeb key="main-app"/>,
   document.getElementById('root')
 );
