@@ -14,13 +14,13 @@ class NoteWeb extends Component {
     const Decorator = props => {
       return (
         <button
-          onClick={() => this.setNote(props.id, props.label,props.content)}
+          onClick={() => this.getNote(props.id)}
         >
           Click Me
         </button>
       );
     };
-    this.nodes = [
+    let nodes = [
       <Node id="vader" label="Darth Vader" decorator={Decorator} content="The chosen one. Brought balance to the force. Before me thousands of Jedi, only two Sith. After me, two Jedi and two Sith. That's what you call balanced."/>,
       <Node id="luke" label="Luke Skywalker" decorator={Decorator} content="This is the Galaxy's only hope"/>,
       <Node id="leia" label="Leia Organa" decorator={Decorator} content="This is the girl who is always counted out but comes up big"/>,
@@ -34,7 +34,8 @@ class NoteWeb extends Component {
       <Node id="lando" label="Lando Calrissian" decorator={Decorator} content="I'm in it for the money, and the women, and the greater good, but definitely the money"/>,
       <Node id="emporer" label="Emporer Palpatine" decorator={Decorator} content="This is the Dark Lord of the Sith"/>
     ];
-    this.edges = [
+    let edges = [
+      <Edge id="0" from="yoda" to="chewy" />,
       <Edge id="1" from="vader" to="luke" />,
       <Edge id="2" from="vader" to="leia" />,
       <Edge id="3" from="han" to="leia" />,
@@ -52,23 +53,51 @@ class NoteWeb extends Component {
       <Edge id="15" from="yoda" to="luke" />,
       <Edge id="16" from="emporer" to="vader" />,
       <Edge id="17" from="emporer" to="luke" />,
-      <Edge id="18" from="lando" to="han" />,
-      <Edge id="19" from="yoda" to="chewy" />
+      <Edge id="18" from="lando" to="han" />
     ];
+    this.state = {id: "None",  title: "Title", note: "Please choose a note to get started", nodes: nodes, edges: edges};
     this.setNote = this.setNote.bind(this);
   }
   
-  setNote(newId,newTitle, newNote){
+  getNote(newId){
+    console.log("get")
     console.log(this.state);
+    console.log(newId);
+    let stateCopy = JSON.parse(JSON.stringify(this.state));
+    console.log(stateCopy);
+    let newNode = stateCopy.nodes.find(x => x.props.id === newId);
+    console.log(newNode);
     this.setState(state => ({
-        id:newId,
-        title: newTitle,
-        note: newNote
+        id:newNode.props.id,
+        title: newNode.props.label,
+        note: newNode.props.content,
+        nodes: stateCopy.nodes,
+        edges: stateCopy.edges
       }));
   }
   
-  addNote(node,edges){
-    
+  setNote(newNote){
+    console.log("set")
+    console.log(this.state);
+    console.log(newNote);
+    let stateCopy = JSON.parse(JSON.stringify(this.state));
+    stateCopy.nodes.find(x => x.props.id === stateCopy.id).props.content = newNote;
+    // console.log(stateCopy);
+    this.setState(state => ({
+        id:stateCopy.id,
+        title: stateCopy.title,
+        note: newNote,
+        nodes: stateCopy.nodes,
+        edges: stateCopy.edges
+      }));
+    // stateCopy = JSON.parse(JSON.stringify(this.state));
+    // this.setState(state => ({
+    //     id:newId,
+    //     title: newTitle,
+    //     note: newNote,
+    //     nodes: stateCopy.nodes,
+    //     edges: stateCopy.edges
+    //   }));
   }
   
   render() {
@@ -77,8 +106,8 @@ class NoteWeb extends Component {
         <TopBar key="top"/>
         <div className="main-content">
           <LeftBar key="left"/>
-          <DataScreen key="data" nodes={this.nodes} edges={this.edges}/>
-          <NoteScreen key="note" state={this.state}/>
+          <DataScreen key="data" state={this.state} />
+          <NoteScreen key="note" state={this.state} setNote={this.setNote}/>
         </div>
       </div>
     );
@@ -123,13 +152,18 @@ class DataScreen extends Component {
   constructor(props) {
     super(props);
     // Don't call this.setState() here!
-    
-    this.items = this.props.nodes.concat(this.props.edges);
-    this.network = <div className="datascreen-content"><Network>{this.items}</Network></div>;
+    this.state = {items:this.props.state.nodes.concat(this.props.state.edges)};
+    this.network = <div className="datascreen-content"><Network>{this.state.items}</Network></div>;
   } 
   
-  setNetwork() {
-    this.network = <div className="datascreen-content"><Network>{this.items}</Network></div>;
+  componentWillReceiveProps(nextProps) {
+    console.log("1")
+    console.log(nextProps);
+    console.log("2")
+    console.log(nextProps.state.nodes.concat(nextProps.state.edges));
+    this.setState({ items: nextProps.state.nodes.concat(nextProps.state.edges)});
+    console.log("3")
+    console.log(this.state);
   }
   
   render() {
@@ -148,32 +182,18 @@ class NoteScreen extends Component {
   // the note content display
   constructor(props){
     super(props);
-    this.state = {input:""};
-    this.handleChange = this.handleChange.bind(this);
-    this.handleClick = this.handleClick.bind(this);
-  }
-  handleChange(e) {
-    console.log(this.state);
-    const thisState = e.target.value;
-    this.setState(state => ({
-        input:thisState
-      }));
+    // this.decorator = this.props.decorator;
+    // this.handleChange = this.handleChange.bind(this);
+    // // this.handleClick = this.handleClick.bind(this);
   }
   
-  handleClick(e){
-    console.log("The input is " + this.state.input);
-  }
   render() {
     return(
       <div className="notescreen">
         {/* <p>Some main datascreen stuff</p> */}
         <div className="notescreen-content">
           <h3> {this.props.state.title} </h3>
-          <p> {this.props.state.note} </p>
-          <div className="input">
-            <input name="noteInput" onChange={this.handleChange} className="bottom-sticky"/>
-            <button name="newNode" onClick={() => this.handleClick()} className="input-button"/>
-          </div>
+          <textarea name="noteInput" value={this.props.state.note} onChange={(e) => this.props.setNote(e.target.value)} className="input-note"/>
         </div>
       </div>
     );

@@ -123,11 +123,13 @@ p {
 }
 
 .input-button{
-  
+  width: 100%;
+  height:5%;
 }
 
 .input-note{
-  
+  width: 100%;
+  height: 90%
 }
 
 path {
