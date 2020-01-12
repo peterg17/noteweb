@@ -69,12 +69,10 @@ class NoteWeb extends Component {
     return (
       <div className="note-web">
         <TopBar key="top"/>
-        <div className="container">
+        <div className="main-content">
           <LeftBar key="left"/>
-          <div className="main-content">
-            <DataScreen key="data" nodes={this.nodes} edges={this.edges} />
-            <NoteScreen key="note" title={this.state.title} note={this.state.note} />
-          </div>
+          <DataScreen key="data" nodes={this.nodes} edges={this.edges} />
+          <NoteScreen key="note" title={this.state.title} note={this.state.note} />
         </div>
       </div>
     );
@@ -86,13 +84,14 @@ class TopBar extends Component {
   
   render() {
     return (
-      <div>
-        <div className="container">
-          <div className="topbar">
-            <h1>Noteweb v0.0</h1>
-          </div>
-          <div className="account">
-          </div>
+      <div className="topbar">
+        <div className="topbar-content">
+          <h3>Noteweb v0.0</h3>
+        </div>
+        <div className="blank-space">
+        </div>
+        <div className="account">
+          <h3 className="account-content">log in</h3>
         </div>
       </div>
     );
@@ -105,7 +104,9 @@ class LeftBar extends Component {
   render() {
     return (
       <div className="leftbar">
-        <p>Some leftbar stuff</p>
+        <div width="100%" height="100%">
+          <p>Some leftbar stuff</p>
+        </div>
       </div>
     );
   }
@@ -118,16 +119,21 @@ class DataScreen extends Component {
     // Don't call this.setState() here!
     
     this.items = this.props.nodes.concat(this.props.edges);
-    this.network = <div className="datascreen"><Network>{this.items}</Network></div>;
+    this.network = <div className="datascreen-content"><Network>{this.items}</Network></div>;
   } 
   
   setNetwork() {
-    this.network = <div className="datascreen"><Network></Network></div>;
+    this.network = <div className="datascreen-content"><Network>{this.items}</Network></div>;
   }
   
   render() {
     return (
-      this.network
+      <div className="datascreen">
+        <div>
+          <p>HELLO</p>
+        </div>
+        {this.network}
+      </div>
     );
   }
 }
@@ -138,10 +144,10 @@ class NoteScreen extends Component {
     return(
       <div className="notescreen">
         {/* <p>Some main datascreen stuff</p> */}
-        <container width="100%" height="100%">
+        <div width="100%" height="100%">
           <h3> {this.props.title} </h3>
           <p> {this.props.note} </p>
-        </container>
+        </div>
       </div>
     );
   }

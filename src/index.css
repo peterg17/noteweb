@@ -1,6 +1,8 @@
-body {
+html, body {
   font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
+  margin: 0;
+  height:100%;
+  background-color: #000000;
 }
 
 p {
@@ -8,15 +10,20 @@ p {
   font: 18px "Century Gothic", Futura, sans-serif;
 }
 
+.full-height {
+  height: 100%;
+}
+
 .container {
   display: flex;
   justify-content: flex-start;
-  align-items: stretch;
+  align-items: center;
+  margin:0;
 }
 
 .note-web {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   color:#FFFFFF;
   background-color: #000000;
 }
@@ -25,46 +32,81 @@ p {
   display: flex;
   justify-content: flex-start;
   align-items: stretch;
-  width: 80%;
+  width: 100vw;
+  height: 90vh;
 }
 
 .leftbar {
-  display: flex;
-  width: 20%;
-  flex: 1;
+  display: inline-block;;
+  width: 10vw;
+  height: 100%;
   border: 1px solid purple;
-  margin: 20px;
+  margin: 1%;
 }
 
 .datascreen {
-  display: flex;
-  width: 100%;
-  min-width: 500px;
-  min-height: 500px;
+  display: inline-block;
+  width: 70vw;
+  height: 100%;
   flex: 6;
   border: 1px solid green;
-  margin: 20px;
+  margin: 1%;
+  flex-direction: column;
+}
+
+.datascreen-content {
+  display: flex;
+  min-width:50vw;
+  width: 100%;
+  height: 100%;
 }
 
 .notescreen {
-  display: flex;
-  flex: 7;
+  display: inline-block;
+  width: 20vw;
+  height: 100%;
   border: 1px solid green;
-  margin: 20px;
+  margin: 1%;
 }
 
 .topbar {
   display: flex;
-  flex: 3;
-  border: 1px solid blue;
-  margin: 20px;
+  flex-direction: row;
+  height: 5%;
+  width: 100%;
+}
+
+.topbar-content {
+  width: 15%;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.blank-space {
+  width: 75%;
 }
 
 .account {
   display: flex;
+  justify-content: center;
   flex: 1;
-  border: 1px solid blue;
-  margin: 20px;
+  width: 10%;
+  height:100%;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.account-content {
+  display: flex;
+  text-align: right;
+}
+
+.align-center{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 
