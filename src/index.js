@@ -6,8 +6,14 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class NoteWeb extends Component {
-  // This is the main container for all content
+  /**
+   * This is the main application. Creates a network of nodes for note taking, rather than a linear set of notes. 
+   * Will use machine learning on back end to automatically link notes to each other
+   */
   constructor(props) {
+  /**
+   * Constructor for Noteweb application. Initializes nodes and edges for graph. initializes the state. binds functions. 
+   */
     super(props);
     this.state = {id: "None",  title: "Title", note: "This is where your note is displayed"};
     console.log(this.note)
@@ -57,9 +63,14 @@ class NoteWeb extends Component {
     ];
     this.state = {id: "None",  title: "Title", note: "Please choose a note to get started", nodes: nodes, edges: edges};
     this.setNote = this.setNote.bind(this);
+    this.getNote = this.getNote.bind(this);
+    this.addNote = this.addNote.bind(this);
   }
   
   getNote(newId){
+    /**
+     * Retreives the contents of a note and displays the contents in the NoteScreen 
+     */
     console.log("get")
     console.log(this.state);
     console.log(newId);
@@ -76,10 +87,17 @@ class NoteWeb extends Component {
       }));
   }
   
+  addNote(title){
+    /**
+     * Adds a new node to the network 
+     */
+    console.log(title);
+  }
+  
   setNote(newNote){
-    console.log("set")
-    console.log(this.state);
-    console.log(newNote);
+    /**
+     * Adds a new node to the network 
+     */
     let stateCopy = JSON.parse(JSON.stringify(this.state));
     stateCopy.nodes.find(x => x.props.id === stateCopy.id).props.content = newNote;
     // console.log(stateCopy);
@@ -90,22 +108,17 @@ class NoteWeb extends Component {
         nodes: stateCopy.nodes,
         edges: stateCopy.edges
       }));
-    // stateCopy = JSON.parse(JSON.stringify(this.state));
-    // this.setState(state => ({
-    //     id:newId,
-    //     title: newTitle,
-    //     note: newNote,
-    //     nodes: stateCopy.nodes,
-    //     edges: stateCopy.edges
-    //   }));
   }
   
   render() {
+    /**
+     * Renders the component
+     */
     return (
       <div className="note-web">
         <TopBar key="top"/>
         <div className="main-content">
-          <LeftBar key="left"/>
+          <LeftBar key="left" addNote={this.addNote} state={this.state}/>
           <DataScreen key="data" state={this.state} />
           <NoteScreen key="note" state={this.state} setNote={this.setNote}/>
         </div>
@@ -115,9 +128,13 @@ class NoteWeb extends Component {
 }
 
 class TopBar extends Component {
-  // This is the header of the application
-  
+  /**
+   * This is the header of the application. displays name of application. later will be used to access login and account.
+   */
   render() {
+    /**
+     * Renders the component
+     */
     return (
       <div className="topbar">
         <div className="topbar-content">
@@ -135,12 +152,27 @@ class TopBar extends Component {
 
 class LeftBar extends Component {
   // Content on left side of screen
+  constructor(props) {
+    super(props);
+    this.state = {input:""}
+  }
+  
+  handleInput(input){
+    console.log(input);
+    this.setState(state => ({input:input}))
+  }
   
   render() {
+    /**
+     * Renders the component
+     */
     return (
       <div className="leftbar">
         <div width="100%" height="100%">
-          <p>Some leftbar stuff</p>
+          <h3>New Note</h3>
+          <p> Title: </p>
+          <input name="noteTitle" className="input-title" onChange={(e) => this.handleInput(e.target.value)}/>
+          <button name="addNote" className="input-button" onClick={() => this.props.addNote(this.state.input)}>Add Note</button>
         </div>
       </div>
     );
@@ -148,7 +180,9 @@ class LeftBar extends Component {
 }
 
 class DataScreen extends Component {
-  //The notes graph display
+  /**
+   * This screen displays the network of notes and allows selection of a note to be displayed in the NoteScreen
+   */
   constructor(props) {
     super(props);
     // Don't call this.setState() here!
@@ -167,6 +201,9 @@ class DataScreen extends Component {
   }
   
   render() {
+    /**
+     * Renders the component
+     */
     return (
       <div className="datascreen">
         <div>
@@ -179,7 +216,9 @@ class DataScreen extends Component {
 }
 
 class NoteScreen extends Component {
-  // the note content display
+  /**
+   * This screen displays and allows editing of the content of notes in the graph
+   */
   constructor(props){
     super(props);
     // this.decorator = this.props.decorator;
@@ -188,6 +227,9 @@ class NoteScreen extends Component {
   }
   
   render() {
+    /**
+     * Renders the component
+     */
     return(
       <div className="notescreen">
         {/* <p>Some main datascreen stuff</p> */}
