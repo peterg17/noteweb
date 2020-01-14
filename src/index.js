@@ -61,7 +61,7 @@ class NoteWeb extends Component {
       <Edge id="17" from="emporer" to="luke" />,
       <Edge id="18" from="lando" to="han" />
     ];
-    this.state = {id: "None",  title: "Title", note: "Please choose a note to get started", nodes: nodes, edges: edges};
+    this.state = {id: "vader",  title: "Darth Vader", note: "The chosen one. Brought balance to the force. Before me thousands of Jedi, only two Sith. After me, two Jedi and two Sith. That's what you call balanced.", nodes: nodes, edges: edges};
     this.setNote = this.setNote.bind(this);
     this.getNote = this.getNote.bind(this);
     this.addNote = this.addNote.bind(this);

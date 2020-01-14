@@ -127,8 +127,11 @@ p {
 }
 
 .input-button{
+  display: block;
   width: 100%;
   height:5%;
+  margin: auto;
+  text-align: center;
 }
 
 .input-note{
