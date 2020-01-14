@@ -87,7 +87,7 @@ p {
 }
 
 .topbar-content {
-  width: 15%;
+  width: 40%;
   height:100%;
   display: flex;
   justify-content: center;
@@ -95,7 +95,7 @@ p {
 }
 
 .blank-space {
-  width: 75%;
+  width: 50%;
 }
 
 .account {
