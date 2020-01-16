@@ -156,7 +156,7 @@ export default class NoteWeb extends Component {
       <div className="note-web">
         <TopBar key="top"/>
         <div className="main-content">
-          <LeftBar key="left" addNote={this.addNote} state={this.state}/>
+          <LeftBar key="left" getNote={this.getNote} addNote={this.addNote} state={this.state}/>
           <DataScreen key="data" state={this.state} />
           <NoteScreen key="note" state={this.state} setNote={this.setNote}/>
         </div>
