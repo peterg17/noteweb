@@ -13,6 +13,7 @@
     "@vx/network": "^0.0.193-alpha.0",
     "bootstrap": "^4.4.1",
     "d3": "^5.15.0",
+    "express": "^4.17.1",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
