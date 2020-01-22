@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import '../node_modules/react-vis/dist/style.css';
-import { Network, Node, Edge } from 'react-vis-network';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

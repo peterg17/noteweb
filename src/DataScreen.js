@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import '../node_modules/react-vis/dist/style.css';
 import { Network, Node, Edge } from 'react-vis-network';
+import Graph from 'react-graph-vis'
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -11,9 +11,33 @@ export default class DataScreen extends Component {
    */
   constructor(props) {
     super(props);
+    console.log(props);
+    this.state = {items:this.props.state.items, graph:this.props.state.graph, getnote:this.props.getNote};
+    
+    this.options = {
+      layout: {
+        hierarchical: false
+      },
+      edges: {
+        color: "#FFFFFF"
+      },
+      height: "500px"
+    };
+   
+    this.events = {
+      select: (event) => {
+        console.log(event)
+        console.log(this.state);
+        var { nodes, edges } = event;
+        this.props.getNote(event.nodes[0]);
+        console.log(nodes[0]);
+        console.log(edges);
+      }
+    };
     // Don't call this.setState() here!
-    this.state = {items:this.props.state.items};
-    this.network = <div className="datascreen-content"><Network>{this.state.items}</Network></div>;
+    console.log(this.props.state.graph);
+    this.state = {items:this.props.state.items, graph:this.props.state.graph};
+    // this.network = <div className="datascreen-content"><Graph graph={this.state.graph} options={options} events={events} /></div>;
   } 
   
   componentWillReceiveProps(nextProps) {
@@ -39,7 +63,11 @@ export default class DataScreen extends Component {
         <div>
           <p>HELLO</p>
         </div>
-        {this.network}
+        <Graph
+          graph={this.state.graph}
+          options={this.options}
+          events={this.events}
+        />
       </div>
     );
   }

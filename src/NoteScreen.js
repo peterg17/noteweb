@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import '../node_modules/react-vis/dist/style.css';
 import { Network, Node, Edge } from 'react-vis-network';
 import './index.css';
