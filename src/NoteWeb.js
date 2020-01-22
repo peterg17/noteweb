@@ -19,16 +19,6 @@ export default class NoteWeb extends Component {
    */
     super(props);
     this.state = {id: "None",  title: "Title", note: "This is where your note is displayed"};
-    console.log(this.note)
-    const Decorator = props => {
-      return (
-        <button
-          onClick={() => this.getNote(props.id)}
-        >
-          Click Me
-        </button>
-      );
-    };
     // let nodes = [
     //   <Node key="vader" id= "vader" label="Darth Vader" decorator={Decorator} content="The chosen one. Brought balance to the force. Before me thousands of Jedi, only two Sith. After me, two Jedi and two Sith. That's what you call balanced."/>,
     //   <Node key="luke" id= "luke" label="Luke Skywalker" decorator={Decorator} content="This is the Galaxy's only hope"/>,
@@ -103,7 +93,6 @@ export default class NoteWeb extends Component {
     let items = [];
     items.push(nodes.find(x => x.id === "vader"));
     for (let i = 0; i < edges.length; i++) {
-      console.log(edges[i]);
       if(edges[i].from === 1){
         items.push(edges[i]);
         items.push(nodes.find(x => x.id === edges[i].to));
@@ -125,15 +114,12 @@ export default class NoteWeb extends Component {
     //   }
     // }
     let thisItem = items[0];
-    console.log("items");
-    console.log(items);
     this.state = {id: thisItem.id,  title: thisItem.label, note: thisItem.content, nodes: nodes, edges: edges, items:items, graph:{nodes:nodes, edges:edges}};
     // this.state = {id: thisItem.props.id,  title: thisItem.props.label, note: thisItem.props.content, nodes: nodes, edges: edges, items:items, graph:{nodes:nodes, edges:edges}};
     this.setNote = this.setNote.bind(this);
     this.getNote = this.getNote.bind(this);
     this.addNote = this.addNote.bind(this);
     this.computeItems = this.computeItems.bind(this);
-    console.log(this.state);
   }
   
   getNote(newId){
@@ -142,10 +128,8 @@ export default class NoteWeb extends Component {
      */
     console.log("get")
     let stateCopy = JSON.parse(JSON.stringify(this.state));
-    console.log(stateCopy);
     let newNode = stateCopy.nodes.find(x => x.id === newId);
     let items = this.computeItems(newId, stateCopy.nodes, stateCopy.edges);
-    console.log(items);
     this.setState(state => ({
         id:newNode.id,
         title: newNode.label,
@@ -180,16 +164,15 @@ export default class NoteWeb extends Component {
      */
     console.log("add")
     let stateCopy = JSON.parse(JSON.stringify(this.state));
-    console.log(title);
   }
   
   setNote(newNote){
     /**
      * Adds a new node to the network 
      */
+    console.log("set");
     let stateCopy = JSON.parse(JSON.stringify(this.state));
     stateCopy.nodes.find(x => x.id === stateCopy.id).content = newNote;
-    // console.log(stateCopy);
     this.setState(state => ({
         id:stateCopy.id,
         title: stateCopy.title,
