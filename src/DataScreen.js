@@ -12,7 +12,7 @@ export default class DataScreen extends Component {
   constructor(props) {
     super(props);
     console.log(props);
-    this.state = {items:this.props.state.items, graph:this.props.state.graph, getnote:this.props.getNote};
+    this.state = {graph:this.props.state.graph, getnote:this.props.getNote};
     
     this.options = {
       layout: {
@@ -32,6 +32,12 @@ export default class DataScreen extends Component {
     };
     // Don't call this.setState() here!
     this.state = {items:this.props.state.items, graph:this.props.state.graph};
+    this.network= <Graph
+      graph={this.state.graph}
+      options={this.options}
+      events={this.events}
+    />;
+    console.log(this.network)
   } 
   
   // componentWillReceiveProps(nextProps) {
@@ -57,11 +63,7 @@ export default class DataScreen extends Component {
         <div>
           <p>HELLO</p>
         </div>
-        <Graph
-          graph={this.state.graph}
-          options={this.options}
-          events={this.events}
-        />
+        {this.network}
       </div>
     );
   }

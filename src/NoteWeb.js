@@ -90,31 +90,19 @@ export default class NoteWeb extends Component {
       { key: "17", id: "17", from:"emporer", to:"luke" },
       { key: "18", id: "18", from:"lando", to:"han" }
     ]
-    let items = [];
-    items.push(nodes.find(x => x.id === "vader"));
+    let graph = {nodes:[],edges:[]};
+    graph.nodes.push(nodes.find(x => x.id === "vader"));
     for (let i = 0; i < edges.length; i++) {
-      if(edges[i].from === 1){
-        items.push(edges[i]);
-        items.push(nodes.find(x => x.id === edges[i].to));
-      }else if(edges[i].to === 1){
-        items.push(edges[i]);
-        items.push(nodes.find(x => x.id === edges[i].from));
+      if(edges[i].from === "vader"){
+        graph.edges.push(edges[i]);
+        graph.nodes.push(nodes.find(x => x.id === edges[i].to));
+      }else if(edges[i].to === "vader"){
+        graph.edges.push(edges[i]);
+        graph.nodes.push(nodes.find(x => x.id === edges[i].from));
       }
     }
-    // let items = [];
-    // items.push(nodes.find(x => x.props.id === "vader"));
-    // for (let i = 0; i < edges.length; i++) {
-    //   console.log(edges[i]);
-    //   if(edges[i].props.from === "vader"){
-    //     items.push(edges[i]);
-    //     items.push(nodes.find(x => x.props.id === edges[i].props.to));
-    //   }else if(edges[i].props.to === "vader"){
-    //     items.push(edges[i]);
-    //     items.push(nodes.find(x => x.props.id === edges[i].props.from));
-    //   }
-    // }
-    let thisItem = items[0];
-    this.state = {id: thisItem.id,  title: thisItem.label, note: thisItem.content, nodes: nodes, edges: edges, items:items, graph:{nodes:nodes, edges:edges}};
+    let thisItem = graph.nodes[0];
+    this.state = {id: thisItem.id,  title: thisItem.label, note: thisItem.content, nodes: nodes, edges: edges, graph:graph};
     // this.state = {id: thisItem.props.id,  title: thisItem.props.label, note: thisItem.props.content, nodes: nodes, edges: edges, items:items, graph:{nodes:nodes, edges:edges}};
     this.setNote = this.setNote.bind(this);
     this.getNote = this.getNote.bind(this);
@@ -129,33 +117,33 @@ export default class NoteWeb extends Component {
     console.log("get")
     let stateCopy = JSON.parse(JSON.stringify(this.state));
     let newNode = stateCopy.nodes.find(x => x.id === newId);
-    let items = this.computeItems(newId, stateCopy.nodes, stateCopy.edges);
+    let graph = this.computeItems(newId, stateCopy.nodes, stateCopy.edges);
     this.setState(state => ({
         id:newNode.id,
         title: newNode.label,
         note: newNode.content,
         nodes: stateCopy.nodes,
         edges: stateCopy.edges,
-        items: items
+        graph: graph
       }));
   }
   
   computeItems(id, nodes, edges){
     /**
-     * Computes the new items to be 
+     * Computes the new graph to be 
      */
-    let items = [];
-    items.push(nodes.find(x => x.id === id));
+    let graph = [];
+    graph.push(nodes.find(x => x.id === id));
     for (let i = 0; i < edges.length; i++) {
       if(edges[i].from === id){
-        items.push(edges[i]);
-        items.push(nodes.find(x => x.id === edges[i].to));
+        graph.push(edges[i]);
+        graph.push(nodes.find(x => x.id === edges[i].to));
       }else if(edges[i].to === id){
-        items.push(edges[i]);
-        items.push(nodes.find(x => x.id === edges[i].from));
+        graph.push(edges[i]);
+        graph.push(nodes.find(x => x.id === edges[i].from));
       }
     }
-    return items;
+    return graph;
   }
   
   addNote(title){
