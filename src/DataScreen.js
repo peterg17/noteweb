@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../node_modules/react-vis/dist/style.css';
-import { Network, Node, Edge } from 'react-vis-network';
+import { InteractiveForceGraph, ForceGraph, ForceGraphNode, ForceGraphLink } from 'react-vis-force';
 import Graph from 'react-graph-vis'
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,32 +12,25 @@ export default class DataScreen extends Component {
   constructor(props) {
     super(props);
     console.log(props);
-    this.state = {graph:this.props.state.graph, getnote:this.props.getNote};
-    
-    this.options = {
-      layout: {
-        hierarchical: false
-      },
-      edges: {
-        color: "#FFFFFF"
-      },
-      height: "500px"
-    };
-   
-    this.events = {
-      select: (event) => {
-        var { nodes, edges } = event;
-        this.props.getNote(event.nodes[0]);
-      }
-    };
-    // Don't call this.setState() here!
-    this.state = {items:this.props.state.items, graph:this.props.state.graph};
-    this.network= <Graph
-      graph={this.state.graph}
-      options={this.options}
-      events={this.events}
-    />;
-    console.log(this.network)
+    this.state = this.props.state;
+    // this.network= <Graph
+    //   graph={this.state.graph}
+    //   options={this.options}
+    //   events={this.events}
+    // />;
+    this.network = <InteractiveForceGraph
+      simulationOptions={{ height: 800, width: 800}}
+      zoomOptions={{ minScale: 200}}
+      labelAttr="label"
+      onSelectNode={(event,node) => {
+                      this.props.getNote(node.id)}}
+      highlightDependencies
+      showLabels
+      zoom
+    >
+      {this.props.state.nodes.concat(this.props.state.links)}
+    </InteractiveForceGraph>
+    // console.log(this.network.props.graph.nodes);
   } 
   
   // componentWillReceiveProps(nextProps) {
@@ -54,16 +47,17 @@ export default class DataScreen extends Component {
   //   console.log(this.network);
   // }
   
+  
+  
   render() {
     /**
      * Renders the component
      */
     return (
       <div className="datascreen">
-        <div>
-          <p>HELLO</p>
+        <div className="datascreen-content">
+          {this.network}
         </div>
-        {this.network}
       </div>
     );
   }

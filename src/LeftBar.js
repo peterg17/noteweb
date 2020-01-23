@@ -28,8 +28,8 @@ export default class LeftBar extends Component {
           <button name="addNote" className="input-button" onClick={() => this.props.addNote(this.state.input)}>Add Note</button>
           {this.state.nodes.map((value, index) => {
             return (
-              <div className="leftbar-item" width="100%" key={index} onClick={() => this.props.getNote(value.id)}>
-                <p>{value.label}</p>
+              <div className="leftbar-item" width="100%" key={index} onClick={() => this.props.getNote(value.props.node.id)}>
+                <p>{value.props.node.label}</p>
               </div>
             );
           })}

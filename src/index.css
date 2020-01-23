@@ -61,6 +61,7 @@ p {
   border: 1px solid green;
   margin: 1%;
   flex-direction: column;
+  background-color:#FFFFFF;
 }
 
 .datascreen-content {
