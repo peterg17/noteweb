@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../node_modules/react-vis/dist/style.css';
-import { InteractiveForceGraph, ForceGraph, ForceGraphNode, ForceGraphLink } from 'react-vis-force';
-import Graph from 'react-graph-vis'
+import { InteractiveForceGraph} from 'react-vis-force';
+// import { InteractiveForceGraph, ForceGraph, ForceGraphNode, ForceGraphLink } from 'react-vis-force';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
