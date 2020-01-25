@@ -32,7 +32,8 @@ export default class LeftBar extends Component {
           <h3>New Note</h3>
           <p> Title: </p>
           <input name="noteTitle" className="input-title" onChange={(e) => this.handleTitle(e.target.value)}/>
-          <input name="noteContent" className="input-note" onChange={(e) => this.handleNote(e.target.value)}/>
+          <p> Note: </p>
+          <textarea name="noteContent" className="input-title" onChange={(e) => this.handleNote(e.target.value)}/>
           <button name="addNote" className="input-button" onClick={() => this.props.addNote(this.state.title,this.state.note)}>Add Note</button>
           {this.state.nodes.map((value, index) => {
             return (

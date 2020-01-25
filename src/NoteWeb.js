@@ -54,40 +54,40 @@ export default class NoteWeb extends Component {
     //   <Edge key="18" id= "18" from="lando" to="han" />
     // ];
     let nodes = [
-      { key: "vader", id: "vader", label: "Darth Vader", content: "The chosen one. Brought balance to the force. Before me thousands of Jedi, only two Sith. After me, two Jedi and two Sith. That's what you call balanced."},
-      { key: "luke", id: "luke", label: "Luke Skywalker" , content: "This is the Galaxy's only hope." },
-      { key: "leia", id: "leia", label: "Leia Organa", content: "This is the girl who is always counted out but comes up big."},
-      { key: "han", id: "han", label: "Han Solo" , content: "What is this amateur hour?" },
-      { key: "chewy", id: "chewy", label: "Chewbacca", content: "Ahhhhhhhhhhhhh!"},
-      { key: "obi", id: "obi", label: "Obi-Wan Kenobi" , content: "Why did you try it Anakin? I had the high ground. And I've used that exact trick on Darth Maul which I must have told you about. Did you think I wouldn't see that shit coming? Come on young padawan." },
-      { key: "greedo", id: "greedo", label: "Greedo", content: "The green guy who was just too slow for Han Solo. Or was I innacurate? Did I shoot or not? Idk George Lucas keeps editing my only scene"},
-      { key: "yoda", id: "yoda", label: "Yoda" , content: "That baby me am not. Look nothing like him, I did. More handsome I am." },
-      { key: "boba", id: "boba", label: "Boba Fett", content: "Still being digested to this day in The Great Pit of Carkoon"},
-      { key: "jabba", id: "jabba", label: "Jabba The Hutt" , content: "Me want solo on my wall." },
-      { key: "lando", id: "lando", label: "Lando Calrissian", content: "I'm in it for the money, and the women, and the greater good, but definitely the money."},
-      { key: "emporer", id: "emporer", label: "Emporer Palpatine" , content: "This is the Dark Lord of the Sith" },
+      { key: "vader", id: "vader", label: "Darth Vader", content: "The chosen one. Brought balance to the force. Before me thousands of Jedi, only two Sith. After me, two Jedi and two Sith. That's what you call balanced.", created:new Date().getTime()},
+      { key: "luke", id: "luke", label: "Luke Skywalker" , content: "This is the Galaxy's only hope.", created:new Date().getTime()},
+      { key: "leia", id: "leia", label: "Leia Organa", content: "This is the girl who is always counted out but comes up big.", created:new Date().getTime()},
+      { key: "han", id: "han", label: "Han Solo" , content: "What is this amateur hour?", created:new Date().getTime() },
+      { key: "chewy", id: "chewy", label: "Chewbacca", content: "Ahhhhhhhhhhhhh!", created:new Date().getTime()},
+      { key: "obi", id: "obi", label: "Obi-Wan Kenobi" , content: "Why did you try it Anakin? I had the high ground. And I've used that exact trick on Darth Maul which I must have told you about. Did you think I wouldn't see that shit coming? Come on young padawan.", created:new Date().getTime() },
+      { key: "greedo", id: "greedo", label: "Greedo", content: "The green guy who was just too slow for Han Solo. Or was I innacurate? Did I shoot or not? Idk George Lucas keeps editing my only scene", created:new Date().getTime()},
+      { key: "yoda", id: "yoda", label: "Yoda" , content: "That baby me am not. Look nothing like him, I did. More handsome I am.", created:new Date().getTime() },
+      { key: "boba", id: "boba", label: "Boba Fett", content: "Still being digested to this day in The Great Pit of Carkoon", created:new Date().getTime()},
+      { key: "jabba", id: "jabba", label: "Jabba The Hutt" , content: "Me want solo on my wall.", created:new Date().getTime() },
+      { key: "lando", id: "lando", label: "Lando Calrissian", content: "I'm in it for the money, and the women, and the greater good, but definitely the money.", created:new Date().getTime()},
+      { key: "emporer", id: "emporer", label: "Emporer Palpatine" , content: "This is the Dark Lord of the Sith", created:new Date().getTime() },
     ]
     
     let edges = [
-      { key: "0", id: "0", from:"yoda", to:"chewy" },
-      { key: "1", id: "1", from:"vader", to:"luke" },
-      { key: "2", id: "2", from:"vader", to:"leia" },
-      { key: "3", id: "3", from:"han", to:"leia" },
-      { key: "4", id: "4", from:"han", to:"chewy" },
-      { key: "5", id: "5", from:"obi", to:"luke" },
-      { key: "6", id: "6", from:"leia", to:"luke" },
-      { key: "7", id: "7", from:"vader", to:"obi" },
-      { key: "8", id: "8", from:"obi", to:"yoda" },
-      { key: "9", id: "9", from:"vader", to:"yoda" },
-      { key: "10", id: "10", from:"jabba", to:"han" },
-      { key: "11", id: "11", from:"jabba", to:"boba" },
-      { key: "12", id: "12", from:"boba", to:"han" },
-      { key: "13", id: "13", from:"han", to:"greedo" },
-      { key: "14", id: "14", from:"jabba", to:"greedo" },
-      { key: "15", id: "15", from:"yoda", to:"luke" },
-      { key: "16", id: "16", from:"emporer", to:"vader" },
-      { key: "17", id: "17", from:"emporer", to:"luke" },
-      { key: "18", id: "18", from:"lando", to:"han" }
+      { key: "0", id: "0", from:"yoda", to:"chewy", created:new Date().getTime()},
+      { key: "1", id: "1", from:"vader", to:"luke", created:new Date().getTime()},
+      { key: "2", id: "2", from:"vader", to:"leia", created:new Date().getTime()},
+      { key: "3", id: "3", from:"han", to:"leia", created:new Date().getTime()},
+      { key: "4", id: "4", from:"han", to:"chewy", created:new Date().getTime()},
+      { key: "5", id: "5", from:"obi", to:"luke", created:new Date().getTime()},
+      { key: "6", id: "6", from:"leia", to:"luke", created:new Date().getTime()},
+      { key: "7", id: "7", from:"vader", to:"obi", created:new Date().getTime()},
+      { key: "8", id: "8", from:"obi", to:"yoda", created:new Date().getTime()},
+      { key: "9", id: "9", from:"vader", to:"yoda", created:new Date().getTime()},
+      { key: "10", id: "10", from:"jabba", to:"han", created:new Date().getTime()},
+      { key: "11", id: "11", from:"jabba", to:"boba", created:new Date().getTime()},
+      { key: "12", id: "12", from:"boba", to:"han", created:new Date().getTime()},
+      { key: "13", id: "13", from:"han", to:"greedo", created:new Date().getTime()},
+      { key: "14", id: "14", from:"jabba", to:"greedo", created:new Date().getTime()},
+      { key: "15", id: "15", from:"yoda", to:"luke", created:new Date().getTime()},
+      { key: "16", id: "16", from:"emporer", to:"vader", created:new Date().getTime()},
+      { key: "17", id: "17", from:"emporer", to:"luke", created:new Date().getTime()},
+      { key: "18", id: "18", from:"lando", to:"han", created:new Date().getTime()}
     ]
     let graph = {nodes:nodes,edges:edges};
     let thisItem = graph.nodes[0];
@@ -143,9 +143,8 @@ export default class NoteWeb extends Component {
     console.log("add");
     let id = (title.split(" ")[0]).toLowerCase();
     let stateCopy = Object.assign({}, this.state);
-    stateCopy.nodes.push({key: id, id: id, label: title , content: note})
-    stateCopy.edges.push({key: stateCopy.edges.length.toString(), id: stateCopy.edges.length.toString(), to: id , from: stateCopy.id})
-    console.log(stateCopy);
+    stateCopy.nodes.push({key: id, id: id, label: title , content: note, created:new Date().getTime()})
+    stateCopy.edges.push({key: stateCopy.edges.length.toString(), id: stateCopy.edges.length.toString(), to: id , from: stateCopy.id, created:new Date().getTime()})
     let graph = this.computeItems(stateCopy.id, stateCopy.nodes, stateCopy.edges);
     this.setState(state => ({
         id:id,
