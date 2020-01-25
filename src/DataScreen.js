@@ -24,6 +24,7 @@ export default class DataScreen extends Component {
       labelAttr="label"
       onSelectNode={(event,node) => {
                       this.props.getNote(node.id)}}
+      selectedNode={this.props.state.selectedNode}
       highlightDependencies
       showLabels
       zoom

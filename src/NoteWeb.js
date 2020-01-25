@@ -102,7 +102,7 @@ export default class NoteWeb extends Component {
     //   }
     // }
     let thisItem = nodes[0].props.node;
-    this.state = {id: thisItem.id,  title: thisItem.label, note: thisItem.content, nodes: nodes, links: links}//, graph:graph};
+    this.state = {selectedNode: thisItem, id: thisItem.id,  title: thisItem.label, note: thisItem.content, nodes: nodes, links: links}//, graph:graph};
     // this.state = {id: thisItem.props.id,  title: thisItem.props.label, note: thisItem.props.content, nodes: nodes, edges: edges, items:items, graph:{nodes:nodes, edges:edges}};
     this.setNote = this.setNote.bind(this);
     this.getNote = this.getNote.bind(this);
@@ -117,8 +117,10 @@ export default class NoteWeb extends Component {
     console.log("get")
     let stateCopy = JSON.parse(JSON.stringify(this.state));
     let newNode = stateCopy.nodes.find(x => x.props.node.id === newId);
+    console.log("new node id: ", newNode.props.node.id);
     this.setState(state => ({
-        id:newNode.props.node.id,
+        selectedNode: newNode.props.node,
+        id: newNode.props.node.id,
         title: newNode.props.node.label,
         note: newNode.props.node.content,
         nodes: stateCopy.nodes,
@@ -154,13 +156,14 @@ export default class NoteWeb extends Component {
   
   setNote(newNote){
     /**
-     * Adds a new node to the network 
+     * Changes content of a node in the network 
      */
     console.log("set");
     let stateCopy = JSON.parse(JSON.stringify(this.state));
-    stateCopy.nodes.find(x => x.id === stateCopy.id).content = newNote;
+    stateCopy.nodes.find(x => x.id === stateCopy.id).props.node.content = newNote;
     this.setState(state => ({
-        id:stateCopy.id,
+        selectedNode: stateCopy.selectedNode,
+        id: stateCopy.id,
         title: stateCopy.title,
         note: newNote,
         nodes: stateCopy.nodes,
@@ -177,7 +180,7 @@ export default class NoteWeb extends Component {
         <TopBar key="top"/>
         <div className="main-content">
           <LeftBar key="left" getNote={this.getNote} addNote={this.addNote} state={this.state}/>
-          <DataScreen key="data" state={this.state} addNote={this.addNote} getNote={this.getNote}/>
+          <DataScreen key="data" state={this.state} addNote={this.addNote} getNote={this.getNote} selectedNode={this.selectedNode}/>
           <NoteScreen key="note" state={this.state} setNote={this.setNote}/>
         </div>
       </div>
