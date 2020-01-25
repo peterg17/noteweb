@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import PropTypes from 'prop-types';
 import '../node_modules/react-vis/dist/style.css';
 import { Network, Node, Edge } from 'react-vis-network';
 import './index.css';
@@ -9,7 +10,7 @@ export default class LeftBar extends Component {
   // Content on left side of screen
   constructor(props) {
     super(props);
-    this.state = {input:"", nodes: this.props.state.nodes};
+    this.state = {input:"", nodes: this.props.nodes};
   }
   
   handleInput(input){
@@ -39,4 +40,8 @@ export default class LeftBar extends Component {
       </div>
     );
   }
+}
+
+LeftBar.propTypes = {
+  nodes: PropTypes.arrayOf(Node,Edge)
 }

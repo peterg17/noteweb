@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import PropTypes from 'prop-types';
 import '../node_modules/react-vis/dist/style.css';
 import { Network, Node, Edge } from 'react-vis-network';
 import './index.css';
@@ -24,11 +25,15 @@ export default class NoteScreen extends Component {
       <div className="notescreen">
         {/* <p>Some main datascreen stuff</p> */}
         <div className="notescreen-content">
-          <h3> {this.props.state.title} </h3>
-          <textarea name="noteInput" value={this.props.state.note} onChange={(e) => this.props.setNote(e.target.value)} className="input-note"/>
+          <h3> {this.props.title} </h3>
+          <textarea name="noteInput" value={this.props.note} onChange={(e) => this.props.setNote(e.target.value)} className="input-note"/>
         </div>
       </div>
     );
   }
   
+}
+
+NoteScreen.propTypes = {
+  items: PropTypes.arrayOf(PropTypes.oneOfType([Node,Edge]))
 }

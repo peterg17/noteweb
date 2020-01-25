@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import PropTypes from 'prop-types';
 import '../node_modules/react-vis/dist/style.css';
-import { Network, Node, Edge } from 'react-vis-network';
+import {VisNetwork, Network, Node, Edge } from 'react-vis-network';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -12,22 +13,20 @@ export default class DataScreen extends Component {
   constructor(props) {
     super(props);
     // Don't call this.setState() here!
-    this.state = {items:this.props.state.items};
-    this.network = <div className="datascreen-content"><Network>{this.state.items}</Network></div>;
+    this.state = {items:this.props.items};
+    this.network = <div className="datascreen-content"><VisNetwork>{this.state.items}</VisNetwork></div>;
   } 
   
-  componentWillReceiveProps(nextProps) {
+  static getDerivedStateFromProps(props, state) {
     /*
     * Might help propogate state change down to child from parent
     */
-    console.log("1")
-    console.log(nextProps);
-    console.log("2")
-    console.log(nextProps.state.items);
-    this.setState({ items: nextProps.state.items});
-    console.log("3")
-    console.log(this.state);
-    console.log(this.network);
+    if (props.items !== state.items) {
+      return {
+        items:props.items
+      };
+    }
+    return null;
   }
   
   render() {
@@ -43,4 +42,8 @@ export default class DataScreen extends Component {
       </div>
     );
   }
+}
+
+DataScreen.propTypes = {
+  items: PropTypes.arrayOf(PropTypes.oneOfType([Node,Edge]))
 }
