@@ -62,7 +62,7 @@ export default class NoteWeb extends Component {
       { key: "han", id: "han", label: "Han Solo" , content: "What is this amateur hour?" },
       { key: "chewy", id: "chewy", label: "Chewbacca", content: "Ahhhhhhhhhhhhh!"},
       { key: "obi", id: "obi", label: "Obi-Wan Kenobi" , content: "Why did you try it Anakin? I had the high ground. And I've used that exact trick on Darth Maul which I must have told you about. Did you think I wouldn't see that shit coming? Come on young padawan." },
-      { key: "greedo", id: "greedo", label: "Greed", content: "The green guy who was just too slow for Han Solo. Or was I innacurate? Did I shoot or not? Idk George Lucas keeps editing my only scene"},
+      { key: "greedo", id: "greedo", label: "Greedo", content: "The green guy who was just too slow for Han Solo. Or was I innacurate? Did I shoot or not? Idk George Lucas keeps editing my only scene"},
       { key: "yoda", id: "yoda", label: "Yoda" , content: "That baby me am not. Look nothing like him, I did. More handsome I am." },
       { key: "boba", id: "boba", label: "Boba Fett", content: "Still being digested to this day in The Great Pit of Carkoon"},
       { key: "jabba", id: "jabba", label: "Jabba The Hutt" , content: "Me want solo on my wall." },
