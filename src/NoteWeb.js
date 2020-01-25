@@ -151,7 +151,7 @@ export default class NoteWeb extends Component {
      * Adds a new node to the network 
      */
     console.log("add");
-    let stateCopy = JSON.parse(JSON.stringify(this.state));
+    // let stateCopy = JSON.parse(JSON.stringify(this.state));
   }
   
   setNote(newNote){
