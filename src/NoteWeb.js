@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import '../node_modules/react-vis/dist/style.css';
-import { Network, Node, Edge } from 'react-vis-network';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NoteScreen from './NoteScreen.js'
@@ -20,69 +18,85 @@ export default class NoteWeb extends Component {
    */
     super(props);
     this.state = {id: "None",  title: "Title", note: "This is where your note is displayed"};
-    console.log(this.note)
-    const Decorator = props => {
-      return (
-        <button
-          onClick={() => this.getNote(props.id)}
-        >
-          Click Me
-        </button>
-      );
-    };
+    // let nodes = [
+    //   <Node key="vader" id= "vader" label="Darth Vader" decorator={Decorator} content="The chosen one. Brought balance to the force. Before me thousands of Jedi, only two Sith. After me, two Jedi and two Sith. That's what you call balanced."/>,
+    //   <Node key="luke" id= "luke" label="Luke Skywalker" decorator={Decorator} content="This is the Galaxy's only hope"/>,
+    //   <Node key="leia" id= "leia" label="Leia Organa" decorator={Decorator} content="This is the girl who is always counted out but comes up big"/>,
+    //   <Node key="han" id= "han" label="Han Solo" decorator={Decorator} content="What is this amateur hour"/>,
+    //   <Node key="chewy" id= "chewy" label="Chewbacca" decorator={Decorator} content="Ahhhhhhhhhhhhh"/>,
+    //   <Node key="obi" id= "obi" label="Obi-Wan Kenobi" decorator={Decorator} content="Why did you try it Anakin? I had the high ground. And I've used that exact trick on Darth Maul which I must have told you about. Did you think I wouldn't see that shit coming? Come on young padawan."/>,
+    //   <Node key="greedo" id= "greedo" label="Greedo" decorator={Decorator} content="The green guy who was just too slow for Han Solo. Or was I innacurate? Did I shoot or not? Idk George Lucas keeps editing my only scene"/>,
+    //   <Node key="yoda" id= "yoda" label="Yoda" decorator={Decorator} content="That baby me am not. Look nothing like him, I did. More handsome I am."/>,
+    //   <Node key="boba" id= "boba" label="Boba Fett" decorator={Decorator} content="Still being digested to this day in The Great Pit of Carkoon"/>,
+    //   <Node key="jabba" id= "jabba" label="Jabba The Hutt" decorator={Decorator} content="Me want solo on my wall"/>,
+    //   <Node key="lando" id= "lando" label="Lando Calrissian" decorator={Decorator} content="I'm in it for the money, and the women, and the greater good, but definitely the money"/>,
+    //   <Node key="emporer" id= "emporer" label="Emporer Palpatine" decorator={Decorator} content="This is the Dark Lord of the Sith"/>
+    // ];
+    // let edges = [
+    //   <Edge key="0" id= "0" from="yoda" to="chewy" />,
+    //   <Edge key="1" id= "1" from="vader" to="luke" />,
+    //   <Edge key="2" id= "2" from="vader" to="leia" />,
+    //   <Edge key="3" id= "3" from="han" to="leia" />,
+    //   <Edge key="4" id= "4" from="han" to="chewy" />,
+    //   <Edge key="5" id= "5" from="obi" to="luke" />,
+    //   <Edge key="6" id= "6" from="leia" to="luke" />,
+    //   <Edge key="7" id= "7" from="vader" to="obi" />,
+    //   <Edge key="8" id= "8" from="obi" to="yoda" />,
+    //   <Edge key="9" id= "9" from="vader" to="yoda" />,
+    //   <Edge key="10" id= "10" from="jabba" to="han" />,
+    //   <Edge key="11" id= "11" from="jabba" to="boba" />,
+    //   <Edge key="12" id= "12" from="boba" to="han" />,
+    //   <Edge key="13" id= "13" from="han" to="greedo" />,
+    //   <Edge key="14" id= "14" from="jabba" to="greedo" />,
+    //   <Edge key="15" id= "15" from="yoda" to="luke" />,
+    //   <Edge key="16" id= "16" from="emporer" to="vader" />,
+    //   <Edge key="17" id= "17" from="emporer" to="luke" />,
+    //   <Edge key="18" id= "18" from="lando" to="han" />
+    // ];
     let nodes = [
-      <Node id="vader" label="Darth Vader" decorator={Decorator} content="The chosen one. Brought balance to the force. Before me thousands of Jedi, only two Sith. After me, two Jedi and two Sith. That's what you call balanced."/>,
-      <Node id="luke" label="Luke Skywalker" decorator={Decorator} content="This is the Galaxy's only hope"/>,
-      <Node id="leia" label="Leia Organa" decorator={Decorator} content="This is the girl who is always counted out but comes up big"/>,
-      <Node id="han" label="Han Solo" decorator={Decorator} content="What is this amateur hour"/>,
-      <Node id="chewy" label="Chewbacca" decorator={Decorator} content="Ahhhhhhhhhhhhh"/>,
-      <Node id="obi" label="Obi-Wan Kenobi" decorator={Decorator} content="Why did you try it Anakin? I had the high ground. And I've used that exact trick on Darth Maul which I must have told you about. Did you think I wouldn't see that shit coming? Come on young padawan."/>,
-      <Node id="greedo" label="Greedo" decorator={Decorator} content="The green guy who was just too slow for Han Solo. Or was I innacurate? Did I shoot or not? Idk George Lucas keeps editing my only scene"/>,
-      <Node id="yoda" label="Yoda" decorator={Decorator} content="That baby me am not. Look nothing like him, I did. More handsome I am."/>,
-      <Node id="boba" label="Boba Fett" decorator={Decorator} content="Still being digested to this day in The Great Pit of Carkoon"/>,
-      <Node id="jabba" label="Jabba The Hutt" decorator={Decorator} content="Me want solo on my wall"/>,
-      <Node id="lando" label="Lando Calrissian" decorator={Decorator} content="I'm in it for the money, and the women, and the greater good, but definitely the money"/>,
-      <Node id="emporer" label="Emporer Palpatine" decorator={Decorator} content="This is the Dark Lord of the Sith"/>
-    ];
+      { key: "vader", id: "vader", label: "Darth Vader", content: "The chosen one. Brought balance to the force. Before me thousands of Jedi, only two Sith. After me, two Jedi and two Sith. That's what you call balanced.", created:new Date().getTime()},
+      { key: "luke", id: "luke", label: "Luke Skywalker" , content: "This is the Galaxy's only hope.", created:new Date().getTime()},
+      { key: "leia", id: "leia", label: "Leia Organa", content: "This is the girl who is always counted out but comes up big.", created:new Date().getTime()},
+      { key: "han", id: "han", label: "Han Solo" , content: "What is this amateur hour?", created:new Date().getTime() },
+      { key: "chewy", id: "chewy", label: "Chewbacca", content: "Ahhhhhhhhhhhhh!", created:new Date().getTime()},
+      { key: "obi", id: "obi", label: "Obi-Wan Kenobi" , content: "Why did you try it Anakin? I had the high ground. And I've used that exact trick on Darth Maul which I must have told you about. Did you think I wouldn't see that shit coming? Come on young padawan.", created:new Date().getTime() },
+      { key: "greedo", id: "greedo", label: "Greedo", content: "The green guy who was just too slow for Han Solo. Or was I innacurate? Did I shoot or not? Idk George Lucas keeps editing my only scene", created:new Date().getTime()},
+      { key: "yoda", id: "yoda", label: "Yoda" , content: "That baby me am not. Look nothing like him, I did. More handsome I am.", created:new Date().getTime() },
+      { key: "boba", id: "boba", label: "Boba Fett", content: "Still being digested to this day in The Great Pit of Carkoon", created:new Date().getTime()},
+      { key: "jabba", id: "jabba", label: "Jabba The Hutt" , content: "Me want solo on my wall.", created:new Date().getTime() },
+      { key: "lando", id: "lando", label: "Lando Calrissian", content: "I'm in it for the money, and the women, and the greater good, but definitely the money.", created:new Date().getTime()},
+      { key: "emporer", id: "emporer", label: "Emporer Palpatine" , content: "This is the Dark Lord of the Sith", created:new Date().getTime() },
+    ]
+    
     let edges = [
-      <Edge id="0" from="yoda" to="chewy" />,
-      <Edge id="1" from="vader" to="luke" />,
-      <Edge id="2" from="vader" to="leia" />,
-      <Edge id="3" from="han" to="leia" />,
-      <Edge id="4" from="han" to="chewy" />,
-      <Edge id="5" from="obi" to="luke" />,
-      <Edge id="6" from="leia" to="luke" />,
-      <Edge id="7" from="vader" to="obi" />,
-      <Edge id="8" from="obi" to="yoda" />,
-      <Edge id="9" from="vader" to="yoda" />,
-      <Edge id="10" from="jabba" to="han" />,
-      <Edge id="11" from="jabba" to="boba" />,
-      <Edge id="12" from="boba" to="han" />,
-      <Edge id="13" from="han" to="greedo" />,
-      <Edge id="14" from="jabba" to="greedo" />,
-      <Edge id="15" from="yoda" to="luke" />,
-      <Edge id="16" from="emporer" to="vader" />,
-      <Edge id="17" from="emporer" to="luke" />,
-      <Edge id="18" from="lando" to="han" />
-    ];
-    let items = [];
-    items.push(nodes.find(x => x.props.id === "vader"));
-    for (let i = 0; i < edges.length; i++) {
-      console.log(edges[i]);
-      if(edges[i].props.from == "vader"){
-        items.push(edges[i]);
-        items.push(nodes.find(x => x.props.id === edges[i].props.to));
-      }else if(edges[i].props.to == "vader"){
-        items.push(edges[i]);
-        items.push(nodes.find(x => x.props.id === edges[i].props.from));
-      }
-    }
-    this.state = {id: "vader",  title: "Darth Vader", note: "The chosen one. Brought balance to the force. Before me thousands of Jedi, only two Sith. After me, two Jedi and two Sith. That's what you call balanced.", nodes: nodes, edges: edges, items:items};
+      { key: "0", id: "0", from:"yoda", to:"chewy", created:new Date().getTime()},
+      { key: "1", id: "1", from:"vader", to:"luke", created:new Date().getTime()},
+      { key: "2", id: "2", from:"vader", to:"leia", created:new Date().getTime()},
+      { key: "3", id: "3", from:"han", to:"leia", created:new Date().getTime()},
+      { key: "4", id: "4", from:"han", to:"chewy", created:new Date().getTime()},
+      { key: "5", id: "5", from:"obi", to:"luke", created:new Date().getTime()},
+      { key: "6", id: "6", from:"leia", to:"luke", created:new Date().getTime()},
+      { key: "7", id: "7", from:"vader", to:"obi", created:new Date().getTime()},
+      { key: "8", id: "8", from:"obi", to:"yoda", created:new Date().getTime()},
+      { key: "9", id: "9", from:"vader", to:"yoda", created:new Date().getTime()},
+      { key: "10", id: "10", from:"jabba", to:"han", created:new Date().getTime()},
+      { key: "11", id: "11", from:"jabba", to:"boba", created:new Date().getTime()},
+      { key: "12", id: "12", from:"boba", to:"han", created:new Date().getTime()},
+      { key: "13", id: "13", from:"han", to:"greedo", created:new Date().getTime()},
+      { key: "14", id: "14", from:"jabba", to:"greedo", created:new Date().getTime()},
+      { key: "15", id: "15", from:"yoda", to:"luke", created:new Date().getTime()},
+      { key: "16", id: "16", from:"emporer", to:"vader", created:new Date().getTime()},
+      { key: "17", id: "17", from:"emporer", to:"luke", created:new Date().getTime()},
+      { key: "18", id: "18", from:"lando", to:"han", created:new Date().getTime()}
+    ]
+    let graph = {nodes:nodes,edges:edges};
+    let thisItem = graph.nodes[0];
+    this.state = {id: thisItem.id,  title: thisItem.label, note: thisItem.content, nodes: nodes, edges: edges, graph:graph};
+    // this.state = {id: thisItem.props.id,  title: thisItem.props.label, note: thisItem.props.content, nodes: nodes, edges: edges, items:items, graph:{nodes:nodes, edges:edges}};
     this.setNote = this.setNote.bind(this);
     this.getNote = this.getNote.bind(this);
     this.addNote = this.addNote.bind(this);
     this.computeItems = this.computeItems.bind(this);
-    console.log(this.state);
   }
   
   getNote(newId){
@@ -90,55 +104,66 @@ export default class NoteWeb extends Component {
      * Retreives the contents of a note and displays the contents in the NoteScreen 
      */
     console.log("get")
-    let stateCopy = JSON.parse(JSON.stringify(this.state));
-    console.log(stateCopy);
-    let newNode = stateCopy.nodes.find(x => x.props.id === newId);
-    let items = this.computeItems(newId, stateCopy.nodes, stateCopy.edges);
-    console.log(items);
+    // let stateCopy = JSON.parse(JSON.stringify(this.state));
+    let stateCopy = Object.assign({}, this.state);
+    let newNode = stateCopy.nodes.find(x => x.id === newId);
+    let graph = this.computeItems(newId, stateCopy.nodes, stateCopy.edges);
     this.setState(state => ({
-        id:newNode.props.id,
-        title: newNode.props.label,
-        note: newNode.props.content,
+        id:newNode.id,
+        title: newNode.label,
+        note: newNode.content,
         nodes: stateCopy.nodes,
         edges: stateCopy.edges,
-        items: items
+        graph: graph
       }));
   }
   
   computeItems(id, nodes, edges){
     /**
-     * Computes the new items to be 
+     * Computes the new graph to be 
      */
-    let items = [];
-    items.push(nodes.find(x => x.props.id === id));
+    let graph = {nodes: [], edges: []};
+    graph.nodes.push(nodes.find(x => x.id === id));
     for (let i = 0; i < edges.length; i++) {
-      if(edges[i].props.from == id){
-        items.push(edges[i]);
-        items.push(nodes.find(x => x.props.id === edges[i].props.to));
-      }else if(edges[i].props.to == id){
-        items.push(edges[i]);
-        items.push(nodes.find(x => x.props.id === edges[i].props.from));
+      if(edges[i].from === id){
+        graph.edges.push(edges[i]);
+        graph.nodes.push(nodes.find(x => x.id === edges[i].to));
+      }else if(edges[i].to === id){
+        graph.edges.push(edges[i]);
+        graph.nodes.push(nodes.find(x => x.id === edges[i].from));
       }
     }
-    return items;
+    return graph;
   }
   
-  addNote(title){
+  addNote(title,note){
     /**
      * Adds a new node to the network 
      */
-    console.log("add")
-    let stateCopy = JSON.parse(JSON.stringify(this.state));
-    console.log(title);
+    console.log("add");
+    let id = (title.split(" ")[0]).toLowerCase();
+    let stateCopy = Object.assign({}, this.state);
+    stateCopy.nodes.push({key: id, id: id, label: title , content: note, created:new Date().getTime()})
+    stateCopy.edges.push({key: stateCopy.edges.length.toString(), id: stateCopy.edges.length.toString(), to: id , from: stateCopy.id, created:new Date().getTime()})
+    let graph = this.computeItems(stateCopy.id, stateCopy.nodes, stateCopy.edges);
+    this.setState(state => ({
+        id:id,
+        title: title,
+        note: note,
+        nodes: stateCopy.nodes,
+        edges: stateCopy.edges,
+        graph: graph
+      }));
   }
   
   setNote(newNote){
     /**
      * Adds a new node to the network 
      */
-    let stateCopy = JSON.parse(JSON.stringify(this.state));
-    stateCopy.nodes.find(x => x.props.id === stateCopy.id).props.content = newNote;
-    // console.log(stateCopy);
+    console.log("set");
+    // let stateCopy = JSON.parse(JSON.stringify(this.state));
+    let stateCopy = Object.assign({}, this.state);
+    stateCopy.nodes.find(x => x.id === stateCopy.id).content = newNote;
     this.setState(state => ({
         id:stateCopy.id,
         title: stateCopy.title,
@@ -157,7 +182,8 @@ export default class NoteWeb extends Component {
         <TopBar key="top"/>
         <div className="main-content">
           <LeftBar key="left" getNote={this.getNote} addNote={this.addNote} state={this.state}/>
-          <DataScreen key="data" state={this.state} />
+          <DataScreen key="data" state={this.state} getNote={this.getNote}/>
+          {/* <GraphWrapper /> */}
           <NoteScreen key="note" state={this.state} setNote={this.setNote}/>
         </div>
       </div>

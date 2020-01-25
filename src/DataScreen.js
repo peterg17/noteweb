@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import '../node_modules/react-vis/dist/style.css';
-import { Network, Node, Edge } from 'react-vis-network';
+import Graph from 'react-graph-vis'
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -11,23 +10,44 @@ export default class DataScreen extends Component {
    */
   constructor(props) {
     super(props);
+    console.log(props);
+    this.state = {graph:this.props.state.graph};
+    
+    this.options = {
+      layout: {
+        hierarchical: false
+      },
+      edges: {
+        color: "#FFFFFF"
+      },
+      height: "800px"
+    };
+   
+    this.events = {
+      select: (event) => {
+        var { nodes, edges } = event;
+        this.props.getNote(event.nodes[0]);
+      }
+    };
     // Don't call this.setState() here!
-    this.state = {items:this.props.state.items};
-    this.network = <div className="datascreen-content"><Network>{this.state.items}</Network></div>;
+    this.state = {graph:this.props.state.graph};
+    this.network= <Graph
+      graph={this.state.graph}
+      options={this.options}
+      events={this.events}
+    />;
+    console.log(this.network)
   } 
-  
+
   componentWillReceiveProps(nextProps) {
-    /*
-    * Might help propogate state change down to child from parent
-    */
-    console.log("1")
-    console.log(nextProps);
-    console.log("2")
-    console.log(nextProps.state.items);
-    this.setState({ items: nextProps.state.items});
-    console.log("3")
-    console.log(this.state);
-    console.log(this.network);
+    console.log("got update!");
+    console.log(nextProps.state.graph)
+    this.setState(state => ({graph:nextProps.state.graph}));
+    this.network= <Graph
+      graph={nextProps.state.graph}
+      options={this.options}
+      events={this.events}
+    />;
   }
   
   render() {
@@ -36,9 +56,6 @@ export default class DataScreen extends Component {
      */
     return (
       <div className="datascreen">
-        <div>
-          <p>HELLO</p>
-        </div>
         {this.network}
       </div>
     );

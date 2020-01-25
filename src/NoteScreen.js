@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import '../node_modules/react-vis/dist/style.css';
-import { Network, Node, Edge } from 'react-vis-network';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -14,6 +12,7 @@ export default class NoteScreen extends Component {
     // this.decorator = this.props.decorator;
     // this.handleChange = this.handleChange.bind(this);
     // // this.handleClick = this.handleClick.bind(this);
+    this.state = {note:this.props.note, title:this.props.title};
   }
   
   render() {

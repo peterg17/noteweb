@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import '../node_modules/react-vis/dist/style.css';
-import { Network, Node, Edge } from 'react-vis-network';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 export default class TopBar extends Component {
   /**
@@ -19,7 +15,6 @@ export default class TopBar extends Component {
       <div className="topbar">
         <div className="topbar-content">
           <h3>NoteWeb Version 0.0</h3>
-          <FontAwesomeIcon icon="faCoffee" />
         </div>
         <div className="blank-space">
         </div>
