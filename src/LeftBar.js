@@ -7,12 +7,19 @@ export default class LeftBar extends Component {
   // Content on left side of screen
   constructor(props) {
     super(props);
-    this.state = {input:"", nodes: this.props.state.nodes};
+    this.state = {title:"", note:"", nodes: this.props.state.nodes};
   }
   
-  handleInput(input){
-    console.log(input);
-    this.setState(state => ({input:input}))
+  handleTitle(title){
+    console.log(title);
+    let stateCopy = Object.assign({}, this.state);
+    this.setState(state => ({title:title, note:stateCopy.note}));
+  }
+  
+  handleNote(note){
+    console.log(note);
+    let stateCopy = Object.assign({}, this.state);
+    this.setState(state => ({note:note, title:stateCopy.title}));
   }
   
   render() {
@@ -24,8 +31,9 @@ export default class LeftBar extends Component {
         <div width="100%" height="100%">
           <h3>New Note</h3>
           <p> Title: </p>
-          <input name="noteTitle" className="input-title" onChange={(e) => this.handleInput(e.target.value)}/>
-          <button name="addNote" className="input-button" onClick={() => this.props.addNote(this.state.input)}>Add Note</button>
+          <input name="noteTitle" className="input-title" onChange={(e) => this.handleTitle(e.target.value)}/>
+          <input name="noteContent" className="input-note" onChange={(e) => this.handleNote(e.target.value)}/>
+          <button name="addNote" className="input-button" onClick={() => this.props.addNote(this.state.title,this.state.note)}>Add Note</button>
           {this.state.nodes.map((value, index) => {
             return (
               <div className="leftbar-item" width="100%" key={index} onClick={() => this.props.getNote(value.id)}>

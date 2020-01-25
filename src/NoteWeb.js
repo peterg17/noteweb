@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import '../node_modules/react-vis/dist/style.css';
-import { Network, Node, Edge } from 'react-vis-network';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NoteScreen from './NoteScreen.js'
 import DataScreen from './DataScreen.js'
 import TopBar from './TopBar.js'
 import LeftBar from './LeftBar.js'
-import GraphWrapper from './GraphWrapper.js'
 
 export default class NoteWeb extends Component {
   /**
@@ -138,12 +136,25 @@ export default class NoteWeb extends Component {
     return graph;
   }
   
-  addNote(title){
+  addNote(title,note){
     /**
      * Adds a new node to the network 
      */
-    console.log("add")
+    console.log("add");
+    let id = (title.split(" ")[0]).toLowerCase();
     let stateCopy = Object.assign({}, this.state);
+    stateCopy.nodes.push({key: id, id: id, label: title , content: note})
+    stateCopy.edges.push({key: stateCopy.edges.length.toString(), id: stateCopy.edges.length.toString(), to: id , from: stateCopy.id})
+    console.log(stateCopy);
+    let graph = this.computeItems(stateCopy.id, stateCopy.nodes, stateCopy.edges);
+    this.setState(state => ({
+        id:id,
+        title: title,
+        note: note,
+        nodes: stateCopy.nodes,
+        edges: stateCopy.edges,
+        graph: graph
+      }));
   }
   
   setNote(newNote){

@@ -150,6 +150,12 @@ p {
   margin: auto;
   text-align: center;
 }
+.input-note{
+  display: block;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
 
 path {
   fill: none;

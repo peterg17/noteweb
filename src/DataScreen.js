@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../node_modules/react-vis/dist/style.css';
-import { Network, Node, Edge } from 'react-vis-network';
 import Graph from 'react-graph-vis'
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -42,6 +41,7 @@ export default class DataScreen extends Component {
 
   componentWillReceiveProps(nextProps) {
     console.log("got update!");
+    console.log(nextProps.state.graph)
     this.setState(state => ({graph:nextProps.state.graph}));
     this.network= <Graph
       graph={nextProps.state.graph}
