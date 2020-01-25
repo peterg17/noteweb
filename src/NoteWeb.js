@@ -91,17 +91,7 @@ export default class NoteWeb extends Component {
       { key: "17", id: "17", from:"emporer", to:"luke" },
       { key: "18", id: "18", from:"lando", to:"han" }
     ]
-    let graph = {nodes:[],edges:[]};
-    graph.nodes.push(nodes.find(x => x.id === "vader"));
-    for (let i = 0; i < edges.length; i++) {
-      if(edges[i].from === "vader"){
-        graph.edges.push(edges[i]);
-        graph.nodes.push(nodes.find(x => x.id === edges[i].to));
-      }else if(edges[i].to === "vader"){
-        graph.edges.push(edges[i]);
-        graph.nodes.push(nodes.find(x => x.id === edges[i].from));
-      }
-    }
+    let graph = {nodes:nodes,edges:edges};
     let thisItem = graph.nodes[0];
     this.state = {id: thisItem.id,  title: thisItem.label, note: thisItem.content, nodes: nodes, edges: edges, graph:graph};
     // this.state = {id: thisItem.props.id,  title: thisItem.props.label, note: thisItem.props.content, nodes: nodes, edges: edges, items:items, graph:{nodes:nodes, edges:edges}};
@@ -153,7 +143,7 @@ export default class NoteWeb extends Component {
      * Adds a new node to the network 
      */
     console.log("add")
-    let stateCopy = JSON.parse(JSON.stringify(this.state));
+    let stateCopy = Object.assign({}, this.state);
   }
   
   setNote(newNote){

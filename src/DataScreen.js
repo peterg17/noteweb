@@ -12,7 +12,7 @@ export default class DataScreen extends Component {
   constructor(props) {
     super(props);
     console.log(props);
-    this.state = {graph:this.props.state.graph, getnote:this.props.getNote};
+    this.state = {graph:this.props.state.graph};
     
     this.options = {
       layout: {
@@ -21,7 +21,7 @@ export default class DataScreen extends Component {
       edges: {
         color: "#FFFFFF"
       },
-      height: "500px"
+      height: "800px"
     };
    
     this.events = {
@@ -31,7 +31,7 @@ export default class DataScreen extends Component {
       }
     };
     // Don't call this.setState() here!
-    this.state = {items:this.props.state.items, graph:this.props.state.graph};
+    this.state = {graph:this.props.state.graph};
     this.network= <Graph
       graph={this.state.graph}
       options={this.options}
@@ -39,23 +39,10 @@ export default class DataScreen extends Component {
     />;
     console.log(this.network)
   } 
-  
-  // componentWillReceiveProps(nextProps) {
-  //   /*
-  //   * Might help propogate state change down to child from parent
-  //   */
-  //   console.log("1")
-  //   console.log(nextProps);
-  //   console.log("2")
-  //   console.log(nextProps.state.items);
-  //   this.setState({ items: nextProps.state.items});
-  //   console.log("3")
-  //   console.log(this.state);
-  //   console.log(this.network);
-  // }
 
   componentWillReceiveProps(nextProps) {
     console.log("got update!");
+    this.setState(state => ({graph:nextProps.state.graph}));
     this.network= <Graph
       graph={nextProps.state.graph}
       options={this.options}
@@ -69,9 +56,6 @@ export default class DataScreen extends Component {
      */
     return (
       <div className="datascreen">
-        <div>
-          <p>HELLO</p>
-        </div>
         {this.network}
       </div>
     );
