@@ -19,7 +19,7 @@ export default class DataScreen extends Component {
     //   events={this.events}
     // />;
     this.network = <InteractiveForceGraph
-      simulationOptions={{ height: 800, width: 800}}
+      simulationOptions={{ animate:true, height: 800, width: 800}}
       zoomOptions={{ minScale: 200}}
       labelAttr="label"
       onSelectNode={(event,node) => {

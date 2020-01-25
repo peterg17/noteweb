@@ -61,7 +61,7 @@ export default class NoteWeb extends Component {
       <ForceGraphNode node={{ key: "han", id: "han", label: "Han Solo" , content: "What is this amateur hour?" }} fill="blue" zoomable/>,
       <ForceGraphNode node={{ key: "chewy", id: "chewy", label: "Chewbacca", content: "Ahhhhhhhhhhhhh!"}} fill="red" zoomable/>,
       <ForceGraphNode node={{ key: "obi", id: "obi", label: "Obi-Wan Kenobi" , content: "Why did you try it Anakin? I had the high ground. And I've used that exact trick on Darth Maul which I must have told you about. Did you think I wouldn't see that shit coming? Come on young padawan."}} fill="blue" zoomable/>,
-      <ForceGraphNode node={{ key: "greedo", id: "greedo", label: "Greed", content: "The green guy who was just too slow for Han Solo. Or was I innacurate? Did I shoot or not? Idk George Lucas keeps editing my only scene"}} fill="red" zoomable/>,
+      <ForceGraphNode node={{ key: "greedo", id: "greedo", label: "Greedo", content: "The green guy who was just too slow for Han Solo. Or was I innacurate? Did I shoot or not? Idk George Lucas keeps editing my only scene"}} fill="red" zoomable/>,
       <ForceGraphNode node={{ key: "yoda", id: "yoda", label: "Yoda" , content: "That baby me am not. Look nothing like him, I did. More handsome I am." }} fill="blue" zoomable/>,
       <ForceGraphNode node={{ key: "boba", id: "boba", label: "Boba Fett", content: "Still being digested to this day in The Great Pit of Carkoon"}} fill="red" zoomable/>,
       <ForceGraphNode node={{ key: "jabba", id: "jabba", label: "Jabba The Hutt" , content: "Me want solo on my wall." }} fill="blue" zoomable/>,
@@ -90,24 +90,27 @@ export default class NoteWeb extends Component {
       <ForceGraphLink link={{ key: "17", id: "17", source:"emporer", target:"luke" }} />,
       <ForceGraphLink link={{ key: "18", id: "18", source:"lando", target:"han" }} />
     ]
+    this.setNote = this.setNote.bind(this);
+    this.getNote = this.getNote.bind(this);
+    this.addNote = this.addNote.bind(this);
+    this.computeItems = this.computeItems.bind(this);
     // let graph = {nodes:[],edges:[]};
     // graph.nodes.push(nodes.find(x => x.id === "vader"));
     // for (let i = 0; i < edges.length; i++) {
     //   if(edges[i].source === "vader"){
     //     graph.edges.push(edges[i]);
-    //     graph.nodes.push(nodes.find(x => x.id === edges[i].to));
-    //   }else if(edges[i].to === "vader"){
+    //     graph.nodes.push(nodes.find(x => x.id === edges[i].target));
+    //   }else if(edges[i].target === "vader"){
     //     graph.edges.push(edges[i]);
     //     graph.nodes.push(nodes.find(x => x.id === edges[i].source));
     //   }
     // }
-    let thisItem = nodes[0].props.node;
-    this.state = {id: thisItem.id,  title: thisItem.label, note: thisItem.content, nodes: nodes, links: links}//, graph:graph};
+    let items = this.computeItems("vader",nodes,links);
+    let thisItem = items.nodes[0].props.node;
+    console.log("thisItem");
+    console.log(thisItem);
+    this.state = {id: thisItem.id,  title: thisItem.label, note: thisItem.content, nodes: nodes, links: links, items: items}//, graph:graph};
     // this.state = {id: thisItem.props.id,  title: thisItem.props.label, note: thisItem.props.content, nodes: nodes, edges: edges, items:items, graph:{nodes:nodes, edges:edges}};
-    this.setNote = this.setNote.bind(this);
-    this.getNote = this.getNote.bind(this);
-    this.addNote = this.addNote.bind(this);
-    this.computeItems = this.computeItems.bind(this);
   }
   
   getNote(newId){
@@ -117,31 +120,36 @@ export default class NoteWeb extends Component {
     console.log("get")
     let stateCopy = JSON.parse(JSON.stringify(this.state));
     let newNode = stateCopy.nodes.find(x => x.props.node.id === newId);
+    let computedItems = this.computeItems(newId,stateCopy.nodes,stateCopy.links)
+    console.log(computedItems);
     this.setState(state => ({
         id:newNode.props.node.id,
         title: newNode.props.node.label,
         note: newNode.props.node.content,
         nodes: stateCopy.nodes,
-        links: stateCopy.links
+        links: stateCopy.links,
+        items: computedItems
       }));
   }
   
-  computeItems(id, nodes, edges){
+  computeItems(id, nodes, links){
     /**
      * Computes the new graph to be 
      */
-    let graph = [];
-    graph.push(nodes.find(x => x.id === id));
-    for (let i = 0; i < edges.length; i++) {
-      if(edges[i].source === id){
-        graph.push(edges[i]);
-        graph.push(nodes.find(x => x.id === edges[i].to));
-      }else if(edges[i].to === id){
-        graph.push(edges[i]);
-        graph.push(nodes.find(x => x.id === edges[i].source));
+    console.log(nodes);
+    console.log(links);
+    let items = {nodes:[],links:[]};
+    items.nodes.push(nodes.find(x => x.props.node.id === id));
+    for (let i = 0; i < links.length; i++) {
+      if(links[i].props.link.source === id){
+        items.links.push(links[i]);
+        items.nodes.push(nodes.find(x => x.props.node.id === links[i].props.link.target));
+      }else if(links[i].props.link.target === id){
+        items.links.push(links[i]);
+        items.nodes.push(nodes.find(x => x.props.node.id === links[i].props.link.source));
       }
     }
-    return graph;
+    return items;
   }
   
   addNote(node){
@@ -158,13 +166,14 @@ export default class NoteWeb extends Component {
      */
     console.log("set");
     let stateCopy = JSON.parse(JSON.stringify(this.state));
-    stateCopy.nodes.find(x => x.id === stateCopy.id).content = newNote;
+    stateCopy.nodes.find(x => x.props.node.id === stateCopy.id).props.node.content = newNote;
     this.setState(state => ({
         id:stateCopy.id,
         title: stateCopy.title,
         note: newNote,
         nodes: stateCopy.nodes,
-        links: stateCopy.links
+        links: stateCopy.links,
+        items: stateCopy.items
       }));
   }
   

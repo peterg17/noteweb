@@ -7,7 +7,7 @@ export default class LeftBar extends Component {
   // Content on left side of screen
   constructor(props) {
     super(props);
-    this.state = {input:"", nodes: this.props.state.nodes};
+    this.state = {input:"", nodes: this.props.state.items.nodes};
   }
   
   handleInput(input){
@@ -26,7 +26,7 @@ export default class LeftBar extends Component {
           <p> Title: </p>
           <input name="noteTitle" className="input-title" onChange={(e) => this.handleInput(e.target.value)}/>
           <button name="addNote" className="input-button" onClick={() => this.props.addNote(this.state.input)}>Add Note</button>
-          {this.state.nodes.map((value, index) => {
+          {this.props.state.items.nodes.map((value, index) => {
             return (
               <div className="leftbar-item" width="100%" key={index} onClick={() => this.props.getNote(value.props.node.id)}>
                 <p>{value.props.node.label}</p>
