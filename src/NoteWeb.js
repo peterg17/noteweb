@@ -7,6 +7,7 @@ import NoteScreen from './NoteScreen.js'
 import DataScreen from './DataScreen.js'
 import TopBar from './TopBar.js'
 import LeftBar from './LeftBar.js'
+import GraphWrapper from './GraphWrapper.js'
 
 export default class NoteWeb extends Component {
   /**
@@ -115,7 +116,8 @@ export default class NoteWeb extends Component {
      * Retreives the contents of a note and displays the contents in the NoteScreen 
      */
     console.log("get")
-    let stateCopy = JSON.parse(JSON.stringify(this.state));
+    // let stateCopy = JSON.parse(JSON.stringify(this.state));
+    let stateCopy = Object.assign({}, this.state);
     let newNode = stateCopy.nodes.find(x => x.id === newId);
     let graph = this.computeItems(newId, stateCopy.nodes, stateCopy.edges);
     this.setState(state => ({
@@ -132,15 +134,15 @@ export default class NoteWeb extends Component {
     /**
      * Computes the new graph to be 
      */
-    let graph = [];
-    graph.push(nodes.find(x => x.id === id));
+    let graph = {nodes: [], edges: []};
+    graph.nodes.push(nodes.find(x => x.id === id));
     for (let i = 0; i < edges.length; i++) {
       if(edges[i].from === id){
-        graph.push(edges[i]);
-        graph.push(nodes.find(x => x.id === edges[i].to));
+        graph.edges.push(edges[i]);
+        graph.nodes.push(nodes.find(x => x.id === edges[i].to));
       }else if(edges[i].to === id){
-        graph.push(edges[i]);
-        graph.push(nodes.find(x => x.id === edges[i].from));
+        graph.edges.push(edges[i]);
+        graph.nodes.push(nodes.find(x => x.id === edges[i].from));
       }
     }
     return graph;
@@ -159,7 +161,8 @@ export default class NoteWeb extends Component {
      * Adds a new node to the network 
      */
     console.log("set");
-    let stateCopy = JSON.parse(JSON.stringify(this.state));
+    // let stateCopy = JSON.parse(JSON.stringify(this.state));
+    let stateCopy = Object.assign({}, this.state);
     stateCopy.nodes.find(x => x.id === stateCopy.id).content = newNote;
     this.setState(state => ({
         id:stateCopy.id,
@@ -180,6 +183,7 @@ export default class NoteWeb extends Component {
         <div className="main-content">
           <LeftBar key="left" getNote={this.getNote} addNote={this.addNote} state={this.state}/>
           <DataScreen key="data" state={this.state} getNote={this.getNote}/>
+          {/* <GraphWrapper /> */}
           <NoteScreen key="note" state={this.state} setNote={this.setNote}/>
         </div>
       </div>

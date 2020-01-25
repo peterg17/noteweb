@@ -53,6 +53,15 @@ export default class DataScreen extends Component {
   //   console.log(this.state);
   //   console.log(this.network);
   // }
+
+  componentWillReceiveProps(nextProps) {
+    console.log("got update!");
+    this.network= <Graph
+      graph={this.props.state.graph}
+      options={this.options}
+      events={this.events}
+    />;
+  }
   
   render() {
     /**
