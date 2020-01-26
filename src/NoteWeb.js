@@ -94,6 +94,7 @@ export default class NoteWeb extends Component {
     this.state = {id: thisItem.id,  title: thisItem.label, note: thisItem.content, nodes: nodes, edges: edges, graph:graph};
     // this.state = {id: thisItem.props.id,  title: thisItem.props.label, note: thisItem.props.content, nodes: nodes, edges: edges, items:items, graph:{nodes:nodes, edges:edges}};
     this.setNote = this.setNote.bind(this);
+    this.setTitle = this.setTitle.bind(this);
     this.getNote = this.getNote.bind(this);
     this.addNote = this.addNote.bind(this);
     this.computeItems = this.computeItems.bind(this);
@@ -136,17 +137,16 @@ export default class NoteWeb extends Component {
     return graph;
   }
   
-  addNote(title,note){
+  addNote(){
     /**
      * Adds a new node to the network 
      */
     console.log("add");
+    let title = "New Note"
+    let note = "What's on your mind?"
     let stateCopy = Object.assign({}, this.state);
-    console.log(stateCopy);
     let nodeId = (parseInt(stateCopy.nodes.slice(-1)[0].id) + 1).toString();
     let edgeId = (parseInt(stateCopy.edges.slice(-1)[0].id) + 1).toString();
-    console.log(nodeId);
-    console.log(edgeId);
     stateCopy.nodes.push({key: "node"+nodeId, id: nodeId, label: title , content: note, created:new Date().getTime()})
     stateCopy.edges.push({key: "edge"+edgeId, id: edgeId, to: nodeId , from: stateCopy.id, created:new Date().getTime()})
     let graph = this.computeItems(nodeId, stateCopy.nodes, stateCopy.edges);
@@ -160,9 +160,27 @@ export default class NoteWeb extends Component {
       }));
   }
   
+  resetGraph(){
+    /**
+     * resets the graph and displays all nodes
+     */
+    console.log("reset");
+    // let stateCopy = JSON.parse(JSON.stringify(this.state));
+    let stateCopy = Object.assign({}, this.state);
+    let graph = {nodes:stateCopy.nodes, edges:stateCopy.edges};
+    this.setState(state => ({
+        id:stateCopy.id,
+        title: stateCopy.title,
+        note: stateCopy.note,
+        nodes: stateCopy.nodes,
+        edges: stateCopy.edges,
+        graph: graph
+      }));
+  }
+  
   setNote(newNote){
     /**
-     * Adds a new node to the network 
+     * Sets the note content of the selected node
      */
     console.log("set");
     // let stateCopy = JSON.parse(JSON.stringify(this.state));
@@ -173,7 +191,26 @@ export default class NoteWeb extends Component {
         title: stateCopy.title,
         note: newNote,
         nodes: stateCopy.nodes,
-        edges: stateCopy.edges
+        edges: stateCopy.edges,
+        graph: stateCopy.graph
+      }));
+  }
+  
+  setTitle(newTitle){
+    /**
+     * Sets the note label of the selected node 
+     */
+    console.log("set");
+    // let stateCopy = JSON.parse(JSON.stringify(this.state));
+    let stateCopy = Object.assign({}, this.state);
+    stateCopy.nodes.find(x => x.id === stateCopy.id).label = newTitle;
+    this.setState(state => ({
+        id:stateCopy.id,
+        title: newTitle,
+        note: stateCopy.note,
+        nodes: stateCopy.nodes,
+        edges: stateCopy.edges,
+        graph: stateCopy.graph
       }));
   }
   
@@ -186,9 +223,9 @@ export default class NoteWeb extends Component {
         <TopBar key="top"/>
         <div className="main-content">
           <LeftBar key="left" getNote={this.getNote} addNote={this.addNote} state={this.state}/>
-          <DataScreen key="data" state={this.state} getNote={this.getNote}/>
+          <DataScreen key="data" graph={this.state.graph} getNote={this.getNote}/>
           {/* <GraphWrapper /> */}
-          <NoteScreen key="note" state={this.state} setNote={this.setNote}/>
+          <NoteScreen key="note" title={this.state.title} note={this.state.note} setNote={this.setNote} setTitle={this.setTitle}/>
         </div>
       </div>
     );
