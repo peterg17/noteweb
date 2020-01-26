@@ -11,7 +11,7 @@ export default class DataScreen extends Component {
   constructor(props) {
     super(props);
     console.log(props);
-    this.state = {graph:this.props.state.graph};
+    this.state = {graph:this.props.graph};
     
     this.options = {
       layout: {
@@ -25,14 +25,15 @@ export default class DataScreen extends Component {
    
     this.events = {
       select: (event) => {
-        var { nodes, edges } = event;
-        this.props.getNote(event.nodes[0]);
+        if(event.nodes.length > 0){
+          this.props.getNote(event.nodes[0]);
+        }
       }
     };
     // Don't call this.setState() here!
-    this.state = {graph:this.props.state.graph};
+    this.state = {graph:this.props.graph};
     this.network= <Graph
-      graph={this.state.graph}
+      graph={this.props.graph}
       options={this.options}
       events={this.events}
     />;
@@ -41,10 +42,10 @@ export default class DataScreen extends Component {
 
   componentWillReceiveProps(nextProps) {
     console.log("got update!");
-    console.log(nextProps.state.graph)
-    this.setState(state => ({graph:nextProps.state.graph}));
+    console.log(nextProps.graph)
+    this.setState(state => ({graph:nextProps.graph}));
     this.network= <Graph
-      graph={nextProps.state.graph}
+      graph={nextProps.graph}
       options={this.options}
       events={this.events}
     />;

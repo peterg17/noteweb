@@ -23,8 +23,8 @@ export default class NoteScreen extends Component {
       <div className="notescreen">
         {/* <p>Some main datascreen stuff</p> */}
         <div className="notescreen-content">
-          <h3> {this.props.state.title} </h3>
-          <textarea name="noteInput" value={this.props.state.note} onChange={(e) => this.props.setNote(e.target.value)} className="input-note"/>
+          <input name="titleInput" value={this.props.title} onChange={(e) => this.props.setTitle(e.target.value)} className="input-title" />
+          <textarea name="noteInput" value={this.props.note} onChange={(e) => this.props.setNote(e.target.value)} className="input-note"/>
         </div>
       </div>
     );
