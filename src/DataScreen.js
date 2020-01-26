@@ -26,7 +26,9 @@ export default class DataScreen extends Component {
     this.events = {
       select: (event) => {
         var { nodes, edges } = event;
-        this.props.getNote(event.nodes[0]);
+        if(event.nodes.length > 0){
+          this.props.getNote(event.nodes[0]);
+        }
       }
     };
     // Don't call this.setState() here!
