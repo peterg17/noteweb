@@ -14,4 +14,4 @@ def get_all():
     db = get_db()
     notes = db.execute('SELECT * FROM note WHERE user_id = ?', (0,)).fetchall()
     
-    return json.dumps(notes);
+    return json.dumps([notes:"notes"]);
