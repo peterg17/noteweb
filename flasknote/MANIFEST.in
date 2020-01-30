@@ -1,0 +1,2 @@
+include flasknote/schema.sql
+global-exclude *.pyc

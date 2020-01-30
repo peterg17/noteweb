@@ -2,9 +2,10 @@
 
 # dependencies
 /node_modules
-./noteweb/node_modules
+noteweb/node_modules
 /.pnp
 .pnp.js
+*.pyc
 
 # testing
 /coverage
