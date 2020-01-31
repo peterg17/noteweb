@@ -1,0 +1,161 @@
+{
+    "nodes": [
+        {
+            "id": "0",
+            "title": "Darth Vader",
+            "content": "The chosen one. Brought balance to the force. Before me thousands of Jedi, only two Sith. After me, two Jedi and two Sith. That's what you call balanced." 
+        },
+        {
+            "id": "1",
+            "title": "Emperor Palpatine",
+            "content": "This is the Dark Lord of the Sith"
+        },
+        {
+            "id": "2",
+            "title": "Luke Skywalker",
+            "content": "This is the Galaxy's only hope."
+        },
+        {
+            "id": "3",
+            "title": "Leia Organa",
+            "content": "This is the girl who is always counted out but comes up bg."
+        },
+        {
+            "id": "4",
+            "title": "Han Solo",
+            "content": "What is this amateur hour?"
+        },
+        {
+            "id": "5",
+            "title": "Chewbacca",
+            "content": "Ahhhhhhhhhhhhh!"
+        },
+        {
+            "id": "6",
+            "title": "Obi-Wan Kenobi",
+            "content": "Why did you try it Anakin? I had the high ground. And I've used that exact trick on Darth Maul which I must have told you about. Did you think I wouldn't see that shit coming? Come on young padawan."
+        },
+        {
+            "id": "7",
+            "title": "Greedo",
+            "content": "The green guy who was just too slow for Han Solo. Or was I innacurate? Did I shoot or not? Idk George Lucas keeps editing my only scene"
+        },
+        {
+            "id": "8",
+            "title": "Yoda",
+            "content": "That baby me am not. Look nothing like him, I did. More handsome I am."
+        },
+        {
+            "id": "9",
+            "title": "Boba Fett",
+            "content": "Still being digested to this day in The Great Pit of Carkoon"
+        },
+        {
+            "id": "10",
+            "title": "Jabba The Hutt",
+            "content": "Me want solo on my wall."
+        },
+        {
+            "id": "11",
+            "title": "Lando Calrissian",
+            "content": "I'm in it for the money, and the women, and the greater good, but definitely the money."
+        }
+    ],
+    "edges": [
+        {
+            "id": "0",
+            "from": "8",
+            "to": "5"
+        },
+        {
+            "id": "1",
+            "from": "0",
+            "to": "2"
+        },
+        {
+            "id": "2",
+            "from": "0",
+            "to": "3"
+        },
+        {
+            "id": "3",
+            "from": "4",
+            "to": "3"
+        },
+        {
+            "id": "4",
+            "from": "4",
+            "to": "5"
+        },
+        {
+            "id": "5",
+            "from": "6",
+            "to": "2"
+        },
+        {
+            "id": "6",
+            "from": "3",
+            "to": "2"
+        },
+        {
+            "id": "7",
+            "from": "0",
+            "to": "6"
+        },
+        {
+            "id": "8",
+            "from": "6",
+            "to": "8"
+        },
+        {
+            "id": "9",
+            "from": "0",
+            "to": "8"
+        },
+        {
+            "id": "10",
+            "from": "10",
+            "to": "4"
+        },
+        {
+            "id": "11",
+            "from": "10",
+            "to": "9"
+        },
+        {
+            "id": "12",
+            "from": "9",
+            "to": "4"
+        },
+        {
+            "id": "13",
+            "from": "4",
+            "to": "7"
+        },
+        {
+            "id": "14",
+            "from": "10",
+            "to": "7"
+        },
+        {
+            "id": "15",
+            "from": "8",
+            "to": "2"
+        },
+        {
+            "id": "16",
+            "from": "1",
+            "to": "0"
+        },
+        {
+            "id": "17",
+            "from": "1",
+            "to": "2"
+        },
+        {
+            "id": "18",
+            "from": "11",
+            "to": "4"
+        }
+    ]
+}
