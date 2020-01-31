@@ -11,6 +11,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "@vx/network": "^0.0.193-alpha.0",
+    "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
     "d3": "^5.15.0",
     "react": "^16.12.0",

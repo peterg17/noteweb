@@ -54,8 +54,20 @@ export default class NoteWeb extends Component {
     //   <Edge key="17" id= "17" from="emporer" to="luke" />,
     //   <Edge key="18" id= "18" from="lando" to="han" />
     // ];
-    axios.get('http://127.0.0.1:5000/note/get_all')
-    .then(response => console.log(response))
+    let fetch_nodes = fetch('http://localhost:5000/note/get_all',{
+        method: 'GET', // *GET, POST, PUT, DELETE, etc.
+        headers: {
+          "Accept": "application/json"
+        }  
+      }).then((response) => {
+        return response;
+      })
+      .then((myJson) => {
+        console.log(myJson);
+      });
+    console.log("poop")
+    console.log(fetch_nodes);
+    console.log("jews")
     let nodes = [
       { key: "node0", id: "0", label: "Darth Vader", content: "The chosen one. Brought balance to the force. Before me thousands of Jedi, only two Sith. After me, two Jedi and two Sith. That's what you call balanced.", created:new Date().getTime()},
       { key: "node1", id: "1", label: "Emporer Palpatine" , content: "This is the Dark Lord of the Sith", created:new Date().getTime() },
