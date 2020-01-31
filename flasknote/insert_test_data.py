@@ -18,7 +18,7 @@ json node objects have 3 fields:
     - content
 '''
 def insert_nodes(nodes):
-    conn = sqlite3.connect('../instance/flasknote.sqlite')
+    conn = sqlite3.connect('/app/instance/flasknote.sqlite')
     c = conn.cursor()
     c.execute('DELETE FROM note')
     node_insert_strings = []
@@ -39,7 +39,7 @@ json edge objects have 3 fields:
     - to
 '''
 def insert_edges(edges):
-    conn = sqlite3.connect('../instance/flasknote.sqlite')
+    conn = sqlite3.connect('/app/instance/flasknote.sqlite')
     c = conn.cursor()
     c.execute('DELETE FROM edge')
     edge_insert_strings = []
@@ -57,7 +57,6 @@ if __name__ == '__main__':
         raise Exception("wrong number of arguments!")
     
     file_name = sys.argv[1]
-    file_name = "../data/" + file_name
     print("loading data from " + file_name)
     json_data = get_json(file_name)
     nodes = json_data['nodes']
