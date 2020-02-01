@@ -1,0 +1,13 @@
+catalog.api:
+    image: eshop/catalog.api
+    environment:
+      - ConnectionString=Server=sql.data;Initial Catalog=CatalogData;User Id=sa;Password=your@password
+    expose:
+      - "5000"
+    ports:
+      - "5101:80"
+    #extra hosts can be used for standalone SQL Server or services at the dev PC
+    extra_hosts:
+      - "CESARDLSURFBOOK:10.0.75.1"
+    depends_on:
+      - sql.data

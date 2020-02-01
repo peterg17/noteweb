@@ -11,7 +11,7 @@ def create_app(test_config=None):
         SECRET_KEY='dev',
         DATABASE=os.path.join(app.instance_path, 'flasknote.sqlite'),
     )
-    
+    print(app.instance_path)
     db.init_app(app)
     app.register_blueprint(note.bp)
     app.register_blueprint(edge.bp)
