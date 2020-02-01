@@ -1,6 +1,8 @@
-FROM python:3
+FROM node:8 as react-build
 WORKDIR /app
-ADD . /app
-RUN pip install --no-cache-dir -r /app/requirements.txt
-EXPOSE 5000
-CMD /app/setup.sh
+COPY . /app/
+COPY package.json /app/package.json
+COPY yarn.lock /app/yarn.lock
+ENV PATH /app/node_modules/.bin:$PATH
+RUN yarn
+CMD ["yarn", "start"]
