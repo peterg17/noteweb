@@ -60,9 +60,10 @@ export default class NoteWeb extends Component {
           "Accept": "application/json"
         }  
       }).then((response) => {
-        return response;
+        return response.json();
       })
       .then((myJson) => {
+        console.log(fetch_nodes.length == 0)
         console.log(myJson);
       });
     console.log("poop")
@@ -104,6 +105,8 @@ export default class NoteWeb extends Component {
       { key: "edge17", id: "17", from:"1", to:"2", created:new Date().getTime()},
       { key: "edge18", id: "18", from:"11", to:"4", created:new Date().getTime()}
     ]
+    console.log(fetch_nodes.length == 0)
+    console.log(fetch_nodes === undefined)
     let graph = {nodes:nodes,edges:edges};
     let thisItem = graph.nodes[0];
     this.state = {id: thisItem.id,  title: thisItem.label, note: thisItem.content, nodes: nodes, edges: edges, graph:graph};
