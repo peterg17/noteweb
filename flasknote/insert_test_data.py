@@ -14,7 +14,7 @@ def get_json(file_name):
 Inserts node objects from json into the note table. 
 json node objects have 3 fields:
     - id
-    - title
+    - label
     - content
 '''
 def insert_nodes(nodes):
@@ -23,9 +23,9 @@ def insert_nodes(nodes):
     c.execute('DELETE FROM note')
     node_insert_strings = []
     for n in nodes:
-        node_insert_strings.append(("0", n['title'], n['content']))
-    # INSERT INTO note(user_id, title, content) VALUES (?,?,?)
-    c.executemany('INSERT INTO note(user_id, title, content) VALUES (?,?,?)', node_insert_strings)
+        node_insert_strings.append(("0", n['label'], n['content']))
+    # INSERT INTO note(user_id, label, content) VALUES (?,?,?)
+    c.executemany('INSERT INTO note(user_id, label, content) VALUES (?,?,?)', node_insert_strings)
     conn.commit()
     conn.close()
 

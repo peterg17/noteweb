@@ -9,7 +9,7 @@ from flasknote.db import get_db
 
 bp = Blueprint('edge', __name__, url_prefix='/edge')
 
-labels = ["id", "user_id", "created", "node_from", "node_to"]
+labels = ["id", "user_id", "created", "from", "to"]
 
 @bp.route('/get_all', methods=('POST','GET'))
 def get_all():
@@ -21,4 +21,6 @@ def get_all():
         for row_ind in range(len(row)):
             edge_dict[labels[row_ind]] = row[row_ind]
         edges.append(edge_dict)
-    return jsonify({'data':edges});
+    resp = jsonify({"data":edges})
+    resp.headers['Access-Control-Allow-Origin'] = '*'
+    return resp;
