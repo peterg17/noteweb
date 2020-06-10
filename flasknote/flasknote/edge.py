@@ -23,4 +23,4 @@ def get_all():
         edges.append(edge_dict)
     resp = jsonify({"data":edges})
     resp.headers['Access-Control-Allow-Origin'] = '*'
-    return resp;
+    return resp

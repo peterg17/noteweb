@@ -1,20 +1,26 @@
 import functools
 import json
+import logging
 
 from flask import (
-    Blueprint, flash, g, redirect, render_template, request, session, url_for, jsonify, make_response, Response
+    Blueprint, flash, g, redirect, render_template, request, session, url_for, jsonify, make_response, Response, Flask
 )
 
 from flasknote.db import get_db
 
+# set up logging
+logging.basicConfig(format='[%(filename)s:%(lineno)d%(message)s]\t')
+log = logging.getLogger(__name__)
+log.setLevel('INFO')
+
 bp = Blueprint('note', __name__, url_prefix='/note')
-
 note_labels = ["id", "user_id", "created", "label", "content"]
-
 edge_labels = ["id", "user_id", "created", "from", "to"]
+
 
 @bp.route('/get_all', methods=('POST','GET'))
 def get_all():
+    log.info("user called get-all notes!")
     db = get_db()
     notes = []
     note_rows = db.execute('SELECT * FROM note WHERE user_id = ?', (0,)).fetchall()
@@ -33,4 +39,4 @@ def get_all():
     resp = jsonify({"nodes":notes, "edges": edges})
     print(resp)
     resp.headers['Access-Control-Allow-Origin'] = '*'
-    return resp;
+    return resp
