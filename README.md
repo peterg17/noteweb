@@ -6,14 +6,7 @@ A web app that allows a user to edit their notes and navigate their notes by the
 
 ## build steps
 
-1. Download docker
+1. In root directory, run `docker-compose up`
 
-2. Run  `image build -t noteweb ./noteweb`
 
-2. Run  `image build -t flasknote ./flasknote`
 
-3. Run  `docker container run --publish 3000:3000 --detach --name noteweb noteweb`
-
-3. Run  `docker container run --publish 5000:5000 --detach --name flasknote flasknote`
-
-The development build should be now running on port 3000.
