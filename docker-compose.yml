@@ -2,15 +2,29 @@ version: '3.4'
 
 services:
   flasknote:
-    image: flasknote
+    container_name: flasknote
+    restart: always
+    build: 
+      context: ./flasknote/
+      dockerfile: Dockerfile
     expose:
       - "5000"
     ports:
       - "5000:5000"
+    volumes:
+       - ./flasknote:/app
   
-  flasknote:
-    image: noteweb
+  noteweb:
+    container_name: noteweb
+    restart: always
+    build:
+      context: ./noteweb/
+      dockerfile: Dockerfile
     expose:
       - "3000"
     ports:
       - "3000:3000"
+    stdin_open: true
+    volumes:
+      - ./noteweb:/app
+      - ./noteweb/node_modules:/app/node_modules
